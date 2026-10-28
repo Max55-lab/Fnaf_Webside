@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" fill="#05060a"/>
+  <!-- bear ears -->
+  <circle cx="18" cy="16" r="10" fill="#8b5a2b"/>
+  <circle cx="46" cy="16" r="10" fill="#8b5a2b"/>
+  <!-- head -->
+  <circle cx="32" cy="36" r="22" fill="#8b5a2b"/>
+  <!-- top hat -->
+  <rect x="18" y="6" width="28" height="6" fill="#111"/>
+  <rect x="23" y="0" width="18" height="8" fill="#111"/>
+  <!-- glowing eyes -->
+  <circle cx="24" cy="32" r="4" fill="#ffd600">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="40" cy="32" r="4" fill="#ffd600">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <!-- muzzle -->
+  <ellipse cx="32" cy="45" rx="11" ry="8" fill="#a9744f"/>
+  <circle cx="32" cy="41" r="3" fill="#111"/>
+  <path d="M26 47 Q32 52 38 47" stroke="#111" stroke-width="2" fill="none"/>
+</svg>

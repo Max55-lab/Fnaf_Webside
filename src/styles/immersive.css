@@ -1,0 +1,215 @@
+/* ============================================================
+   Immersive layer — role-based looks, route transition sweep,
+   shader backdrop placement, media actions and the muted-boot
+   tip. Imported once by main.jsx after index.css so it can
+   refine existing components without forking them.
+   ============================================================ */
+
+/* ---------------- Role-based looks ----------------
+ * <html data-role="..."> is painted by AuthProvider. Guest keeps the
+ * classic Fazbear yellow; staff and oversight repaint the whole site. */
+html[data-role="administrator"] {
+  --accent: #00e5ff;
+  --glow: 0 0 34px rgba(0, 229, 255, 0.2);
+}
+
+html[data-role="super-administrator"] {
+  --accent: #ff2d55;
+  --glow: 0 0 34px rgba(255, 45, 85, 0.24);
+}
+
+/* Staff terminals get a faint scanline shimmer on panels. */
+html[data-role="administrator"] .card,
+html[data-role="super-administrator"] .card {
+  border-color: color-mix(in srgb, var(--accent) 26%, var(--border));
+}
+
+/* Super oversight: the logo refuses to sit still. */
+html[data-role="super-administrator"] .nav-logo span {
+  animation: role-logo-glitch 6s steps(1, end) infinite;
+}
+
+@keyframes role-logo-glitch {
+  0%, 93%, 100% { text-shadow: none; transform: none; }
+  94% { text-shadow: -2px 0 var(--cyan), 2px 0 var(--danger); transform: translateX(1px); }
+  96% { text-shadow: 2px 0 var(--cyan), -2px 0 var(--danger); transform: translateX(-1px); }
+  98% { text-shadow: none; transform: none; }
+}
+
+/* The effects toggle kills the glitch like it kills the CRT overlay. */
+html[data-role="super-administrator"] .app-shell.effects-off .nav-logo span {
+  animation: none;
+}
+
+/* ---------------- Nav role chip ---------------- */
+.nav-role-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--bg);
+  background: var(--accent);
+  border-radius: 4px;
+  padding: 0.32rem 0.5rem;
+  text-decoration: none;
+  white-space: nowrap;
+  align-self: center;
+}
+
+.nav-role-chip[data-role-chip="administrator"] { background: #00e5ff; }
+.nav-role-chip[data-role-chip="super-administrator"] {
+  background: linear-gradient(120deg, #ffd600, #ff1744);
+  color: #14060a;
+}
+
+.nav-role-chip:hover { filter: brightness(1.12); }
+
+@media (max-width: 960px) {
+  .nav-role-chip { display: none; }
+}
+
+/* ---------------- Route transition sweep ----------------
+ * <main> is keyed by pathname, so these replay on every navigation.
+ * A soft scanline band sweeps down as the new page fades in. */
+.route-stage {
+  position: relative;
+}
+
+.route-stage::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  z-index: 6;
+  pointer-events: none;
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    rgba(0, 229, 255, 0.08) 46%,
+    rgba(255, 255, 255, 0.16) 50%,
+    rgba(0, 229, 255, 0.08) 54%,
+    transparent 100%
+  );
+  background-size: 100% 260%;
+  animation: route-scan-sweep 0.55s ease-out forwards;
+}
+
+@keyframes route-scan-sweep {
+  0% { opacity: 1; transform: translateY(-55%); }
+  100% { opacity: 0; transform: translateY(55%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .route-stage::before {
+    animation: none;
+    display: none;
+  }
+}
+
+/* ---------------- Shader backdrop ---------------- */
+.shader-backdrop {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  mix-blend-mode: screen;
+  z-index: 0;
+}
+
+/* ---------------- Media actions (buy / read / download) ---- */
+.media-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding-top: 0.9rem;
+  border-top: 1px dashed var(--border);
+}
+
+.media-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text);
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: border-color 0.16s ease, color 0.16s ease, transform 0.16s ease;
+}
+
+.media-action:hover {
+  border-color: var(--media-accent, var(--accent));
+  color: var(--media-accent, var(--accent));
+  transform: translateY(-1px);
+}
+
+.media-action:focus-visible {
+  outline: 2px solid var(--media-accent, var(--accent));
+  outline-offset: 2px;
+}
+
+.media-action-note {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--dim);
+  align-self: center;
+}
+
+/* ---------------- Boot screen: muted-sound tip ---------------- */
+.boot-mute-tip {
+  margin-top: 0.7rem;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  color: var(--accent);
+  animation: boot-tip-pulse 2.2s ease-in-out infinite;
+}
+
+@keyframes boot-tip-pulse {
+  0%, 100% { opacity: 0.55; }
+  50% { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .boot-mute-tip {
+    animation: none;
+  }
+}
+
+/* ---------------- Home hero: static-field burst ---------------- */
+.static-burst {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  pointer-events: none;
+  background:
+    repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.09) 0 1px, transparent 1px 3px),
+    repeating-linear-gradient(90deg, rgba(0, 229, 255, 0.06) 0 2px, transparent 2px 5px),
+    rgba(255, 255, 255, 0.05);
+  mix-blend-mode: screen;
+  animation: static-burst-fade 0.4s steps(3, end) forwards;
+}
+
+@keyframes static-burst-fade {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .static-burst {
+    animation: none;
+    opacity: 0.4;
+  }
+}

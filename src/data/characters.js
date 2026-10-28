@@ -1,0 +1,475 @@
+import { images, backstories } from "./media.js";
+
+// FNAF character database
+export const characters = [
+  {
+    id: "freddy-fazbear",
+    name: "Freddy Fazbear",
+    alias: "The Bear",
+    type: "animatronic",
+    game: "FNAF 1",
+    color: "#8b5a2b",
+    eyes: "#00e5ff",
+    tags: ["classic", "mascot", " antagonist"],
+    bio: "The lead singer and face of Freddy Fazbear's Pizza. A brown bear animatronic equipped with a microphone and top hat. By night, Freddy roams the dining area, hunting any security guard still inside. He is most dangerous when the power runs out — his music box melody plays, then his glowing eyes are the last thing you see.",
+    behavior: [
+      "Moves only when not being watched on cameras",
+      "Becomes more active at 12 AM and beyond",
+      "Sings 'Toreador March' when the power is out",
+      "Stares directly into the office before striking",
+    ],
+    trivia: [
+      "His original design was inspired by a bear animatronic from ShowBiz Pizza",
+      "His jumpscare sound is a heavily distorted version of a scream",
+      "Golden Freddy is often theorized to be a spectral version of him",
+    ],
+  },
+  {
+    id: "bonnie",
+    name: "Bonnie",
+    alias: "The Rabbit",
+    type: "animatronic",
+    game: "FNAF 1",
+    color: "#5b4b9e",
+    eyes: "#ff1744",
+    tags: ["classic", "mascot"],
+    bio: "The purple guitarist rabbit of Freddy Fazbear's Pizza. Bonnie is traditionally the first animatronic to become active in the night cycle and the most frequent visitor to the office. He approaches from the left side, and the door on that side is your only defense.",
+    behavior: [
+      "First to move most nights",
+      "Enters through the left doorway",
+      "Appears in the left vent on cameras",
+      "His face fills the doorway before he strikes",
+    ],
+    trivia: [
+      "Bonnie was cut from Sister Location's main gameplay and replaced by other characters",
+      "His withered counterpart has a missing face in FNAF 2",
+      "Fan-favorite — consistently polls as the most popular animatronic",
+    ],
+  },
+  {
+    id: "chica",
+    name: "Chica",
+    alias: "The Chicken",
+    type: "animatronic",
+    game: "FNAF 1",
+    color: "#f5c518",
+    eyes: "#ff9100",
+    tags: ["classic", "mascot"],
+    bio: "The yellow chicken chef of the pizzeria, wielding her signature 'Let's Eat!' bib and a cupcake prop. Chica patrols the right side of the building and enters through the right door. Her jaw hangs open in a permanently hungry stare.",
+    behavior: [
+      "Approaches from the right hallway",
+      "Enters through the right doorway",
+      "Her cupcake has its own pair of eyes",
+      "The only original animatronic with a visible endoskeleton in-game",
+    ],
+    trivia: [
+      "Glamrock Chica in Security Breach is a modern reimagining",
+      "Her FNAF 2 counterpart has a crumbled face revealing the endoskeleton",
+      "'Let's Eat!' bib became one of the series' most iconic images",
+    ],
+  },
+  {
+    id: "foxy",
+    name: "Foxy",
+    alias: "Foxy the Pirate Fox",
+    type: "animatronic",
+    game: "FNAF 1",
+    color: "#c62828",
+    eyes: "#ffd600",
+    tags: ["classic", "mascot", " pirate"],
+    bio: "A red pirate fox animatronic with a hook hand and eyepatch, locked in Pirate Cove. Foxy is the fastest and most aggressive animatronic — he sprints down the west hallway if you neglect him, and only a closed door stops his charge. Checking on him too much also slows him down, in a twist of logic that has confused players for a decade.",
+    behavior: [
+      "Hides behind the Pirate Cove curtain",
+      "Runs down the west hall when unobserved",
+      "Only stopped by the left door",
+      "Bangs on doors and drains extra power",
+      "Hook can be seen in the office vent",
+    ],
+    trivia: [
+      "His run cycle animation is one of the most memorable moments in horror gaming",
+      "'The Foxy is out of order' sign hangs on his stage",
+      "FNAF World gave him a full speaking role as Fredbear's partner",
+    ],
+  },
+  {
+    id: "golden-freddy",
+    name: "Golden Freddy",
+    alias: "The Yellow Bear",
+    type: "animatronic",
+    game: "FNAF 1",
+    color: "#d4af37",
+    eyes: "#000000",
+    tags: ["classic", "ghost", "mystery"],
+    bio: "A slumped, golden-yellow bear that appears out of nowhere — no camera sighting, no sound, just suddenly sitting in your office with hollow black eyes. Defeat him by putting on the Freddy head. His poster of a crying child with the words 'IT'S ME' appears randomly on the walls, and his true identity remains one of the series' greatest mysteries.",
+    behavior: [
+      "Appears instantly in the office with no warning",
+      "Defeated by wearing the Freddy mask",
+      "'IT'S ME' flashes across your screen",
+      "Rare 'flipping' hallucination in the FNAF 2 hallway",
+    ],
+    trivia: [
+      "Widely theorized to be the spirit of the Crying Child / the Bite Victim",
+      "Referenced as 'Fredbear' in the game files",
+      "His FNAF 3 'ghost sprite' form chases you through the minigames",
+    ],
+  },
+  {
+    id: "the-puppet",
+    name: "The Puppet",
+    alias: "Marionette",
+    type: "animatronic",
+    game: "FNAF 2",
+    color: "#2c2c3a",
+    eyes: "#ffffff",
+    tags: ["classic", "ghost", "mystery"],
+    bio: "A slender, striped marionette that emerges from a music box in the Prize Corner. If the music box winds down, the Puppet leaves his box and glides toward the office — and there is no defense against him once he arrives. He is deeply tied to the tragedy at the heart of the series: the mini-game 'Give Gifts, Give Life' shows him giving life to the murdered children.",
+    behavior: [
+      "Kept at bay only by winding the music box",
+      "Glides across the screen when released",
+      "Appears in your office as a hallucination",
+      "Responsible for 'giving life' to the animatronics",
+    ],
+    trivia: [
+      "His face design is based on classic carnival marionettes",
+      "In FNAF 3's happiest day minigame, he gives cake to the golden bear",
+      "Strongly implied to be the spirit of Charlotte 'Charlie' Emily, Henry's daughter",
+    ],
+  },
+  {
+    id: "balloon-boy",
+    name: "Balloon Boy",
+    alias: "BB",
+    type: "animatronic",
+    game: "FNAF 2",
+    color: "#64b5f6",
+    eyes: "#e53935",
+    tags: ["classic", "creepy"],
+    bio: "A smiling boy animatronic holding balloons and a sign reading 'Balloons!'. BB creeps through the vents and disables your flashlight — leaving you helpless against Foxy. His permanent grin and childlike giggle have made him one of the most divisive characters in the series.",
+    behavior: [
+      "Travels exclusively through the vent system",
+      "Steals your flashlight when he reaches the office",
+      "His laugh announces his arrival",
+      "Cannot be stopped once inside — only avoided",
+    ],
+    trivia: [
+      "Players' hatred of BB is a running joke in the community",
+      "His FNAF 3 phantom version appears only as a hallucination",
+      "Some theorists connect him to the MCI victims",
+    ],
+  },
+  {
+    id: "mangle",
+    name: "Mangle",
+    alias: "Funtime Foxy",
+    type: "animatronic",
+    game: "FNAF 2",
+    color: "#f48fb1",
+    eyes: "#76ff03",
+    tags: ["classic", "mystery"],
+    bio: "A disassembled white-and-pink fox animatronic that children constantly took apart — hence the name. Mangle exists as a tangled mess of endoskeleton parts and fox pieces, crawling on the ceiling and through the vents. Uniquely, Mangle has a dual-gender designation in-game and speaks in garbled radio transmissions.",
+    behavior: [
+      "Crawls along the ceiling toward the office",
+      "Enters through the vent on the right",
+      "Produces garbled, radio-like speech",
+      "Visible on the main show stage at the start",
+    ],
+    trivia: [
+      "Officially labeled 'Funtime Foxy' in FNAF World and later reused for Sister Location",
+      "Their gender is listed as 'yes' in the FNAF 3 trivia",
+      "The 'gender' debate has raged in the fandom for years",
+    ],
+  },
+  {
+    id: "springtrap",
+    name: "Springtrap",
+    alias: "William Afton",
+    type: "animatronic",
+    game: "FNAF 3",
+    color: "#6d7a3a",
+    eyes: "#ffea00",
+    tags: ["classic", "villain", "deadly"],
+    bio: "The decayed, mangled remains of Spring Bonnie — and the rotting corpse of serial killer William Afton inside it. The only real threat in FNAF 3, Springtrap stalks the halls of Fazbear's Fright with terrifying intelligence. The spring-lock suit failed on him decades ago, and he 'lives' — refusing to die, kept alive by the agony of his victims.",
+    behavior: [
+      "Responds to audio lures you play in rooms",
+      "Crawls through vents to reach the office",
+      "Entering vent audio can backfire catastrophically",
+      "His breathing can be heard on the cameras",
+    ],
+    trivia: [
+      "'I always come back' — his iconic line from Freddy Fazbear Pizzeria Simulator",
+      "His death mini-game shows the original spring-lock failure",
+      "The 'purple guy' sprite in the FNAF 3 minigames is him",
+    ],
+  },
+  {
+    id: "circus-baby",
+    name: "Circus Baby",
+    alias: "Baby",
+    type: "animatronic",
+    game: "Sister Location",
+    color: "#ef5350",
+    eyes: "#18ffff",
+    tags: ["classic", "villain", "mystery"],
+    bio: "The star of Circus Baby's Pizza World — a giant clown girl animatronic built by William Afton. Baby was designed to sense children and grab them: she once caught Elizabeth Afton in her claw and never let go. After the incident, the restaurant closed, and Baby was sealed into the Circus Gallery. She speaks with an unsettling, manipulative calm — and she has a plan.",
+    behavior: [
+      "Her claw arm is her killing mechanism",
+      "Speaks to you directly through the game",
+      "Separates from Ennard after the Scooping Room",
+      "Becomes Scrap Baby in Pizzeria Simulator",
+    ],
+    trivia: [
+      "Her design went through many iterations — including a darker, taller version",
+      "She contains the soul of Elizabeth Afton, William's daughter",
+      "'You won't get tired of my voice' — one of her most quoted lines",
+    ],
+  },
+  {
+    id: "funtime-freddy",
+    name: "Funtime Freddy",
+    alias: "The Bear (SL)",
+    type: "animatronic",
+    game: "Sister Location",
+    color: "#eceff1",
+    eyes: "#ff1744",
+    tags: ["classic", "unhinged"],
+    bio: "A white-and-purple bear animatronic with a detachable Bon-Bon hand puppet. Funtime Freddy is loud, violent, and wildly unstable — screaming threats, laughing, and issuing his puppet Bon-Bon orders to attack. Built with sound detection and child-locating capabilities, he's one of the franchise's most chaotic personalities.",
+    behavior: [
+      "Roams the breaker room after the power is cut",
+      "Bon-Bon is his right-hand... literally",
+      "Shouts 'ATTACK! ATTAaaAACK!' at the player",
+      "One of Ennard's component parts",
+    ],
+    trivia: [
+      "Became a fan-favorite for his unhinged voice lines",
+      "His Funtime form appears in Ultimate Custom Night with high AI difficulty",
+      "The 'Fazbear Frights' books expand on his unstable personality",
+    ],
+  },
+  {
+    id: "ballora",
+    name: "Ballora",
+    alias: "The Ballerina",
+    type: "animatronic",
+    game: "Sister Location",
+    color: "#7e57c2",
+    eyes: "#e040fb",
+    tags: ["classic", "mystery"],
+    bio: "A graceful ballerina animatronic with closed eyes, pirouetting through the Ballora Gallery. Despite her blindness, Ballora hears everything — you must hold your breath to sneak past her. She sings a haunting lullaby as she dances, and her design carries an elegance that masks something deeply wrong beneath the surface.",
+    behavior: [
+      "Detects sound — hold your breath to pass her",
+      "Dances along the walls of her gallery",
+      "Her singing stops when she's hunting",
+      "Part of Ennard's composite body",
+    ],
+    trivia: [
+      "Her song 'Dance Till You're Dead' has lyrics hidden in the audio",
+      "Widely theorized to contain the soul of Mrs. Afton",
+      "Her closed eyes mirror the 'Ballora' fairy tale theory in the books",
+    ],
+  },
+  {
+    id: "ennard",
+    name: "Ennard",
+    alias: "The Blob",
+    type: "animatronic",
+    game: "Sister Location",
+    color: "#9e9e9e",
+    eyes: "#ffeb3b",
+    tags: ["classic", "mystery", "deadly"],
+    bio: "A horrifying mass of wires, endoskeleton parts, and masks — the combined parts of all the Funtime animatronics, welded together into one creature. Baby and Ennard escape the facility by scooping a human body and wearing it as a disguise. They eventually split apart when the body begins to rot, leaving Ennard to drift into the sewers — and eventually into Molten Freddy.",
+    behavior: [
+      "Emerges after the Scooping Room sequence",
+      "Crawls through vents with a skeletal body",
+      "Built from every Funtime animatronic",
+      "Their masks remain iconic — clown, bear, ballerina",
+    ],
+    trivia: [
+      "The 'scooping room' is one of the most shocking moments in the series",
+      "Ennard's design is inspired by body-horror and industrial machinery",
+      "They later become Scrap Baby and Molten Freddy in FFPS",
+    ],
+  },
+  {
+    id: "glamrock-freddy",
+    name: "Glamrock Freddy",
+    alias: "Freddy (SB)",
+    type: "animatronic",
+    game: "Security Breach",
+    color: "#ff8f00",
+    eyes: "#00e5ff",
+    tags: ["modern", "friendly"],
+    bio: "The 2020s-era Freddy Fazbear — a glowing, neon-painted bear who is genuinely protective of Gregory. Unlike every Freddy before him, Glamrock Freddy is not a threat: he's your ally, your backpack, and your shield. He was built for the Mega Pizzaplex's 'Fazer Blast' era and runs on a rechargeable backup battery. His catchphrase? 'I am here to help.'",
+    behavior: [
+      "Ally to the player — can be entered and recharged",
+      "Takes damage from other animatronics when protecting you",
+      "Powers down at 6 AM without recharge stations",
+      "Has a 'rockstar' stage show personality",
+    ],
+    trivia: [
+      "The first truly friendly Freddy in the main series",
+      "His design draws from 80s glam rock aesthetics",
+      "Ruin DLC reveals his fate after the Pizzaplex collapse",
+    ],
+  },
+  {
+    id: "montgomery-gator",
+    name: "Montgomery Gator",
+    alias: "Monty",
+    type: "animatronic",
+    game: "Security Breach",
+    color: "#76ff03",
+    eyes: "#ffea00",
+    tags: ["modern", "aggressive"],
+    bio: "A green-and-pink alligator rockstar animatronic with anger issues and a love for destruction. Monty is the Pizzaplex's guitarist — and the most aggressive of the Glamrocks. He tears apart anything he can find, and his hatred of Freddy is evident: in the Ruin DLC, his claws are upgraded to be even deadlier.",
+    behavior: [
+      "Patrols the Gator Golf area",
+      "His claws are upgraded after the Ruin DLC",
+      "One of the most persistent chasers in Security Breach",
+      "Can destroy other animatronics when in boss mode",
+    ],
+    trivia: [
+      "His design is inspired by classic gator mascots of southern pizzerias",
+      "Monty's claws can be collected as an upgrade in the base game",
+      "A fan-favorite for his chaotic energy",
+    ],
+  },
+  {
+    id: "roxanne-wolf",
+    name: "Roxanne Wolf",
+    alias: "Roxy",
+    type: "animatronic",
+    game: "Security Breach",
+    color: "#e53935",
+    eyes: "#ffea00",
+    tags: ["modern", "vain"],
+    bio: "The Pizzaplex's diva — a red-haired wolf rockstar who loves her mirror, her car, and herself. Roxy is fast, and her 'Roxy Raceway' is one of the most dangerous zones in the game. When you destroy her, she keeps hunting — blind, clawing at anything that moves, using her enhanced senses to find you. She's arguably the most tragic of the Glamrocks.",
+    behavior: [
+      "Fastest chaser in Security Breach",
+      "Uses her eyesight to detect you in Roxy Raceway",
+      "Continues hunting even after being blinded",
+      "Her AI is the hardest to escape in Ruin",
+    ],
+    trivia: [
+      "Her design is based on 80s glam rock and punk fashion",
+      "Blind Roxy is one of the most-pitied characters in the fandom",
+      "Her 'you're nothing without me' voice lines reveal deep insecurity",
+    ],
+  },
+  {
+    id: "the-mimic",
+    name: "The Mimic",
+    alias: "Identity Unknown",
+    type: "animatronic",
+    game: "Secret of the Mimic",
+    color: "#4e342e",
+    eyes: "#ff1744",
+    tags: ["modern", "villain", "mystery"],
+    bio: "A shapeshifting endoskeleton built by Edwin Murray in the 1970s to mimic human behavior. Left alone in the warehouse after Edwin's death, the Mimic absorbed the cruelty it witnessed and became something else entirely. It copies voices, movements, and identities — and it's been lurking in the shadows of every Freddy's location for decades.",
+    behavior: [
+      "Mimics voices and behaviors of those around it",
+      "Appears across multiple eras of the timeline",
+      "Central antagonist of Secret of the Mimic",
+      "Implied to be behind multiple haunting events",
+    ],
+    trivia: [
+      "Debuted in the Tales from the Pizzaplex book series",
+      "Its origin story is told in Secret of the Mimic (2025)",
+      "Widely theorized to be the 'blob' entity in Ruin",
+    ],
+  },
+  {
+    id: "william-afton",
+    name: "William Afton",
+    alias: "The Purple Guy",
+    type: "human",
+    game: "FNAF 3",
+    color: "#4a148c",
+    eyes: "#b71c1c",
+    tags: ["villain", "human", "deadly"],
+    bio: "The co-founder of Fazbear Entertainment and the franchise's ultimate evil — a serial killer who murdered children and stuffed their bodies into the animatronics. Afton is the man inside Springtrap, and he refuses to stay dead. Through agony, remnant, and sheer will, he keeps coming back: as Springtrap, as Scraptrap, as an AI program, and perhaps as the Mimic itself. 'I always come back.'",
+    behavior: [
+      "The 'Purple Guy' in every minigame",
+      "Killed the missing children — the MCI",
+      "Dies (sort of) in a spring-lock failure",
+      "Returns in FFPS as Scraptrap",
+    ],
+    trivia: [
+      "His spring-lock failure minigame is a fan-favorite horror moment",
+      "'I always come back' is the series' most iconic quote",
+      "The books expand his history with the 'Afton Robotics' company",
+    ],
+  },
+  {
+    id: "michael-afton",
+    name: "Michael Afton",
+    alias: "The Protagonist",
+    type: "human",
+    game: "Sister Location",
+    color: "#37474f",
+    eyes: "#80deea",
+    tags: ["human", "mystery"],
+    bio: "William Afton's eldest son, sent to dismantle his father's animatronics and find his sister. After being scooped and worn as a suit by Ennard, Michael survives — his body rotting but his spirit refusing to give up. He's implied to be the security guard in FNAF 1, 2, 3, and 4, tracking his family's tragic legacy to its end.",
+    behavior: [
+      "The player character in Sister Location",
+      "Survives being scooped by Ennard",
+      "Implied guard in FNAF 1–4",
+      "Burns Pizzeria Simulator to end it all",
+    ],
+    trivia: [
+      "His slow decay across the series is visible in the Cutscene images",
+      "'I should be dead, but I'm not' — his final message",
+      "Fan theories connect him to the 'Foxy kid' in FNAF 4",
+    ],
+  },
+  {
+    id: "henry-emily",
+    name: "Henry Emily",
+    alias: "The Partner",
+    type: "human",
+    game: "FNAF 6",
+    color: "#5d4037",
+    eyes: "#ffd54f",
+    tags: ["human", "mystery"],
+    bio: "The co-founder of Freddy Fazbear's Pizza and father of Charlotte Emily — the first victim of William Afton. Henry disappears after his daughter's death, leaving a trail of recorded messages and hidden plans. In Pizzeria Simulator, he reveals his master plan: lure every remaining animatronic into one room and burn them all, freeing the souls trapped inside.",
+    behavior: [
+      "Leaves recorded messages throughout FFPS",
+      "Orchestrates the final fire",
+      "The 'Janitor' persona in the salvage scenes",
+      "His plan ends the Afton saga (in theory)",
+    ],
+    trivia: [
+      "'I don't know how long it's been since I last saw you' — his opening monologue",
+      "His voice actor, Andy Cotter, gave the role a haunting gravitas",
+      "His words in the final speech are some of the best writing in the series",
+    ],
+  },
+];
+
+// Attach wiki images + detailed backstories to each character
+characters.forEach((c) => {
+  c.image = images[c.id] ?? null;
+  c.backstory = backstories[c.id] ?? null;
+});
+
+export const getCharacter = (id) => characters.find((c) => c.id === id);
+
+export const characterTypes = [...new Set(characters.map((c) => c.type))];
+
+export const allTags = [...new Set(characters.flatMap((c) => c.tags))].sort();
+
+/** Emoji stand-in used whenever a portrait is missing or fails to load. */
+export const characterEmoji = (name = "") => {
+  if (name.includes("Foxy")) return "🦊";
+  if (name.includes("Bonnie")) return "🐰";
+  if (name.includes("Chica")) return "🐔";
+  if (name.includes("Mangle")) return "🦴";
+  if (name.includes("Puppet") || name.includes("Baby") || name.includes("Mimic")) return "🎭";
+  if (name.includes("Spring") || name.includes("Afton")) return "💀";
+  if (name.includes("Ballora")) return "🩰";
+  if (name.includes("Monty")) return "🐊";
+  if (name.includes("Roxy")) return "🐺";
+  if (name.includes("Ennard")) return "🤖";
+  if (name.includes("Henry") || name.includes("Michael")) return "🧑";
+  if (name.includes("Fredbear")) return "🌟";
+  return "🐻";
+};

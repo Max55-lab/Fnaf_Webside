@@ -1,0 +1,45 @@
+name: Community Wire refresh
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: community-wire
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Refresh the snapshot + draft queue
+        run: npm run agent
+        env:
+          # Optional. Without it the agent uses the wiki article's own intro.
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          AI_MODEL: ${{ vars.AI_MODEL || 'gpt-4o-mini' }}
+          AI_BASE_URL: ${{ vars.AI_BASE_URL }}
+
+      - name: Commit changes (if any)
+        run: |
+          git config user.name "fnaf-wiki-agent"
+          git config user.email "actions@users.noreply.github.com"
+          git add src/data/community.json content-inbox
+          if git diff --cached --quiet; then
+            echo "No community changes."
+          else
+            git commit -m "chore: refresh community wire [skip ci]"
+            git push
+          fi

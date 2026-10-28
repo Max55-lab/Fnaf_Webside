@@ -1,0 +1,625 @@
+/* ============================================================
+   Staff terminal + Oversight console (concept auth).
+   Self-imported by Login.jsx and Oversight.jsx. Uses the site's
+   global tokens (--bg, --panel, --border, --accent, --danger,
+   --cyan, --dim, --font-mono) so it inherits the theme, then
+   repaints per clearance level via data-role-chip.
+   ============================================================ */
+
+.auth-page {
+  position: relative;
+  isolation: isolate;
+}
+
+.auth-shader {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.5;
+  pointer-events: none;
+  -webkit-mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.9), transparent 85%);
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.9), transparent 85%);
+}
+
+.auth-title {
+  letter-spacing: 0.08em;
+}
+
+.auth-legend {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--dim);
+  margin-bottom: 0.8rem;
+}
+
+/* ---- Shift notice marquee (broadcasts from the console) ---- */
+.auth-notice {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--cyan);
+  background: var(--panel);
+  border-radius: var(--radius-sm);
+  padding: 0.7rem 1rem;
+  margin: 0 0 1.4rem;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--text);
+}
+
+.auth-notice-label {
+  color: var(--cyan);
+  letter-spacing: 0.18em;
+  font-size: 0.7rem;
+}
+
+.auth-notice-by {
+  color: var(--dim);
+  font-size: 0.75rem;
+}
+
+/* ---- Keycard + form grid ---- */
+.auth-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  gap: 1.6rem;
+  align-items: start;
+  margin-top: 0.6rem;
+}
+
+@media (max-width: 860px) {
+  .auth-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.auth-keycards {
+  border: 1px solid var(--border);
+  background: var(--panel);
+  border-radius: var(--radius);
+  padding: 1.1rem;
+  display: grid;
+  gap: 0.8rem;
+  min-width: 0;
+}
+
+.auth-keycard {
+  --role-accent: var(--accent);
+  position: relative;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-areas:
+    "chip label clear"
+    "chip tag tag";
+  gap: 0.15rem 0.8rem;
+  align-items: center;
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--role-accent);
+  border-radius: var(--radius-sm);
+  background: var(--bg2);
+  padding: 0.8rem 0.9rem;
+  cursor: pointer;
+  transition: border-color 0.18s ease, background 0.18s ease, transform 0.18s ease;
+  min-width: 0;
+}
+
+.auth-keycard:hover {
+  border-color: var(--role-accent);
+}
+
+.auth-keycard:has(input:focus-visible) {
+  outline: 2px solid var(--role-accent);
+  outline-offset: 2px;
+}
+
+.auth-keycard.active {
+  background: var(--panel2);
+  border-color: var(--role-accent);
+  box-shadow: 0 0 24px -12px var(--role-accent);
+}
+
+.auth-keycard input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.auth-keycard-chip {
+  grid-area: chip;
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.14em;
+  color: var(--bg);
+  background: var(--role-accent);
+  border-radius: 4px;
+  padding: 0.28rem 0.45rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.auth-keycard-label {
+  grid-area: label;
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  letter-spacing: 0.06em;
+  color: var(--text);
+}
+
+.auth-keycard-clear {
+  grid-area: clear;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--role-accent);
+  letter-spacing: 0.12em;
+  white-space: nowrap;
+}
+
+.auth-keycard-tag {
+  grid-area: tag;
+  font-size: 0.8rem;
+  color: var(--dim);
+  line-height: 1.45;
+}
+
+/* ---- Form side ---- */
+.auth-form {
+  display: grid;
+  gap: 0.9rem;
+  border: 1px solid var(--border);
+  background: var(--panel);
+  border-radius: var(--radius);
+  padding: 1.2rem;
+  min-width: 0;
+}
+
+.auth-field {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.auth-field span {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--dim);
+}
+
+.auth-field input {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+  padding: 0.7rem 0.8rem;
+  width: 100%;
+  min-width: 0;
+}
+
+.auth-field input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent);
+}
+
+.auth-denied {
+  border: 1px solid var(--danger);
+  background: rgba(255, 23, 68, 0.08);
+  color: var(--danger);
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  border-radius: var(--radius-sm);
+  padding: 0.6rem 0.8rem;
+  animation: auth-shake 0.36s ease-in-out;
+}
+
+.auth-restricted {
+  border: 1px solid var(--danger);
+  background: rgba(255, 23, 68, 0.06);
+  color: var(--danger);
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  border-radius: var(--radius-sm);
+  padding: 0.6rem 0.8rem;
+  animation: auth-flicker 0.5s steps(2, end) 2;
+}
+
+@keyframes auth-shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-6px); }
+  40% { transform: translateX(6px); }
+  60% { transform: translateX(-4px); }
+  80% { transform: translateX(3px); }
+}
+
+@keyframes auth-flicker {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.25; }
+}
+
+.auth-submit {
+  justify-self: start;
+}
+
+.auth-fineprint {
+  font-size: 0.78rem;
+  color: var(--dim);
+  line-height: 1.55;
+  margin: 0;
+}
+
+.auth-fineprint a {
+  color: var(--cyan);
+}
+
+/* ---- Signed-in keycard ---- */
+.auth-signed {
+  --role-accent: var(--accent);
+  position: relative;
+  border: 1px solid var(--role-accent);
+  border-radius: var(--radius);
+  background:
+    radial-gradient(120% 140% at 10% 0%, rgba(255, 255, 255, 0.04), transparent 55%),
+    var(--panel);
+  padding: 1.4rem 1.5rem;
+  max-width: 560px;
+  display: grid;
+  gap: 0.45rem;
+  box-shadow: 0 0 44px -22px var(--role-accent);
+}
+
+.auth-signed.auth-clearance-administrator { --role-accent: #00e5ff; }
+.auth-signed.auth-clearance-super-administrator {
+  --role-accent: #ff1744;
+  border-color: var(--danger);
+  background:
+    radial-gradient(120% 140% at 10% 0%, rgba(255, 214, 0, 0.07), transparent 55%),
+    var(--panel);
+}
+
+.auth-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+}
+
+.auth-clearance {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  color: var(--dim);
+}
+
+.auth-card-name {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  letter-spacing: 0.08em;
+  color: var(--text);
+  overflow-wrap: anywhere;
+}
+
+.auth-card-role {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--role-accent);
+}
+
+.auth-card-tag {
+  color: var(--dim);
+  font-size: 0.9rem;
+  line-height: 1.55;
+  margin: 0.2rem 0 0.4rem;
+}
+
+.auth-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.2rem;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--dim);
+  margin-bottom: 0.5rem;
+}
+
+.auth-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 0.3rem;
+}
+
+.auth-super-note {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  color: var(--dim);
+  margin: 0.4rem 0 0;
+}
+
+.auth-super-note code {
+  color: var(--danger);
+  background: var(--bg);
+  border-radius: 4px;
+  padding: 0.05rem 0.3rem;
+}
+
+/* ---- Clearance chips (nav + console) ---- */
+.auth-chip {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.64rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--bg);
+  background: var(--accent);
+  border-radius: 4px;
+  padding: 0.28rem 0.5rem;
+  white-space: nowrap;
+}
+
+.auth-chip.big { font-size: 0.8rem; padding: 0.4rem 0.7rem; }
+.auth-chip.small { font-size: 0.56rem; padding: 0.22rem 0.4rem; }
+
+.auth-chip[data-role-chip="administrator"] { background: #00e5ff; }
+.auth-chip[data-role-chip="super-administrator"] {
+  background: linear-gradient(120deg, #ffd600, #ff1744);
+  color: #14060a;
+}
+.auth-chip[data-role-chip="guest"] { background: var(--accent); }
+
+/* ---- Denied gate ---- */
+.auth-denied-panel {
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+  background: var(--panel);
+  padding: 2rem 1.6rem;
+  max-width: 560px;
+  display: grid;
+  gap: 0.7rem;
+  justify-items: start;
+}
+
+/* ============================================================
+   Oversight console
+   ============================================================ */
+
+.oversight-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.2rem;
+}
+
+.oversight-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.8rem;
+  margin-bottom: 1.6rem;
+}
+
+.oversight-stat {
+  border: 1px solid var(--border);
+  background: var(--panel);
+  border-radius: var(--radius-sm);
+  padding: 0.8rem 0.9rem;
+  display: grid;
+  gap: 0.3rem;
+  min-width: 0;
+}
+
+.oversight-stat span {
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--dim);
+}
+
+.oversight-stat strong {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+}
+
+.oversight-columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+  gap: 1.6rem;
+  align-items: start;
+  margin-bottom: 1.8rem;
+}
+
+@media (max-width: 860px) {
+  .oversight-columns {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.oversight-block {
+  border: 1px solid var(--border);
+  background: var(--panel);
+  border-radius: var(--radius);
+  padding: 1.1rem 1.2rem;
+  min-width: 0;
+}
+
+.oversight-directory {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.45rem;
+}
+
+.oversight-row {
+  display: grid;
+  grid-template-columns: auto auto 1fr auto;
+  gap: 0.6rem;
+  align-items: center;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg2);
+  padding: 0.5rem 0.7rem;
+  font-size: 0.85rem;
+  min-width: 0;
+}
+
+.oversight-row.you {
+  border-color: var(--accent);
+  background: var(--panel2);
+}
+
+.oversight-row strong {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  overflow-wrap: anywhere;
+}
+
+.oversight-row > span:nth-child(3) {
+  color: var(--dim);
+  font-size: 0.78rem;
+  overflow-wrap: anywhere;
+}
+
+.oversight-state {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.12em;
+  color: var(--green);
+  white-space: nowrap;
+}
+
+.oversight-state.warn { color: var(--danger); }
+
+@media (max-width: 560px) {
+  .oversight-row {
+    grid-template-columns: auto 1fr auto;
+  }
+  .oversight-row > span:nth-child(3) {
+    grid-column: 1 / -1;
+  }
+}
+
+.oversight-compose {
+  display: flex;
+  gap: 0.6rem;
+  margin: 0.6rem 0 0.9rem;
+}
+
+.oversight-compose input {
+  flex: 1 1 auto;
+  min-width: 0;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  padding: 0.55rem 0.7rem;
+}
+
+.oversight-compose input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.oversight-broadcasts {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.55rem;
+}
+
+.oversight-broadcasts li {
+  border-left: 2px solid var(--cyan);
+  padding-left: 0.7rem;
+  display: grid;
+  gap: 0.15rem;
+  min-width: 0;
+}
+
+.oversight-broadcast-text {
+  font-size: 0.88rem;
+  color: var(--text);
+  overflow-wrap: anywhere;
+}
+
+.oversight-broadcast-by,
+.oversight-empty {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--dim);
+}
+
+.oversight-classified {
+  border: 1px solid var(--danger);
+  background: rgba(255, 23, 68, 0.04);
+  border-radius: var(--radius);
+  padding: 1.2rem 1.3rem;
+  display: grid;
+  gap: 0.7rem;
+  justify-items: start;
+}
+
+.oversight-redacted {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.oversight-redacted li {
+  font-family: var(--font-mono);
+  font-size: 0.84rem;
+  line-height: 1.6;
+  color: var(--text);
+  border-left: 2px solid var(--danger);
+  padding-left: 0.7rem;
+}
+
+.oversight-redacted-mask {
+  color: var(--danger) !important;
+  letter-spacing: 0.1em;
+  opacity: 0.6;
+}
+
+.oversight-end {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  color: var(--dim);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ---- Motion safety ---- */
+@media (prefers-reduced-motion: reduce) {
+  .auth-denied,
+  .auth-restricted {
+    animation: none;
+  }
+  .auth-keycard {
+    transition: none;
+  }
+}

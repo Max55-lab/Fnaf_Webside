@@ -1,0 +1,474 @@
+/* ==========================================================================
+   BREAK ROOM — live shift chat (BreakRoom.jsx) + newsroom trickle chip
+   Tokens come from index.css (:root). This file is self-imported by the
+   component; nothing here touches the global stylesheet.
+   ========================================================================== */
+
+.breakroom {
+  min-width: 0;
+}
+
+/* ---------- Header: presence + channel badge ---------- */
+.br-head-right {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.br-presence {
+  white-space: nowrap;
+}
+
+.br-roster {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.9rem;
+}
+
+.br-roster-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  max-width: 100%;
+  padding: 0.22rem 0.6rem 0.22rem 0.28rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--dim);
+  font-family: var(--font-mono);
+  font-size: 0.56rem;
+  letter-spacing: 0.8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ---------- Identity row ---------- */
+.br-identity {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 0.9rem;
+  padding: 0.55rem 0.8rem;
+  border: 1px dashed var(--border);
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.br-handle {
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 1.5px;
+}
+
+.br-identity-note {
+  margin-left: auto;
+  color: #555d6e;
+  font-family: var(--font-mono);
+  font-size: 0.52rem;
+  letter-spacing: 1px;
+}
+
+.br-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.14rem 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--dim);
+  font-family: var(--font-mono);
+  font-size: 0.5rem;
+  letter-spacing: 1.2px;
+  white-space: nowrap;
+}
+
+.br-chip-guest {
+  border-color: rgba(139, 147, 167, 0.4);
+  color: var(--dim);
+}
+
+.br-chip-admin {
+  border-color: rgba(118, 255, 3, 0.4);
+  background: rgba(118, 255, 3, 0.07);
+  color: #a7e77a;
+}
+
+.br-chip-super {
+  border-color: rgba(255, 214, 0, 0.45);
+  background: rgba(255, 214, 0, 0.08);
+  color: var(--accent);
+}
+
+.br-chip-bot {
+  border-color: rgba(0, 229, 255, 0.4);
+  background: rgba(0, 229, 255, 0.07);
+  color: var(--cyan);
+}
+
+/* Inline rename form */
+.br-rename {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-width: 0;
+}
+
+.br-rename-label input {
+  width: 9.5rem;
+  max-width: 42vw;
+  padding: 0.34rem 0.55rem;
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  outline: none;
+  background: rgba(5, 6, 10, 0.72);
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  letter-spacing: 1px;
+}
+
+.br-rename-label input:focus {
+  border-color: rgba(255, 214, 0, 0.55);
+  box-shadow: 0 0 0 3px rgba(255, 214, 0, 0.08);
+}
+
+.br-link {
+  border: 0;
+  background: none;
+  padding: 0;
+  color: var(--cyan);
+  font-family: var(--font-mono);
+  font-size: 0.56rem;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.br-link:hover,
+.br-link:focus-visible {
+  text-decoration: underline;
+  outline: none;
+}
+
+/* ---------- Message log (internal scroll — never horizontal) ---------- */
+.br-log {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  max-height: min(54vh, 460px);
+  min-height: 220px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: rgba(5, 6, 10, 0.55);
+  scrollbar-width: thin;
+  scrollbar-color: #1e2433 transparent;
+}
+
+.br-log:focus-visible {
+  border-color: rgba(255, 214, 0, 0.45);
+  outline: none;
+}
+
+.br-log::-webkit-scrollbar {
+  width: 8px;
+}
+
+.br-log::-webkit-scrollbar-thumb {
+  background: #1e2433;
+  border-radius: 4px;
+}
+
+.br-msg {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  max-width: 100%;
+  min-width: 0;
+  animation: br-fade-in 0.24s ease both;
+}
+
+.br-msg.is-mine {
+  flex-direction: row-reverse;
+}
+
+@keyframes br-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.br-avatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  background: var(--panel2);
+  color: var(--dim);
+  font-family: var(--font-mono);
+  font-size: 0.56rem;
+  letter-spacing: 0.5px;
+}
+
+.br-avatar-sm {
+  width: 20px;
+  height: 20px;
+  font-size: 0.46rem;
+}
+
+.br-msg.is-mine .br-avatar {
+  border-color: rgba(255, 214, 0, 0.35);
+  color: var(--accent);
+}
+
+.br-bubble {
+  min-width: 0;
+  max-width: min(78%, 560px);
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 4px 12px 12px 12px;
+  background: var(--panel);
+  overflow-wrap: anywhere;
+}
+
+.br-msg.is-mine .br-bubble {
+  border-color: rgba(255, 214, 0, 0.28);
+  border-radius: 12px 4px 12px 12px;
+  background: rgba(255, 214, 0, 0.05);
+}
+
+.br-msg.is-bot .br-bubble {
+  border-color: rgba(0, 229, 255, 0.25);
+  background: rgba(0, 229, 255, 0.04);
+}
+
+.br-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.22rem;
+}
+
+.br-meta strong {
+  color: #eef1f7;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.br-meta time {
+  margin-left: auto;
+  color: #555d6e;
+  font-family: var(--font-mono);
+  font-size: 0.5rem;
+  letter-spacing: 0.6px;
+  white-space: nowrap;
+}
+
+.br-text {
+  color: var(--text);
+  font-size: 0.8rem;
+  line-height: 1.55;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  white-space: pre-wrap;
+}
+
+/* ---------- Typing indicator ---------- */
+.br-typing {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 1.1rem;
+  margin-top: 0.45rem;
+  color: var(--dim);
+  font-family: var(--font-mono);
+  font-size: 0.56rem;
+  letter-spacing: 1px;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.br-typing.is-on {
+  opacity: 1;
+}
+
+.br-dots {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.br-dots i {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--cyan);
+  animation: br-dot-blink 1.1s infinite;
+}
+
+.br-dots i:nth-child(2) {
+  animation-delay: 0.18s;
+}
+
+.br-dots i:nth-child(3) {
+  animation-delay: 0.36s;
+}
+
+@keyframes br-dot-blink {
+  0%,
+  60%,
+  100% {
+    opacity: 0.25;
+  }
+  30% {
+    opacity: 1;
+  }
+}
+
+/* ---------- Composer ---------- */
+.br-composer {
+  display: flex;
+  align-items: stretch;
+  gap: 0.6rem;
+  margin-top: 0.7rem;
+  min-width: 0;
+}
+
+.br-input-wrap {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.br-input-wrap input {
+  width: 100%;
+  padding: 0.7rem 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  outline: none;
+  background: rgba(5, 6, 10, 0.72);
+  color: var(--text);
+  font-family: var(--font-ui);
+  font-size: 0.82rem;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.br-input-wrap input::placeholder {
+  color: #555d6e;
+}
+
+.br-input-wrap input:focus {
+  border-color: rgba(255, 214, 0, 0.55);
+  box-shadow: 0 0 0 3px rgba(255, 214, 0, 0.08);
+}
+
+.br-send {
+  flex: 0 0 auto;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 1.6px;
+  padding-inline: 1.2rem;
+}
+
+.br-hint {
+  margin-top: 0.55rem;
+  color: #555d6e;
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  line-height: 1.7;
+  letter-spacing: 0.4px;
+}
+
+.br-hint code {
+  padding: 0.05rem 0.3rem;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+}
+
+/* ==========================================================================
+   Newsroom trickle — fresh dispatch entrance (Newsroom.jsx has no stylesheet
+   of its own; the NEW chip itself reuses the existing .news-live-chip class).
+   ========================================================================== */
+@media (prefers-reduced-motion: no-preference) {
+  .newsroom-dispatch-in {
+    animation: br-dispatch-in 0.5s ease both;
+  }
+}
+
+@keyframes br-dispatch-in {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ---------- Small screens ---------- */
+@media (max-width: 560px) {
+  .br-identity-note {
+    display: none;
+  }
+
+  .br-bubble {
+    max-width: 86%;
+  }
+
+  .br-log {
+    max-height: 52vh;
+    padding: 0.65rem;
+  }
+
+  .br-send {
+    padding-inline: 0.85rem;
+  }
+
+  .br-head-right {
+    gap: 0.45rem;
+  }
+}
+
+/* ---------- Reduced motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  .br-msg {
+    animation: none;
+  }
+
+  .br-dots i {
+    animation: none;
+    opacity: 0.7;
+  }
+
+  .br-typing {
+    transition: none;
+  }
+
+  .newsroom-dispatch-in {
+    animation: none;
+  }
+}
