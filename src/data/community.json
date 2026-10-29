@@ -1,45 +1,69 @@
 {
-  "generatedAt": "2026-10-28T22:12:35.600Z",
+  "generatedAt": "2026-10-29T04:30:03.140Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3077,
-    "edits": 3538436,
+    "edits": 3538453,
     "activeUsers": 156,
-    "images": 45887
+    "images": 45895
   },
   "items": [
     {
-      "id": "3579967",
-      "title": "Bon-Bon/Gallery",
+      "id": "3579989",
+      "title": "Five Nights at Freddy's: Fazbear Frights Graphic Novel Collection Vol. 2",
       "type": "edit",
-      "user": "DeepestBlues",
+      "user": "ViolettSmith",
       "comment": "",
-      "timestamp": "2026-10-28T22:05:36Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Bon-Bon%2FGallery",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Wiki",
+      "timestamp": "2026-10-29T02:56:26Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's%3A_Fazbear_Frights_Graphic_Novel_Collection_Vol._2",
+      "summary": "Five Nights at Freddy's: Fazbear Frights Graphic Novel Collection Vol.  2 is a horror anthology graphic novel adaptation of Fazbear Frights stories, originally written by Scott Cawthon, Andrea Waggener, and Carly Anne West…",
+      "tag": "Book",
       "ai": false
     },
     {
-      "id": "3579966",
+      "id": "3579975",
+      "title": "Toy Bonnie",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "Undo revision [[Special:Diff/3545049|3545049]] by [[Special:Contributions/StrongTarsier371|StrongTarsier371]] ([[User talk:StrongTarsier371|talk]])",
+      "timestamp": "2026-10-29T01:50:44Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Toy_Bonnie",
+      "summary": "Toy Bonnie is a major antagonist and one of the Toy animatronics of the Five Nights at Freddy's series, first appearing in Five Nights at Freddy's 2.  He is Bonnie's redesigned counterpart from the past and an improved…",
+      "tag": "Merch",
+      "ai": false
+    },
+    {
+      "id": "3579973",
       "title": "Foxy the Pirate/Gallery",
       "type": "edit",
-      "user": "Amazing Train",
+      "user": "ViolettSmith",
       "comment": "",
-      "timestamp": "2026-10-28T21:57:17Z",
+      "timestamp": "2026-10-28T23:52:49Z",
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Foxy_the_Pirate%2FGallery",
       "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
       "tag": "Character",
       "ai": false
     },
     {
-      "id": "3579965",
+      "id": "3579972",
+      "title": "Bon-Bon/Gallery",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-10-28T23:52:47Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Bon-Bon%2FGallery",
+      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
+      "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3579971",
       "title": "Funtime Freddy/Gallery",
       "type": "edit",
-      "user": "Amazing Train",
+      "user": "ViolettSmith",
       "comment": "",
-      "timestamp": "2026-10-28T21:56:40Z",
+      "timestamp": "2026-10-28T23:52:46Z",
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Funtime_Freddy%2FGallery",
       "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
       "tag": "Character",
@@ -127,30 +151,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Balloon_Boy%2FTrivia",
       "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
       "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3579946",
-      "title": "Shadow Freddy",
-      "type": "edit",
-      "user": "Hackerp000",
-      "comment": "Removing this makes sense because a character or two being based on or inspired by another character (which is not confirmed btw) isn't really a cameo for the original character. Undo revision [[Special:Diff/3544890|3544890]] by [[Special:Contributions/DeepestBlues|DeepestBlues]] ([[User talk:DeepestBlues|talk]])",
-      "timestamp": "2026-10-28T11:33:52Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Shadow_Freddy",
-      "summary": "Shadow Freddy is a mysterious shadow variant of Freddy Fazbear that appears in the Five Nights at Freddy's series, first debuting in Five Nights at Freddy's 2.  His origin is unclear, and his appearances are generally limited to…",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3579944",
-      "title": "The Entity",
-      "type": "edit",
-      "user": "Santademon",
-      "comment": "Undo revision [[Special:Diff/3545018|3545018]] by [[Special:Contributions/IndividualizedOwl333|IndividualizedOwl333]] ([[User talk:IndividualizedOwl333|talk]])",
-      "timestamp": "2026-10-28T08:14:15Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/The_Entity",
-      "summary": "The Entity is the secondary antagonist of the RUIN DLC in Five Nights at Freddy's: Security Breach.  The Entity is an embodiment of the M.",
-      "tag": "Game",
       "ai": false
     }
   ]
