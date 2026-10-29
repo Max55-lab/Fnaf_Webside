@@ -1,14 +1,62 @@
 {
-  "generatedAt": "2026-10-29T04:30:03.140Z",
+  "generatedAt": "2026-10-29T12:20:38.070Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3077,
-    "edits": 3538453,
-    "activeUsers": 156,
+    "edits": 3538468,
+    "activeUsers": 160,
     "images": 45895
   },
   "items": [
+    {
+      "id": "3580000",
+      "title": "Spring Bonnie (Film)",
+      "type": "edit",
+      "user": "Iamawesome134",
+      "comment": "",
+      "timestamp": "2026-10-29T11:55:28Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Spring_Bonnie_(Film)",
+      "summary": "Spring Bonnie is an old, mechanical, Springlock suit worn by William Afton in the 2023 film Five Nights at Freddy's and returns via flashbacks in the 2025 sequel Five Nights at Freddy's 2.",
+      "tag": "Film",
+      "ai": false
+    },
+    {
+      "id": "3579999",
+      "title": "Kellen Goff",
+      "type": "edit",
+      "user": "SaiyanGod5462",
+      "comment": "/* Trivia */",
+      "timestamp": "2026-10-29T10:52:51Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Kellen_Goff",
+      "summary": "Kellen Alexander Goff (born February 3, 1995 in Torrance, California) is a voice actor that voices characters for the Five Nights at Freddy's franchise.  He is particularly known for voicing Funtime Freddy in Sister Location…",
+      "tag": "Merch",
+      "ai": false
+    },
+    {
+      "id": "3579998",
+      "title": "Burntrap",
+      "type": "edit",
+      "user": "IngeniousBadger068",
+      "comment": "Tiny inaccuracy regarding scotts mention of Glitchtrap he says \"I have a tendency to lean sci-fi, even though I ... try to come back into the roots of the supernatural instead ... so anything that involves possession of ... AI or possession of ... machines or circuitry ... I love that sort of thing. So I love the idea of Glitchtrap.\" its tiny but the difference in haunted and possessed is worth noting.",
+      "timestamp": "2026-10-29T10:17:37Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Burntrap",
+      "summary": "Burntrap is the tertiary antagonist of Five Nights at Freddy's: Security Breach.  He is an animatronic of enigmatic origin who resided in the underground ruins of Freddy Fazbear's Pizza Place, appearing in the base game's \"Burn…",
+      "tag": "Game",
+      "ai": false
+    },
+    {
+      "id": "3579997",
+      "title": "Merchandise (FNaF1)",
+      "type": "edit",
+      "user": "Santademon",
+      "comment": "",
+      "timestamp": "2026-10-29T06:16:30Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Merchandise_(FNaF1)",
+      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
+      "tag": "Merch",
+      "ai": false
+    },
     {
       "id": "3579989",
       "title": "Five Nights at Freddy's: Fazbear Frights Graphic Novel Collection Vol. 2",
@@ -103,54 +151,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Henry_Emily_(Film)",
       "summary": "Henry Emily is a major character in the 2025 film Five Nights at Freddy's 2.  He is the former business partner of William Afton and the father of the late Charlotte Emily.",
       "tag": "Film",
-      "ai": false
-    },
-    {
-      "id": "3579953",
-      "title": "Freddy Fazbear's Pizza (Film)",
-      "type": "edit",
-      "user": "VoJonny",
-      "comment": "",
-      "timestamp": "2026-10-28T17:14:28Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Freddy_Fazbear's_Pizza_(Film)",
-      "summary": "Freddy Fazbear's Pizza, often called River Freddy's by crew, is a prominent location in the 2025 film Five Nights at Freddy's 2.  It was a family restaurant and entertainment pizzeria opened between late 1970s and 1982 by Fazbear…",
-      "tag": "Film",
-      "ai": false
-    },
-    {
-      "id": "3579951",
-      "title": "Warehouse (FNaF: SotM)",
-      "type": "edit",
-      "user": "MadMaster505",
-      "comment": "",
-      "timestamp": "2026-10-28T13:36:54Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Warehouse_(FNaF%3A_SotM)",
-      "summary": "The Warehouse is a location in Murray's Costume Manor.  It's where the Mimic wearing the Party Time Chica costume is first encountered.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3579949",
-      "title": "Electrobab",
-      "type": "edit",
-      "user": "FredCat100",
-      "comment": "You're doing fine. I just tend the list into the formula as it was supposed to be.",
-      "timestamp": "2026-10-28T12:23:49Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Electrobab",
-      "summary": "The contents of this article or section are from a non-canon source, and thus, have no bearing on the official lore of the series.",
-      "tag": "Lore",
-      "ai": false
-    },
-    {
-      "id": "3579947",
-      "title": "Balloon Boy/Trivia",
-      "type": "edit",
-      "user": "FredCat100",
-      "comment": "Undo revision [[Special:Diff/3545005|3545005]] by [[Special:Contributions/ASurvivorFaner|ASurvivorFaner]] ([[User talk:ASurvivorFaner|talk]]) Keep the game lore and novel book separate.",
-      "timestamp": "2026-10-28T12:21:51Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Balloon_Boy%2FTrivia",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Wiki",
       "ai": false
     }
   ]
