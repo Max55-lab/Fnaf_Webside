@@ -1,21 +1,45 @@
 {
-  "generatedAt": "2026-10-29T12:20:38.070Z",
+  "generatedAt": "2026-10-29T22:27:42.171Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3077,
-    "edits": 3538468,
+    "edits": 3538472,
     "activeUsers": 160,
     "images": 45895
   },
   "items": [
     {
-      "id": "3580000",
+      "id": "3580004",
+      "title": "Food and Drinks",
+      "type": "edit",
+      "user": "Just a random burger brawl fan",
+      "comment": "",
+      "timestamp": "2026-10-29T15:47:34Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Food_and_Drinks",
+      "summary": "This article is disorganized, lacking content, containing low-quality images, etc.  It requires cleanup to bring higher quality to the article's standards.",
+      "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3580003",
+      "title": "Funtime Freddy/Gallery",
+      "type": "edit",
+      "user": "DeepestBlues",
+      "comment": "Too obscure and on Bon-Bon's gallery",
+      "timestamp": "2026-10-29T14:49:15Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Funtime_Freddy%2FGallery",
+      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3580001",
       "title": "Spring Bonnie (Film)",
       "type": "edit",
-      "user": "Iamawesome134",
-      "comment": "",
-      "timestamp": "2026-10-29T11:55:28Z",
+      "user": "Santademon",
+      "comment": "Undo revision [[Special:Diff/3545076|3545076]] by [[Special:Contributions/Iamawesome134|Iamawesome134]] ([[User talk:Iamawesome134|talk]])",
+      "timestamp": "2026-10-29T12:27:06Z",
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Spring_Bonnie_(Film)",
       "summary": "Spring Bonnie is an old, mechanical, Springlock suit worn by William Afton in the 2023 film Five Nights at Freddy's and returns via flashbacks in the 2025 sequel Five Nights at Freddy's 2.",
       "tag": "Film",
@@ -106,18 +130,6 @@
       "ai": false
     },
     {
-      "id": "3579971",
-      "title": "Funtime Freddy/Gallery",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-10-28T23:52:46Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Funtime_Freddy%2FGallery",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
       "id": "3579962",
       "title": "Toy Freddy/Gallery",
       "type": "edit",
@@ -139,18 +151,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Glamrock_Bonnie",
       "summary": "Glamrock Bonnie, also known as just Bonnie, was a glamrock counterpart of Bonnie who was mentioned in Five Nights at Freddy's: Security Breach and made an official appearance in the RUIN DLC.",
       "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3579954",
-      "title": "Henry Emily (Film)",
-      "type": "edit",
-      "user": "VoJonny",
-      "comment": "",
-      "timestamp": "2026-10-28T17:19:28Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Henry_Emily_(Film)",
-      "summary": "Henry Emily is a major character in the 2025 film Five Nights at Freddy's 2.  He is the former business partner of William Afton and the father of the late Charlotte Emily.",
-      "tag": "Film",
       "ai": false
     }
   ]
