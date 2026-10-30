@@ -1,14 +1,86 @@
 {
-  "generatedAt": "2026-10-30T04:29:36.518Z",
+  "generatedAt": "2026-10-30T12:11:11.281Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3077,
-    "edits": 3538478,
-    "activeUsers": 160,
-    "images": 45898
+    "edits": 3538489,
+    "activeUsers": 161,
+    "images": 45899
   },
   "items": [
+    {
+      "id": "3580021",
+      "title": "Five Nights at Freddy's Collection",
+      "type": "edit",
+      "user": "Hackerp000",
+      "comment": "",
+      "timestamp": "2026-10-30T09:59:58Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_Collection",
+      "summary": "Five Nights at Freddy's Collection, also known as Five Nights at Freddy's Boxed Set, is a collection of all three Five Nights at Freddy's novels released on August 28, 2018.  The content is inside of a cardboard sleeve with a…",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3580018",
+      "title": "Five Nights at Freddy's Graphic Novel Trilogy Box Set",
+      "type": "edit",
+      "user": "Hackerp000",
+      "comment": "",
+      "timestamp": "2026-10-30T09:57:40Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_Graphic_Novel_Trilogy_Box_Set",
+      "summary": "Five Nights at Freddy's Graphic Novel Trilogy Box Set is a collection of all three Five Nights at Freddy's graphic novels released on October 12, 2023.",
+      "tag": "Book",
+      "ai": false
+    },
+    {
+      "id": "3580017",
+      "title": "One Night at Flumpty's (Series)",
+      "type": "edit",
+      "user": "PyjamaDog",
+      "comment": "",
+      "timestamp": "2026-10-30T07:56:27Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/One_Night_at_Flumpty's_(Series)",
+      "summary": "The contents of this article or section are from projects not a part of the Fazbear Fanverse initiative.  This includes pre-rebooted versions of the games, cancelled projects, etc.",
+      "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3580016",
+      "title": "Ralph/Trivia",
+      "type": "edit",
+      "user": "Rainbow Runner",
+      "comment": "Added trivia about how the Night 3 phone call possibly fueled the theory of \"playing dead\" during a power outage.",
+      "timestamp": "2026-10-30T07:39:29Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Ralph%2FTrivia",
+      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
+      "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3580015",
+      "title": "Rockstar Bonnie/Trivia",
+      "type": "edit",
+      "user": "Bowgitter",
+      "comment": "no evidence for this whatsoever",
+      "timestamp": "2026-10-30T06:09:21Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Rockstar_Bonnie%2FTrivia",
+      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3580014",
+      "title": "Kellen Goff",
+      "type": "edit",
+      "user": "SaiyanGod5462",
+      "comment": "",
+      "timestamp": "2026-10-30T05:03:19Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Kellen_Goff",
+      "summary": "Kellen Alexander Goff (born February 3, 1995 in Torrance, California) is a voice actor that voices characters for the Five Nights at Freddy's franchise.  He is particularly known for voicing Funtime Freddy in Sister Location…",
+      "tag": "Merch",
+      "ai": false
+    },
     {
       "id": "3580013",
       "title": "Five Nights at Freddy's: Fazbear Frights Graphic Novel Collection Vol. 3",
@@ -70,18 +142,6 @@
       "ai": false
     },
     {
-      "id": "3579999",
-      "title": "Kellen Goff",
-      "type": "edit",
-      "user": "SaiyanGod5462",
-      "comment": "/* Trivia */",
-      "timestamp": "2026-10-29T10:52:51Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Kellen_Goff",
-      "summary": "Kellen Alexander Goff (born February 3, 1995 in Torrance, California) is a voice actor that voices characters for the Five Nights at Freddy's franchise.  He is particularly known for voicing Funtime Freddy in Sister Location…",
-      "tag": "Merch",
-      "ai": false
-    },
-    {
       "id": "3579998",
       "title": "Burntrap",
       "type": "edit",
@@ -91,66 +151,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Burntrap",
       "summary": "Burntrap is the tertiary antagonist of Five Nights at Freddy's: Security Breach.  He is an animatronic of enigmatic origin who resided in the underground ruins of Freddy Fazbear's Pizza Place, appearing in the base game's \"Burn…",
       "tag": "Game",
-      "ai": false
-    },
-    {
-      "id": "3579997",
-      "title": "Merchandise (FNaF1)",
-      "type": "edit",
-      "user": "Santademon",
-      "comment": "",
-      "timestamp": "2026-10-29T06:16:30Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Merchandise_(FNaF1)",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Merch",
-      "ai": false
-    },
-    {
-      "id": "3579989",
-      "title": "Five Nights at Freddy's: Fazbear Frights Graphic Novel Collection Vol. 2",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-10-29T02:56:26Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's%3A_Fazbear_Frights_Graphic_Novel_Collection_Vol._2",
-      "summary": "Five Nights at Freddy's: Fazbear Frights Graphic Novel Collection Vol.  2 is a horror anthology graphic novel adaptation of Fazbear Frights stories, originally written by Scott Cawthon, Andrea Waggener, and Carly Anne West…",
-      "tag": "Book",
-      "ai": false
-    },
-    {
-      "id": "3579975",
-      "title": "Toy Bonnie",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "Undo revision [[Special:Diff/3545049|3545049]] by [[Special:Contributions/StrongTarsier371|StrongTarsier371]] ([[User talk:StrongTarsier371|talk]])",
-      "timestamp": "2026-10-29T01:50:44Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Toy_Bonnie",
-      "summary": "Toy Bonnie is a major antagonist and one of the Toy animatronics of the Five Nights at Freddy's series, first appearing in Five Nights at Freddy's 2.  He is Bonnie's redesigned counterpart from the past and an improved…",
-      "tag": "Merch",
-      "ai": false
-    },
-    {
-      "id": "3579973",
-      "title": "Foxy the Pirate/Gallery",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-10-28T23:52:49Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Foxy_the_Pirate%2FGallery",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3579972",
-      "title": "Bon-Bon/Gallery",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-10-28T23:52:47Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Bon-Bon%2FGallery",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Wiki",
       "ai": false
     }
   ]
