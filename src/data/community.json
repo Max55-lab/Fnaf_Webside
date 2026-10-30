@@ -1,14 +1,38 @@
 {
-  "generatedAt": "2026-10-29T22:27:42.171Z",
+  "generatedAt": "2026-10-30T04:29:36.518Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3077,
-    "edits": 3538472,
+    "edits": 3538478,
     "activeUsers": 160,
-    "images": 45895
+    "images": 45898
   },
   "items": [
+    {
+      "id": "3580013",
+      "title": "Five Nights at Freddy's: Fazbear Frights Graphic Novel Collection Vol. 3",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-10-30T02:31:38Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's%3A_Fazbear_Frights_Graphic_Novel_Collection_Vol._3",
+      "summary": "Five Nights at Freddy's: Fazbear Frights Graphic Novel Collection Vol.  3 is a horror anthology graphic novel adaptation of Fazbear Frights stories, originally written by Scott Cawthon, Kelly Parra, and Andrea Waggener, adapted…",
+      "tag": "Book",
+      "ai": false
+    },
+    {
+      "id": "3580005",
+      "title": "Freddy Fazbear's Pizza",
+      "type": "edit",
+      "user": "Aaron526",
+      "comment": "",
+      "timestamp": "2026-10-29T23:20:07Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Freddy_Fazbear's_Pizza",
+      "summary": "Freddy Fazbear's Pizza is the name of the entertainment restaurant chain that appears in the Five Nights at Freddy's franchise.",
+      "tag": "Location",
+      "ai": false
+    },
     {
       "id": "3580004",
       "title": "Food and Drinks",
@@ -127,30 +151,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Bon-Bon%2FGallery",
       "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
       "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3579962",
-      "title": "Toy Freddy/Gallery",
-      "type": "edit",
-      "user": "Amazing Train",
-      "comment": "",
-      "timestamp": "2026-10-28T19:58:33Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Toy_Freddy%2FGallery",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Merch",
-      "ai": false
-    },
-    {
-      "id": "3579958",
-      "title": "Glamrock Bonnie",
-      "type": "edit",
-      "user": "Amazing Train",
-      "comment": "/* Miscellaneous */",
-      "timestamp": "2026-10-28T19:53:52Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Glamrock_Bonnie",
-      "summary": "Glamrock Bonnie, also known as just Bonnie, was a glamrock counterpart of Bonnie who was mentioned in Five Nights at Freddy's: Security Breach and made an official appearance in the RUIN DLC.",
-      "tag": "Character",
       "ai": false
     }
   ]
