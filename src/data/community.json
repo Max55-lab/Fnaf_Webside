@@ -1,24 +1,96 @@
 {
-  "generatedAt": "2026-10-31T04:10:57.401Z",
+  "generatedAt": "2026-10-31T11:43:12.328Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
-    "articles": 3077,
-    "edits": 3538528,
+    "articles": 3078,
+    "edits": 3538542,
     "activeUsers": 161,
-    "images": 45901
+    "images": 45902
   },
   "items": [
     {
-      "id": "3580061",
+      "id": "3580074",
+      "title": "Forgotten Candy",
+      "type": "edit",
+      "user": "Hackerp000",
+      "comment": "",
+      "timestamp": "2026-10-31T10:23:31Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Forgotten_Candy",
+      "summary": "This article refers to content related to an upcoming or planned project.  NOTE: Anything that is added to the article without a reliable source may be deleted without warning.",
+      "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3580073",
+      "title": "Five Nights at Candy's 4",
+      "type": "edit",
+      "user": "Hackerp000",
+      "comment": "",
+      "timestamp": "2026-10-31T10:22:05Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Candy's_4",
+      "summary": "This article refers to an upcoming project in the Five Nights at Freddy's franchise.  NOTE: Anything that is added to the article without a reliable source may be removed without hesitation.",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3580069",
+      "title": "Five Nights at Freddy's (disambiguation)",
+      "type": "edit",
+      "user": "Hackerp000",
+      "comment": "/* Collections */",
+      "timestamp": "2026-10-31T08:58:23Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_(disambiguation)",
+      "summary": "This article is a disambiguation page for Five Nights at Freddy's (disambiguation).  The following is a list of links to pages that might share the same title.",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3580068",
+      "title": "Five Nights at Freddy's 6-Book Boxed Set",
+      "type": "edit",
+      "user": "Hackerp000",
+      "comment": "",
+      "timestamp": "2026-10-31T07:58:41Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_6-Book_Boxed_Set",
+      "summary": "Freddy`nin Pizza Dükkanı 6 Kitaplık Kutulu Set, unofficialy translated as Five Nights at Freddy's 6-Book Boxed Set, is an archived set of all Five Nights at Freddy's original trilogy books and Fazbear Frights books by Scott…",
+      "tag": "Book",
+      "ai": false
+    },
+    {
+      "id": "3580064",
+      "title": "Gregory (Escape the Pizzaplex)",
+      "type": "edit",
+      "user": "Wikiafanatic25618",
+      "comment": "",
+      "timestamp": "2026-10-31T06:42:14Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Gregory_(Escape_the_Pizzaplex)",
+      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
+      "tag": "Location",
+      "ai": false
+    },
+    {
+      "id": "3580063",
       "title": "Vanessa/Trivia",
       "type": "edit",
-      "user": "PepsiMagnet",
+      "user": "ViolettSmith",
       "comment": "",
-      "timestamp": "2026-10-31T03:58:09Z",
+      "timestamp": "2026-10-31T05:35:10Z",
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Vanessa%2FTrivia",
       "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
       "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3580062",
+      "title": "Five Nights at Freddy's 2 (Film)",
+      "type": "edit",
+      "user": "Santademon",
+      "comment": "",
+      "timestamp": "2026-10-31T05:14:03Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_2_(Film)",
+      "summary": "Five Nights at Freddy's 2 is a supernatural horror feature film directed by Emma Tammi and is the second installment in the Five Nights at Freddy's film series, which is based on Scott Cawthon's video game series of the same…",
+      "tag": "Film",
       "ai": false
     },
     {
@@ -79,78 +151,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Bots",
       "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
       "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580053",
-      "title": "Glamrock Bonnie",
-      "type": "edit",
-      "user": "Dangdo24",
-      "comment": "/* Merchandise */",
-      "timestamp": "2026-10-31T01:05:49Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Glamrock_Bonnie",
-      "summary": "Glamrock Bonnie, also known as just Bonnie, was a glamrock counterpart of Bonnie who was mentioned in Five Nights at Freddy's: Security Breach and made an official appearance in the RUIN DLC.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3580052",
-      "title": "Timeline (CPU)",
-      "type": "edit",
-      "user": "LostFlower256",
-      "comment": "/* 1993 */",
-      "timestamp": "2026-10-30T23:44:52Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Timeline_(CPU)",
-      "summary": "This section archives a lot of theories and speculation, which usually occurs from pre-release media, or just things that are still unknown, so please keep that in mind while reading.  The page will continue to be updated with…",
-      "tag": "Lore",
-      "ai": false
-    },
-    {
-      "id": "3580048",
-      "title": "Nightmare Freddy/Gallery",
-      "type": "edit",
-      "user": "Amazing Train",
-      "comment": "/* Miscellaneous */",
-      "timestamp": "2026-10-30T20:14:09Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Nightmare_Freddy%2FGallery",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3580046",
-      "title": "Plushies (Merchandise)",
-      "type": "edit",
-      "user": "Amazing Train",
-      "comment": "/* Wave 4 */",
-      "timestamp": "2026-10-30T20:09:05Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Plushies_(Merchandise)",
-      "summary": "The Plushies are plush toys based on the Five Nights at Freddy's characters that represent characters from the games, novels, and films.  They are mainly made by Sanshee, Funko, GoodStuff, Hex, Youtooz, and Jazwares.",
-      "tag": "Merch",
-      "ai": false
-    },
-    {
-      "id": "3580044",
-      "title": "Power Indicator/History",
-      "type": "edit",
-      "user": "Amazing Train",
-      "comment": "",
-      "timestamp": "2026-10-30T19:05:36Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Power_Indicator%2FHistory",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580043",
-      "title": "Five Nights at Freddy's (Mobile)",
-      "type": "edit",
-      "user": "LogisticalFan247",
-      "comment": "/* Original Version */",
-      "timestamp": "2026-10-30T19:05:08Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_(Mobile)",
-      "summary": "The mobile port for Five Nights at Freddy's was first released for Android on August 25, 2014 and iOS on September 11, 2014.  Both ports cost $2.",
-      "tag": "Character",
       "ai": false
     }
   ]
