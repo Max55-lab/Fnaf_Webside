@@ -1,14 +1,110 @@
 {
-  "generatedAt": "2026-10-31T16:51:05.223Z",
+  "generatedAt": "2026-10-31T21:00:11.964Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3078,
-    "edits": 3538543,
+    "edits": 3538559,
     "activeUsers": 161,
-    "images": 45902
+    "images": 45904
   },
   "items": [
+    {
+      "id": "3580098",
+      "title": "Five Nights at Freddy's (Franchise)",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-10-31T18:21:11Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_(Franchise)",
+      "summary": "Five Nights at Freddy's, shortened as Five Nights, and abbreviated as FNaF, is an independent multimedia franchise created by Scott Cawthon that first started as a video game released on August 8, 2014.  The franchise has since…",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3580095",
+      "title": "Five Nights at Freddy's 6-Book Boxed Set",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-10-31T17:25:24Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_6-Book_Boxed_Set",
+      "summary": "Five Nights at Freddy's 6-Book Boxed Set, officially called Freddy`nin Pizza Dükkanı 6 Kitaplık Kutulu Set or Freddy's Pizza Shop 6-Book Boxed Set when translated, is an archived set of all Five Nights at Freddy's original…",
+      "tag": "Book",
+      "ai": false
+    },
+    {
+      "id": "3580094",
+      "title": "Scottgames, LLC",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-10-31T17:16:27Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Scottgames%2C_LLC",
+      "summary": "Scottgames, LLC, often stylized as ScottGames and Scott Games, is an American video game development, publishing, and licensing company that was founded on June 30, 2015 by Scott Cawthon.  Despite the name being used as early as…",
+      "tag": "Game",
+      "ai": false
+    },
+    {
+      "id": "3580093",
+      "title": "Chica the Chicken/Gallery",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "/* Miscellaneous */",
+      "timestamp": "2026-10-31T17:10:15Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Chica_the_Chicken%2FGallery",
+      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3580092",
+      "title": "Mega Cat Studios, Inc.",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-10-31T17:07:04Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Mega_Cat_Studios%2C_Inc.",
+      "summary": "Mega Cat Studios, Inc.  is an American game development, porting, and publishing company that was founded by James Deighan, Nick Mann, and Zack Manko in 2015.",
+      "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3580091",
+      "title": "Foxy the Pirate/Gallery",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-10-31T17:06:30Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Foxy_the_Pirate%2FGallery",
+      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3580089",
+      "title": "Bonnie the Rabbit/Gallery",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-10-31T17:06:20Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Bonnie_the_Rabbit%2FGallery",
+      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3580088",
+      "title": "Freddy Fazbear/Gallery",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-10-31T17:06:18Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Freddy_Fazbear%2FGallery",
+      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
+      "tag": "Character",
+      "ai": false
+    },
     {
       "id": "3580078",
       "title": "Posters",
@@ -55,102 +151,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_(disambiguation)",
       "summary": "This article is a disambiguation page for Five Nights at Freddy's (disambiguation).  The following is a list of links to pages that might share the same title.",
       "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3580068",
-      "title": "Five Nights at Freddy's 6-Book Boxed Set",
-      "type": "edit",
-      "user": "Hackerp000",
-      "comment": "",
-      "timestamp": "2026-10-31T07:58:41Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_6-Book_Boxed_Set",
-      "summary": "Freddy`nin Pizza Dükkanı 6 Kitaplık Kutulu Set, unofficialy translated as Five Nights at Freddy's 6-Book Boxed Set, is an archived set of all Five Nights at Freddy's original trilogy books and Fazbear Frights books by Scott…",
-      "tag": "Book",
-      "ai": false
-    },
-    {
-      "id": "3580064",
-      "title": "Gregory (Escape the Pizzaplex)",
-      "type": "edit",
-      "user": "Wikiafanatic25618",
-      "comment": "",
-      "timestamp": "2026-10-31T06:42:14Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Gregory_(Escape_the_Pizzaplex)",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Location",
-      "ai": false
-    },
-    {
-      "id": "3580063",
-      "title": "Vanessa/Trivia",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-10-31T05:35:10Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Vanessa%2FTrivia",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580062",
-      "title": "Five Nights at Freddy's 2 (Film)",
-      "type": "edit",
-      "user": "Santademon",
-      "comment": "",
-      "timestamp": "2026-10-31T05:14:03Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_2_(Film)",
-      "summary": "Five Nights at Freddy's 2 is a supernatural horror feature film directed by Emma Tammi and is the second installment in the Five Nights at Freddy's film series, which is based on Scott Cawthon's video game series of the same…",
-      "tag": "Film",
-      "ai": false
-    },
-    {
-      "id": "3580059",
-      "title": "Sister Location: MA",
-      "type": "edit",
-      "user": "LunaTheTrip",
-      "comment": "",
-      "timestamp": "2026-10-31T02:02:01Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Sister_Location%3A_MA",
-      "summary": "The contents of this article or section are from a non-canon source, and thus, have no bearing on the official lore of the series.",
-      "tag": "Location",
-      "ai": false
-    },
-    {
-      "id": "3580058",
-      "title": "Five Nights at Freddy's: Sister Location",
-      "type": "edit",
-      "user": "LunaTheTrip",
-      "comment": "",
-      "timestamp": "2026-10-31T02:01:20Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's%3A_Sister_Location",
-      "summary": "December 22, 2016 (Android) January 3, 2017 (iOS) March 20, 2020 (Mobile) (RMST) June 18, 2020 (Nintendo Switch) July 9, 2020 (Xbox) July 22, 2020 (PlayStaion)",
-      "tag": "Location",
-      "ai": false
-    },
-    {
-      "id": "3580057",
-      "title": "Bonnie the Rabbit (Interactive Novel)",
-      "type": "edit",
-      "user": "LunaTheTrip",
-      "comment": "",
-      "timestamp": "2026-10-31T01:51:02Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Bonnie_the_Rabbit_(Interactive_Novel)",
-      "summary": "This article is disorganized, lacking content, containing low-quality images, etc.  It requires cleanup to bring higher quality to the article's standards.",
-      "tag": "Book",
-      "ai": false
-    },
-    {
-      "id": "3580056",
-      "title": "The Missing Children",
-      "type": "edit",
-      "user": "LunaTheTrip",
-      "comment": "",
-      "timestamp": "2026-10-31T01:43:44Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/The_Missing_Children",
-      "summary": "This section archives a lot of theories and speculation, which usually occurs from pre-release media, or just things that are still unknown, so please keep that in mind while reading.  The page will continue to be updated with…",
-      "tag": "Wiki",
       "ai": false
     }
   ]
