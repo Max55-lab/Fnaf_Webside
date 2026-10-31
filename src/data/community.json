@@ -1,14 +1,26 @@
 {
-  "generatedAt": "2026-10-31T11:43:12.328Z",
+  "generatedAt": "2026-10-31T16:51:05.223Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3078,
-    "edits": 3538542,
+    "edits": 3538543,
     "activeUsers": 161,
     "images": 45902
   },
   "items": [
+    {
+      "id": "3580078",
+      "title": "Posters",
+      "type": "edit",
+      "user": "Hackerp000",
+      "comment": "",
+      "timestamp": "2026-10-31T12:06:08Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Posters",
+      "summary": "A list of Posters based on or made for promotional images and artworks for games, books, films, or sold as merchandise.",
+      "tag": "Merch",
+      "ai": false
+    },
     {
       "id": "3580074",
       "title": "Forgotten Candy",
@@ -138,18 +150,6 @@
       "timestamp": "2026-10-31T01:43:44Z",
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/The_Missing_Children",
       "summary": "This section archives a lot of theories and speculation, which usually occurs from pre-release media, or just things that are still unknown, so please keep that in mind while reading.  The page will continue to be updated with…",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580054",
-      "title": "Bots",
-      "type": "new",
-      "user": "Miss Fazzy",
-      "comment": "Redirected page to [[Animatronics and Bots]]",
-      "timestamp": "2026-10-31T01:10:00Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Bots",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
       "tag": "Wiki",
       "ai": false
     }
