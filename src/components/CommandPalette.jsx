@@ -20,7 +20,7 @@ const PAGES = [
   { label: "Community Forum", to: "/community?tab=forum", hint: "Local threads, polls and tier lists" },
   { label: "Break Room Chat", to: "/community?tab=chat", hint: "Live shift chat between open tabs" },
   { label: "Wiki Wire", to: "/community?tab=wire", hint: "Live Fandom activity" },
-  { label: "Staff Terminal", to: "/login", hint: "Concept login — Guest, Admin, Oversight" },
+  { label: "Staff Terminal", to: "/login", hint: "Guest, Crew, Admin and Oversight badges" },
   { label: "Oversight Console", to: "/admin", hint: "Administrator clearance required" },
   { label: "Secrets & Minigames", to: "/secrets", hint: "Hidden story content" },
   { label: "The Vault", to: "/vault", hint: "Secrets and saved items" },

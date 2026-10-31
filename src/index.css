@@ -10007,6 +10007,72 @@ body {
   margin-top: 2.4rem;
 }
 
+/* ---- Save transfer panel (export / import) ---- */
+.st-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0.9rem 0 0.6rem;
+}
+
+.st-box {
+  width: 100%;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  line-height: 1.5;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 0.7rem;
+  resize: vertical;
+  margin: 0.4rem 0 0.2rem;
+  overflow-wrap: anywhere;
+}
+
+.st-box:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.st-import {
+  display: grid;
+  gap: 0.6rem;
+  justify-items: start;
+  margin-top: 1rem;
+}
+
+.st-import .field {
+  width: 100%;
+}
+
+.st-notice-ok,
+.st-notice-bad {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  border-radius: var(--radius-sm);
+  padding: 0.55rem 0.8rem;
+  margin: 0.6rem 0 0;
+}
+
+.st-notice-ok {
+  color: #7cff5a;
+  border: 1px solid rgba(124, 255, 90, 0.4);
+  background: rgba(124, 255, 90, 0.07);
+}
+
+.st-notice-bad {
+  color: var(--danger);
+  border: 1px solid var(--danger);
+  background: rgba(255, 23, 68, 0.08);
+}
+
+@media (max-width: 560px) {
+  .st-actions .btn {
+    flex: 1 1 44%;
+  }
+}
+
 /* ---- Badge unlock toast (bottom-left: never covers the secret popup) ---- */
 .badge-toast {
   position: fixed;

@@ -1,5 +1,6 @@
 import { useMemo, useRef, useState } from "react";
 import { timeAgo } from "../../lib/community.js";
+import { sanitizeText } from "../../security/sanitize.js";
 import {
   FORUM_CATEGORIES,
   THREAD_CATEGORIES,
@@ -21,6 +22,9 @@ function initials(name) {
     .join("")
     .toUpperCase();
 }
+
+/* Module-scope helper keeps render-time purity checks happy. */
+const nowIso = () => new Date().toISOString();
 
 export default function Forum() {
   const [threads, setThreads] = useState(loadThreads);
@@ -77,9 +81,10 @@ export default function Forum() {
   const createThread = (event) => {
     event.preventDefault();
     setError("");
-    const title = draft.title.trim();
-    const body = draft.body.trim();
-    const name = author.trim() || "Anonymous";
+    /* Sanitise UGC before it reaches state or storage. */
+    const title = sanitizeText(draft.title, 160);
+    const body = sanitizeText(draft.body, 4000);
+    const name = sanitizeText(author, 40) || "Anonymous";
     if (title.length < 8) {
       setError("Give the thread a title of at least eight characters.");
       return;
@@ -91,11 +96,11 @@ export default function Forum() {
 
     const thread = {
       id: newId("thread"),
-      title: title.slice(0, 160),
+      title,
       category: draft.category,
-      author: name.slice(0, 40),
-      createdAt: new Date().toISOString(),
-      body: body.slice(0, 4000),
+      author: name,
+      createdAt: nowIso(),
+      body,
       replies: [],
     };
     commit([thread, ...threads]);
@@ -111,17 +116,17 @@ export default function Forum() {
     event.preventDefault();
     if (!active) return;
     setError("");
-    const body = replyBody.trim();
+    const body = sanitizeText(replyBody, 2400);
     if (body.length < 4) {
       setError("Write a reply before posting.");
       return;
     }
-    const name = author.trim() || "Anonymous";
+    const name = sanitizeText(author, 40) || "Anonymous";
     const reply = {
       id: newId("reply"),
-      author: name.slice(0, 40),
-      createdAt: new Date().toISOString(),
-      body: body.slice(0, 2400),
+      author: name,
+      createdAt: nowIso(),
+      body,
     };
     commit(
       threads.map((thread) =>

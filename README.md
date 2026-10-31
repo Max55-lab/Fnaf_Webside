@@ -11,11 +11,13 @@ real headlines, a browser-local **forum**, a **live break-room chat** that talks
 across your open tabs, a live **Wiki Wire** fed by the FNAF
 Fandom wiki, real **jumpscare clips** sourced from the wiki, a Fazbear-style
 **boot screen**, per-page **procedural ambient audio** plus **procedural UI
-sounds** on every button and tab, a concept **staff terminal** with three roles
-(Guest / Administrator / Super Administrator) that restyle the whole wiki, a
+sounds** on every button and tab, a **staff terminal** with four clearance tiers
+(Guest / User / Administrator / Secret Super Administrator) — real PBKDF2-hashed
+local accounts for the Crew badge — that restyle the whole wiki, a
 hand-written **WebGL CRT/VHS shader**, snappier **page-transition animations**,
-**buy / read / download** options on every film and book, and a hidden layer of
-**34 secrets, codes and easter eggs** tracked in a secret "Vault".
+**buy / read / download** options on every film and book, JSON/Base64 **save
+export & import**, and a hidden layer of
+**36 secrets, codes and easter eggs** tracked in a secret "Vault".
 
 > Fan project. Not affiliated with Scott Cawthon or Steel Wool Studios.
 > Character art, game key art, film/book covers and camera stills are credited to the
@@ -61,12 +63,12 @@ Do **not** double-click `dist/index.html`: browsers block external module script
 | `/play/web/:slug` | Full-page third-party web editions: FNAF 1-4, World, Sister Location, Pizzeria Simulator and Ultimate Custom Night (hd_fnaf HTML5 ports) plus Dorukyum's FNAF-Web with the Custom Night |
 | `/media` | Both films and six book lines in depth — release dates, runtime, cast, box office, reception, production notes and per-book highlights — plus **Buy / Read / Download case file** actions on every entry |
 | `/community` | Four-tab hub: **Newsroom** (live-polled headlines + build-time snapshot fallback, plus in-world dispatches that trickle in over the session, site patch notes + video desk), **Forum** (browser-local threads), **Break Room** (live shift chat between your open tabs, with night-shift bots and presence) and **Wiki Wire** (live Fandom activity, auto-synced every 3 minutes) |
-| `/login` | Concept **staff terminal** — sign in as Guest, Administrator or Super Administrator; any code works, the badge lives in `localStorage`, and each clearance repaints the whole wiki |
+| `/login` | **Staff terminal** with four badges — Guest and Administrator keep the concept flow (any code works), **User (Crew)** is a real local account (PBKDF2/SHA-256 salted password hash in IndexedDB), and the **Super Administrator** implant only accepts its hashed six-digit code with an exponential lockout behind it; the badge lives in `localStorage`, and each clearance repaints the whole wiki |
 | `/admin` | **Oversight console** (staff clearance required): shift stats, staff directory, shift broadcasts that surface on the terminal, and a super-admin-only classified addendum |
 | `/lore` | Layered timeline: games, novels and film continuities, each with era filters, key concepts and six long-form deep dives |
 | `/secrets` | Story minigames and documented easter eggs |
 | `/vault` | Every secret in the site, with hints, progress, filters and a reset button |
-| `/achievements` | The Service Record: night-guard statistics (sessions, time on site, files read) plus 24 achievement badges across bronze/silver/gold/platinum tiers, with ranks and an unlock toast (`/record` redirects here) |
+| `/achievements` | The Service Record: night-guard statistics (sessions, time on site, files read) plus 24 achievement badges across bronze/silver/gold/platinum tiers, with ranks and an unlock toast — and the **Save file** panel for exporting/importing your whole wiki night as JSON or Base64 (`/record` redirects here) |
 
 `/night` and `/cameras` were retired — their routes, art-pass CSS and demo-only
 secrets were removed — and now redirect to `/play`.
@@ -86,13 +88,39 @@ secrets were removed — and now redirect to `/play`.
   a fallback when the clip can't play (offline or muted): Foxy's is
   fast and ragged, Golden Freddy's is deep and long, the Puppet and Circus Baby
   get a music-box pre-roll, Springtrap rattles.
-- **Roles + a concept staff terminal** — `/login` lets you clock in as Guest,
-  Administrator or Super Administrator (any code works — it's a concept, and
-  typing `1987`, `afton`, `purple` or `henry` into the code field is noticed).
-  The badge lives in `fnaf_auth_v1`, repaints the whole wiki via a `data-role`
-  attribute on `<html>` (yellow → cyan → red/gold with a glitching logo), shows
-  a nav chip, unlocks `/admin` (Oversight console: stats, staff directory,
-  shift broadcasts) — and `sudo` works while you're wearing an admin badge.
+- **Four-tier roles + a real staff terminal** — `/login` offers four badges:
+  Guest (concept, any code), **User/Crew** (a genuine local account — your
+  password is salted and stretched with PBKDF2/SHA-256 before it reaches
+  IndexedDB; only `{ salt, hash, iterations }` is stored), Administrator
+  (concept, any code) and the **Super Administrator** implant, which only
+  accepts its six-digit code verified against a SHA-256 digest — the plaintext
+  appears nowhere in the bundle — in constant time, with an exponential lockout
+  (3 fails → 30 s, 4 → 2 min, 5+ → 5 min) and a dummy-hash timing pad so
+  unknown handles cost the same as known ones. The badge lives in
+  `fnaf_auth_v1`, repaints the whole wiki via a `data-role` attribute on
+  `<html>` (yellow → green → cyan → red/gold with a glitching logo), follows
+  across tabs via the storage event, shows a nav chip, unlocks `/admin`
+  (Oversight console: stats, staff directory, shift broadcasts, audit log) —
+  and `sudo` works while you're wearing an *admin* badge. Typing `1987`,
+  `afton`, `purple` or `henry` into the concept code field is still noticed.
+- **Hardened storage layer** (`src/lib/db.js`, `src/security/`) — an IndexedDB
+  database (`fnaf_multiverse`) with an ordered `onupgradeneeded` migration
+  registry and a transparent `localStorage` mirror fallback for private mode
+  and `file://`; every `put()` normalises `QuotaExceededError` and announces it
+  through a `fnaf:quota` window event. All user-generated text (forum posts,
+  replies, chat lines, handles, shift broadcasts) is stripped of markup with
+  **DOMPurify** at the storage boundary — on write *and* on read, so older
+  stored history is cleaned too. A **web worker** does save-file Base64
+  encode/decode (`?worker&inline`, so it survives the single-file build) with a
+  synchronous main-thread fallback, blob URLs are revoked after use, and
+  admin modules render behind `AuthGuard` (`minRole` middleware with a ranked
+  guest < user < admin < super clearance check).
+- **Save export & import** — the Service Record's **Save file** panel turns
+  your whole night (secrets, badges, forum, chat, scores, preferences) into a
+  JSON or Base64 blob you can copy or download, and restores it from a paste on
+  this or any other device. Export/import runs in the worker, and the password
+  lockout state (`fnaf_lockout_v1`) is deliberately excluded from backups so a
+  save file can never reset a cooldown.
 - **WebGL shader backdrops** — a hand-written (no libraries) raw-WebGL CRT/VHS
   fragment shader: broadcast static, scanlines, a rolling wave, dust specks and
   a vignette behind the homepage hero and the staff terminal. It pauses when the
@@ -262,7 +290,7 @@ Adding a secret is two steps: add an entry to the `SECRETS` registry (title, ico
 hint, discovery text), then call `discover("your-key")` from wherever it should fire.
 
 <details>
-<summary><strong>Spoilers — all 34 secrets</strong></summary>
+<summary><strong>Spoilers — all 36 secrets</strong></summary>
 
 **Typed codes:** `1987`, `1983`, `itsme`, `freddy`, `foxy`, `purple`, `henry`, `afton`,
 `mimic`, `toreador`, `6am`, `springtrap`, `phone`, `fazbear`
@@ -277,8 +305,9 @@ character portrait for three seconds
 **Exploration:** stay until the in-game clock reaches 6 AM · finish Shadow Bonnie's
 cake run in the arcade · visit at 3 AM local time
 
-**Clearance:** clock in at the staff terminal as a Guest · as an Administrator ·
-as the Super Administrator · type `sudo` while wearing an admin badge
+**Clearance:** clock in at the staff terminal as a Guest · register a Crew account
+(the User badge) · as an Administrator · as the Super Administrator (the implant
+code `395248`) · type `sudo` while wearing an admin badge
 
 **Rare events:** a 1-in-100 glitch on arrival · random phantom flash · reversed audio ·
 the Toreador March when the nav power dies
@@ -348,17 +377,25 @@ the regular build and the single-file build.
 src/
   assets/fonts/ self-hosted display, UI and mono fonts
   audio/        Web Audio sound engine (ambient scenes + UI palette + scares)
-  auth/         AuthProvider — concept roles: guest / administrator / super
+  auth/         AuthProvider — four roles: guest / user / administrator / super
+                (PBKDF2 local accounts, hashed oversight implant, lockout)
   components/   Layout, CharImage, PageMeta, CommandPalette, ErrorBoundary,
-                ShaderBackdrop (raw WebGL CRT/VHS), minigames/, community/
+                SaveTransfer, ShaderBackdrop (raw WebGL CRT/VHS),
+                minigames/, community/
   data/         characters, games, gameExtras (tutorials + easter eggs), lore,
                 films (media), minigames, extraMinigames, home, dispatches,
                 community snapshot
-  lib/          shared Fandom API client + artwork resolver
-  pages/        one file per route (incl. Login, Oversight)
+  lib/          shared Fandom API client + artwork resolver, IndexedDB layer
+                (migrations + quota events + localStorage mirror), forum/chat
+                storage, save export/import, worker offload helpers
+  pages/        one file per route (incl. Login, Oversight, ServiceRecord)
+  progress/     ProgressProvider + achievement record
   secrets/      SecretsProvider (codes, tracking, overlays)
+  security/     crypto (PBKDF2 / constant-time), lockout backoff, DOMPurify
+                sanitiser, AuthGuard permission middleware
   styles/       immersive.css (role looks, transitions), auth.css,
                 breakroom.css, arcade-extra.css
+  workers/      save.worker.js (Base64 encode/decode off the main thread)
 scripts/        image fetcher, content agent, standalone builder
 content-inbox/  unreviewed drafts produced by the agent
 public/         character portraits and FNAF artwork

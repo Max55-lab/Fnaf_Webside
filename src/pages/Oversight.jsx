@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import PageMeta from "../components/PageMeta.jsx";
 import ShaderBackdrop from "../components/ShaderBackdrop.jsx";
 import { useAuth, ROLES } from "../auth/AuthProvider.jsx";
+import AuthGuard from "../security/AuthGuard.jsx";
+import { sanitizeText } from "../security/sanitize.js";
+import { logAudit } from "../lib/db.js";
 import { useSecrets } from "../secrets/SecretsProvider.jsx";
 import { computeSnapshot } from "../progress/record.js";
 import { setAmbientScene, sfxConfirm, sfxToggle } from "../audio/sound.js";
@@ -15,6 +18,7 @@ const DIRECTORY = [
   { handle: "PHONE_GUY", role: "administrator", last: "left a message · 1987", state: "ON CALL" },
   { handle: "MOOGLE", role: "administrator", last: "indexed the archives", state: "ON SHIFT" },
   { handle: "PURPLE_SHIFT", role: "administrator", last: "badge photo redacted", state: "UNKNOWN" },
+  { handle: "FREDDY_FAN_88", role: "user", last: "posted a theory", state: "ON SHIFT" },
   { handle: "CAM_WATCHER_03", role: "guest", last: "watching CAM 04", state: "ON SHIFT" },
   { handle: "THE_NEW_GUARD", role: "guest", last: "survived Night 4", state: "ON SHIFT" },
 ];
@@ -57,12 +61,13 @@ export default function Oversight() {
 
   const postBroadcast = (event) => {
     event.preventDefault();
-    const text = draft.trim();
+    /* Sanitise at the storage boundary — the notice is UGC. */
+    const text = sanitizeText(draft, 140);
     if (!text) return;
     const entry = {
       id: `${Date.now()}`,
-      text: text.slice(0, 140),
-      by: handle || ROLES[role].chip,
+      text,
+      by: sanitizeText(handle, 20) || ROLES[role].chip,
       ts: new Date().toISOString(),
     };
     const next = [...broadcasts, entry].slice(-8);
@@ -72,6 +77,7 @@ export default function Oversight() {
     } catch {
       /* storage unavailable */
     }
+    logAudit("broadcast", `${entry.by}: ${text.slice(0, 60)}`);
     setDraft("");
     sfxConfirm();
   };
@@ -81,23 +87,31 @@ export default function Oversight() {
     sfxToggle(true);
   };
 
-  /* ---- Access gate ---- */
+  /* ---- Access gate (role-enforcement middleware) ---- */
   if (!signedIn || !isAdmin) {
     return (
-      <div className="page auth-page">
-        <PageMeta title="Oversight Console — Access Denied" description="Fazbear Oversight console (concept)." />
-        <div className="auth-denied-panel" role="alert">
-          <span className="auth-legend">CLEARANCE CHECK</span>
-          <h1 className="page-title">Access denied</h1>
-          <p className="card-text">
-            This console requires staff clearance. Guests may admire the door.
-          </p>
-          <div className="auth-actions">
-            <Link to="/login" className="btn btn-danger">Open the staff terminal →</Link>
-            <Link to="/" className="btn">Back to the wiki</Link>
+      <AuthGuard
+        minRole="administrator"
+        fallback={
+          <div className="page auth-page">
+            <PageMeta
+              title="Oversight Console — Access Denied"
+              description="Fazbear Oversight console (concept)."
+            />
+            <div className="auth-denied-panel" role="alert">
+              <span className="auth-legend">CLEARANCE CHECK</span>
+              <h1 className="page-title">Access denied</h1>
+              <p className="card-text">
+                This console requires staff clearance. Guests may admire the door.
+              </p>
+              <div className="auth-actions">
+                <Link to="/login" className="btn btn-danger">Open the staff terminal →</Link>
+                <Link to="/" className="btn">Back to the wiki</Link>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
+        }
+      />
     );
   }
 

@@ -1,6 +1,7 @@
 import { useState, useMemo } from "react";
 import { Link } from "react-router-dom";
 import PageMeta from "../components/PageMeta.jsx";
+import SaveTransfer from "../components/SaveTransfer.jsx";
 import { useProgress } from "../progress/ProgressProvider.jsx";
 
 const TIER_LABEL = {
@@ -203,6 +204,9 @@ export default function ServiceRecord() {
           })}
         </div>
       </section>
+
+      {/* ---------- Backup & restore (save export/import) ---------- */}
+      <SaveTransfer />
 
       {complete && (
         <div className="sr-complete">

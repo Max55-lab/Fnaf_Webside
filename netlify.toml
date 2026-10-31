@@ -12,6 +12,20 @@
   to = "/index.html"
   status = 200
 
+# Content-Security-Policy: no inline/executed scripts (script-src 'self'),
+# no plugins, framed media only where the wiki embeds it (YouTube
+# nocookie, the two fan web-game mirrors). connect-src covers the two
+# live fetches: rss2json (Fazbear News Network) and the Fandom API.
+# The JSON-LD block PageMeta injects is a non-executing data block, so
+# it is not subject to script-src. Dev server stays CSP-free (Vite's
+# react-refresh preamble is inline); headers here apply to hosting.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' https://api.rss2json.com https://freddy-fazbears-pizza.fandom.com; frame-src https://www.youtube-nocookie.com https://irv77.github.io https://dorukyum.github.io; worker-src 'self' blob: data:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
 [[headers]]
   for = "/characters/*"
   [headers.values]

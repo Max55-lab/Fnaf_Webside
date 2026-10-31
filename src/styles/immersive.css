@@ -8,6 +8,11 @@
 /* ---------------- Role-based looks ----------------
  * <html data-role="..."> is painted by AuthProvider. Guest keeps the
  * classic Fazbear yellow; staff and oversight repaint the whole site. */
+html[data-role="user"] {
+  --accent: #00e676;
+  --glow: 0 0 30px rgba(0, 230, 118, 0.18);
+}
+
 html[data-role="administrator"] {
   --accent: #00e5ff;
   --glow: 0 0 34px rgba(0, 229, 255, 0.2);
@@ -18,7 +23,8 @@ html[data-role="super-administrator"] {
   --glow: 0 0 34px rgba(255, 45, 85, 0.24);
 }
 
-/* Staff terminals get a faint scanline shimmer on panels. */
+/* Badged terminals get a faint scanline shimmer on panels. */
+html[data-role="user"] .card,
 html[data-role="administrator"] .card,
 html[data-role="super-administrator"] .card {
   border-color: color-mix(in srgb, var(--accent) 26%, var(--border));

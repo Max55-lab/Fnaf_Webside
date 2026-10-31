@@ -232,6 +232,54 @@
   animation: auth-flicker 0.5s steps(2, end) 2;
 }
 
+/* ---- Account mode toggle (user badge) ---- */
+.auth-modes {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.auth-mode {
+  flex: 1;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 0.55rem 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg);
+  color: var(--dim);
+  cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.auth-mode:hover {
+  color: var(--text);
+  border-color: var(--accent);
+}
+
+.auth-mode.active {
+  border-color: #00e676;
+  color: #00e676;
+  background: rgba(0, 230, 118, 0.08);
+}
+
+/* ---- Exponential lockout banner ---- */
+.auth-lockout {
+  border: 1px solid var(--danger);
+  background: rgba(255, 23, 68, 0.1);
+  color: var(--danger);
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  border-radius: var(--radius-sm);
+  padding: 0.6rem 0.8rem;
+}
+
+.auth-lockout strong {
+  font-variant-numeric: tabular-nums;
+}
+
 @keyframes auth-shake {
   0%, 100% { transform: translateX(0); }
   20% { transform: translateX(-6px); }
@@ -276,6 +324,7 @@
   box-shadow: 0 0 44px -22px var(--role-accent);
 }
 
+.auth-signed.auth-clearance-user { --role-accent: #00e676; }
 .auth-signed.auth-clearance-administrator { --role-accent: #00e5ff; }
 .auth-signed.auth-clearance-super-administrator {
   --role-accent: #ff1744;
@@ -372,6 +421,7 @@
 .auth-chip.small { font-size: 0.56rem; padding: 0.22rem 0.4rem; }
 
 .auth-chip[data-role-chip="administrator"] { background: #00e5ff; }
+.auth-chip[data-role-chip="user"] { background: #00e676; }
 .auth-chip[data-role-chip="super-administrator"] {
   background: linear-gradient(120deg, #ffd600, #ff1744);
   color: #14060a;

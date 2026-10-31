@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { timeAgo } from "../../lib/community.js";
+import { sanitizeText } from "../../security/sanitize.js";
 import { sfxConfirm, sfxTick } from "../../audio/sound.js";
 import "../../styles/breakroom.css";
 
@@ -142,11 +143,12 @@ const HELP_LINE =
 /* ------------------------------------------------------------------ */
 function normaliseMessage(raw) {
   if (!raw || typeof raw !== "object") return null;
-  const text = String(raw.text || "").trim().slice(0, MAX_TEXT);
+  /* Sanitise UGC on load — stored history may predate DOMPurify. */
+  const text = sanitizeText(raw.text, MAX_TEXT);
   if (!text) return null;
   return {
     id: String(raw.id || newMsgId()),
-    user: String(raw.user || "ANON").slice(0, 24),
+    user: sanitizeText(raw.user, 24) || "ANON",
     role: typeof raw.role === "string" ? raw.role.slice(0, 24) : "",
     text,
     ts: typeof raw.ts === "string" && !Number.isNaN(Date.parse(raw.ts)) ? raw.ts : nowIso(),
@@ -184,7 +186,12 @@ function loadMessages() {
 
 function saveMessages(messages) {
   try {
-    localStorage.setItem(CHAT_KEY, JSON.stringify(messages));
+    /* Normalise on save as well as load — the stored log is the
+       single source of truth for every tab and future import. */
+    const clean = Array.isArray(messages)
+      ? capMessages(messages.map(normaliseMessage).filter(Boolean))
+      : [];
+    localStorage.setItem(CHAT_KEY, JSON.stringify(clean));
     return true;
   } catch {
     return false;
@@ -193,8 +200,8 @@ function saveMessages(messages) {
 
 function loadHandle() {
   try {
-    const saved = localStorage.getItem(HANDLE_KEY);
-    if (saved && saved.trim()) return saved.trim().slice(0, 24);
+    const saved = sanitizeText(localStorage.getItem(HANDLE_KEY), 24);
+    if (saved) return saved;
   } catch {
     // Private mode: fall through to a generated handle.
   }
@@ -203,7 +210,7 @@ function loadHandle() {
 
 function saveHandle(handle) {
   try {
-    localStorage.setItem(HANDLE_KEY, handle);
+    localStorage.setItem(HANDLE_KEY, sanitizeText(handle, 24));
     return true;
   } catch {
     return false;
@@ -216,7 +223,12 @@ function loadRole() {
     const raw = localStorage.getItem(AUTH_KEY);
     if (!raw) return "guest";
     const role = JSON.parse(raw)?.role;
-    if (role === "administrator" || role === "super-administrator") return role;
+    if (
+      role === "user" ||
+      role === "administrator" ||
+      role === "super-administrator"
+    )
+      return role;
   } catch {
     // Missing or corrupt auth data just means "guest" here.
   }
@@ -225,6 +237,7 @@ function loadRole() {
 
 const ROLE_LABELS = {
   guest: "GUEST",
+  user: "CREW",
   administrator: "ADMIN",
   "super-administrator": "SUPER ADMIN",
 };
@@ -232,6 +245,7 @@ const ROLE_LABELS = {
 function roleChipClass(role) {
   if (role === "super-administrator") return "br-chip br-chip-super";
   if (role === "administrator") return "br-chip br-chip-admin";
+  if (role === "user") return "br-chip br-chip-user";
   return "br-chip br-chip-guest";
 }
 
@@ -375,7 +389,7 @@ export default function BreakRoom() {
 
   const sendMessage = (event) => {
     event.preventDefault();
-    const text = draft.trim().slice(0, MAX_TEXT);
+    const text = sanitizeText(draft, MAX_TEXT);
     if (!text) return;
     const msg = { id: newMsgId(), user: handle, role, text, ts: nowIso() };
     commit((prev) => [...prev, msg]);
@@ -388,7 +402,7 @@ export default function BreakRoom() {
 
   const renameHandle = (event) => {
     event.preventDefault();
-    const next = nameDraft.trim().slice(0, 24) || `GUARD_${randInt(10, 99)}`;
+    const next = sanitizeText(nameDraft, 24) || `GUARD_${randInt(10, 99)}`;
     setHandle(next);
     saveHandle(next);
     postTo(channelRef.current, { type: "ping", user: next });

@@ -1,5 +1,9 @@
 // Browser-local forum storage. There is no server here on purpose: every post
 // stays in this browser, and the UI labels that clearly.
+// All user text is sanitised (DOMPurify) at the storage boundary on the way
+// in and on the way out, so localStorage never holds markup.
+import { sanitizeText } from "../security/sanitize.js";
+
 export const FORUM_KEY = "fnaf_forum_v1";
 export const FORUM_AUTHOR_KEY = "fnaf_forum_author";
 
@@ -134,27 +138,34 @@ function normaliseThread(thread) {
   if (!thread || typeof thread !== "object" || !thread.title || !thread.body) {
     return null;
   }
+  const title = sanitizeText(thread.title, 160);
+  const body = sanitizeText(thread.body, 4000);
+  if (!title || !body) return null;
   return {
     id: String(thread.id || `thread-${Math.random().toString(36).slice(2)}`),
-    title: String(thread.title).slice(0, 160),
+    title,
     category: THREAD_CATEGORIES.includes(thread.category)
       ? thread.category
       : "Off-topic",
-    author: String(thread.author || "Anonymous").slice(0, 40),
+    author: sanitizeText(thread.author, 40) || "Anonymous",
     createdAt: thread.createdAt || new Date().toISOString(),
-    body: String(thread.body).slice(0, 4000),
+    body,
     replies: Array.isArray(thread.replies)
       ? thread.replies
           .filter((reply) => reply && reply.body)
-          .map((reply, index) => ({
-            id: String(
-              reply.id ||
-                `reply-${Date.now()}-${index}-${Math.random().toString(36).slice(2)}`
-            ),
-            author: String(reply.author || "Anonymous").slice(0, 40),
-            createdAt: reply.createdAt || new Date().toISOString(),
-            body: String(reply.body).slice(0, 2400),
-          }))
+          .map((reply, index) => {
+            const replyBody = sanitizeText(reply.body, 2400);
+            return {
+              id: String(
+                reply.id ||
+                  `reply-${Date.now()}-${index}-${Math.random().toString(36).slice(2)}`
+              ),
+              author: sanitizeText(reply.author, 40) || "Anonymous",
+              createdAt: reply.createdAt || new Date().toISOString(),
+              body: replyBody,
+            };
+          })
+          .filter((reply) => reply.body)
       : [],
   };
 }
@@ -174,7 +185,13 @@ export function loadThreads() {
 
 export function saveThreads(threads) {
   try {
-    localStorage.setItem(FORUM_KEY, JSON.stringify(threads));
+    /* Normalise on the way out too — whatever the caller hands us
+       (state, an import, a future module) is sanitised before it
+       becomes part of the stored archive. */
+    const clean = Array.isArray(threads)
+      ? threads.map(normaliseThread).filter(Boolean)
+      : [];
+    localStorage.setItem(FORUM_KEY, JSON.stringify(clean));
     return true;
   } catch {
     return false;
@@ -200,7 +217,7 @@ export function loadAuthor() {
 
 export function saveAuthor(author) {
   try {
-    localStorage.setItem(FORUM_AUTHOR_KEY, author);
+    localStorage.setItem(FORUM_AUTHOR_KEY, sanitizeText(author, 40));
   } catch {
     // The form still works for this session when storage is blocked.
   }

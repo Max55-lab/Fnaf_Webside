@@ -207,6 +207,13 @@ export const SECRETS = {
     discovered:
       "You clocked in as a Guest. The turnstile beeped, the badge printer whirred, and nobody checked your photo.",
   },
+  "role-user": {
+    title: "Registered Crew",
+    icon: "🎫",
+    hint: "Register a Crew account (the User badge) at the staff terminal",
+    discovered:
+      "You registered a real crew account. The badge printer hummed a little longer this time — it had your name pre-loaded. That is not how printers work.",
+  },
   "role-admin": {
     title: "Staff Clearance",
     icon: "🗝",
@@ -227,6 +234,13 @@ export const SECRETS = {
     hint: "Type sudo while wearing an admin badge",
     discovered:
       "You typed sudo as staff. Permission granted. The log will remember this — everything remembers this.",
+  },
+  "code-implant": {
+    title: "Management's Accession",
+    icon: "📟",
+    hint: "Type 395248 into the Oversight implant field on the staff terminal",
+    discovered:
+      "The implant accepted the number management swore it never issued. Six were accounted for. The terminal insists there were seven.",
   },
 };
 
