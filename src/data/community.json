@@ -1,14 +1,62 @@
 {
-  "generatedAt": "2026-10-31T21:00:11.964Z",
+  "generatedAt": "2026-11-01T04:31:00.701Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3078,
-    "edits": 3538559,
+    "edits": 3538569,
     "activeUsers": 161,
-    "images": 45904
+    "images": 45906
   },
   "items": [
+    {
+      "id": "3580109",
+      "title": "Bedroom (TJOC)",
+      "type": "edit",
+      "user": "Spongebobguy 2",
+      "comment": "Since this is the direct word of Nicson it seems nessasary",
+      "timestamp": "2026-11-01T00:47:12Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Bedroom_(TJOC)",
+      "summary": "This article refers to content related to an upcoming or planned project.  NOTE: Anything that is added to the article without a reliable source may be deleted without warning.",
+      "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3580108",
+      "title": "Fortnite x Five Nights at Freddy's",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "This needs some refs, but since I'd doing this a bit early, I'll be back to add them.",
+      "timestamp": "2026-10-31T23:36:33Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Fortnite_x_Five_Nights_at_Freddy's",
+      "summary": "This article focuses on content from an official video game crossover with Fortnite.  To learn more about the game, go to the Fortnite Wiki.",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3580107",
+      "title": "Amalgamation",
+      "type": "edit",
+      "user": "Dangdo24",
+      "comment": "Undo revision [[Special:Diff/3545182|3545182]] by [[Special:Contributions/PureSnake682|PureSnake682]] ([[User talk:PureSnake682|talk]])",
+      "timestamp": "2026-10-31T23:25:00Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Amalgamation",
+      "summary": "Amalgamation has not been given an official name; as such, this name is purely conjectural.  However, it will be used until an official name is revealed.",
+      "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3580105",
+      "title": "Basement (TJOC)",
+      "type": "edit",
+      "user": "Spongebobguy 2",
+      "comment": "",
+      "timestamp": "2026-10-31T22:24:39Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Basement_(TJOC)",
+      "summary": "This article refers to content related to an upcoming or planned project.  NOTE: Anything that is added to the article without a reliable source may be deleted without warning.",
+      "tag": "Wiki",
+      "ai": false
+    },
     {
       "id": "3580098",
       "title": "Five Nights at Freddy's (Franchise)",
@@ -102,54 +150,6 @@
       "timestamp": "2026-10-31T17:06:18Z",
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Freddy_Fazbear%2FGallery",
       "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3580078",
-      "title": "Posters",
-      "type": "edit",
-      "user": "Hackerp000",
-      "comment": "",
-      "timestamp": "2026-10-31T12:06:08Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Posters",
-      "summary": "A list of Posters based on or made for promotional images and artworks for games, books, films, or sold as merchandise.",
-      "tag": "Merch",
-      "ai": false
-    },
-    {
-      "id": "3580074",
-      "title": "Forgotten Candy",
-      "type": "edit",
-      "user": "Hackerp000",
-      "comment": "",
-      "timestamp": "2026-10-31T10:23:31Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Forgotten_Candy",
-      "summary": "This article refers to content related to an upcoming or planned project.  NOTE: Anything that is added to the article without a reliable source may be deleted without warning.",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580073",
-      "title": "Five Nights at Candy's 4",
-      "type": "edit",
-      "user": "Hackerp000",
-      "comment": "",
-      "timestamp": "2026-10-31T10:22:05Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Candy's_4",
-      "summary": "This article refers to an upcoming project in the Five Nights at Freddy's franchise.  NOTE: Anything that is added to the article without a reliable source may be removed without hesitation.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3580069",
-      "title": "Five Nights at Freddy's (disambiguation)",
-      "type": "edit",
-      "user": "Hackerp000",
-      "comment": "/* Collections */",
-      "timestamp": "2026-10-31T08:58:23Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_(disambiguation)",
-      "summary": "This article is a disambiguation page for Five Nights at Freddy's (disambiguation).  The following is a list of links to pages that might share the same title.",
       "tag": "Character",
       "ai": false
     }
