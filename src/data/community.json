@@ -1,14 +1,62 @@
 {
-  "generatedAt": "2026-11-01T04:31:00.701Z",
+  "generatedAt": "2026-11-01T12:42:29.975Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3078,
-    "edits": 3538569,
-    "activeUsers": 161,
-    "images": 45906
+    "edits": 3538586,
+    "activeUsers": 159,
+    "images": 45905
   },
   "items": [
+    {
+      "id": "3580119",
+      "title": "Grunkfuss the Clown",
+      "type": "edit",
+      "user": "Polar bear boy11",
+      "comment": "",
+      "timestamp": "2026-11-01T12:41:55Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Grunkfuss_the_Clown",
+      "summary": "Grunkfuss the Clown is a recurring antagonist of the One Night at Flumpty's trilogy.",
+      "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3580118",
+      "title": "Toy Bonnie (Film)",
+      "type": "edit",
+      "user": "Marc9966aastudios2",
+      "comment": "/* Five Nights at Freddy's 2 */",
+      "timestamp": "2026-11-01T10:51:18Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Toy_Bonnie_(Film)",
+      "summary": "Toy Bonnie, also known as Bonnie the Rabbit, is a Toy animatronic and a major antagonist in the 2025 film Five Nights at Freddy's 2.  He is the presumed second version of the Bonnie character and was the guitarist of Freddy…",
+      "tag": "Film",
+      "ai": false
+    },
+    {
+      "id": "3580116",
+      "title": "Hard Boiled Mode (ONaF2)",
+      "type": "edit",
+      "user": "Polar bear boy11",
+      "comment": "",
+      "timestamp": "2026-11-01T07:49:36Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Hard_Boiled_Mode_(ONaF2)",
+      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
+      "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3580113",
+      "title": "Five Nights at Freddy's in Popular Culture",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "/* Other */",
+      "timestamp": "2026-11-01T04:59:29Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_in_Popular_Culture",
+      "summary": "Due to its success and popularity, the Five Nights at Freddy's franchise has gained a colossal number of cameos, references, parodies, and other appearances in popular culture.",
+      "tag": "Character",
+      "ai": false
+    },
     {
       "id": "3580109",
       "title": "Bedroom (TJOC)",
@@ -101,54 +149,6 @@
       "comment": "/* Miscellaneous */",
       "timestamp": "2026-10-31T17:10:15Z",
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Chica_the_Chicken%2FGallery",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3580092",
-      "title": "Mega Cat Studios, Inc.",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-10-31T17:07:04Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Mega_Cat_Studios%2C_Inc.",
-      "summary": "Mega Cat Studios, Inc.  is an American game development, porting, and publishing company that was founded by James Deighan, Nick Mann, and Zack Manko in 2015.",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580091",
-      "title": "Foxy the Pirate/Gallery",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-10-31T17:06:30Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Foxy_the_Pirate%2FGallery",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3580089",
-      "title": "Bonnie the Rabbit/Gallery",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-10-31T17:06:20Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Bonnie_the_Rabbit%2FGallery",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3580088",
-      "title": "Freddy Fazbear/Gallery",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-10-31T17:06:18Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Freddy_Fazbear%2FGallery",
       "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
       "tag": "Character",
       "ai": false
