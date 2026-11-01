@@ -1,14 +1,122 @@
 {
-  "generatedAt": "2026-11-01T12:42:29.975Z",
+  "generatedAt": "2026-11-01T21:43:12.174Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3078,
-    "edits": 3538586,
+    "edits": 3538605,
     "activeUsers": 159,
-    "images": 45905
+    "images": 45906
   },
   "items": [
+    {
+      "id": "3580138",
+      "title": "Eyesaur",
+      "type": "edit",
+      "user": "Polar bear boy11",
+      "comment": "/* One Night at Flumpty's 2 */",
+      "timestamp": "2026-11-01T21:27:14Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Eyesaur",
+      "summary": "Eyesaur (referred as The Eyesaur in the third game) is a recurring antagonist of the One Night at Flumpty's trilogy.",
+      "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3580137",
+      "title": "Timeline (Core Series)",
+      "type": "edit",
+      "user": "Aaron526",
+      "comment": "",
+      "timestamp": "2026-11-01T20:35:00Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Timeline_(Core_Series)",
+      "summary": "This section archives a lot of theories and speculation, which usually occurs from pre-release media, or just things that are still unknown, so please keep that in mind while reading.  The page will continue to be updated with…",
+      "tag": "Lore",
+      "ai": false
+    },
+    {
+      "id": "3580133",
+      "title": "Five Nights at Freddy's Graphic Novel Trilogy Box Set",
+      "type": "edit",
+      "user": "Hackerp000",
+      "comment": "",
+      "timestamp": "2026-11-01T18:22:22Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_Graphic_Novel_Trilogy_Box_Set",
+      "summary": "Five Nights at Freddy's Graphic Novel Trilogy Box Set is a collection of all three Five Nights at Freddy's graphic novels released on October 12, 2023.",
+      "tag": "Book",
+      "ai": false
+    },
+    {
+      "id": "3580132",
+      "title": "Five Nights at Freddy's 6-Book Boxed Set",
+      "type": "edit",
+      "user": "Hackerp000",
+      "comment": "",
+      "timestamp": "2026-11-01T18:20:50Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_6-Book_Boxed_Set",
+      "summary": "Five Nights at Freddy's 6-Book Boxed Set, officially called Freddy`nin Pizza Dükkanı 6 Kitaplık Kutulu Set or Freddy's Pizza Shop 6-Book Boxed Set when translated, is an archived set of all Five Nights at Freddy's original…",
+      "tag": "Book",
+      "ai": false
+    },
+    {
+      "id": "3580131",
+      "title": "Moon (disambiguation)",
+      "type": "edit",
+      "user": "Santademon",
+      "comment": "Reverted edit by [[Special:Contributions/Alysa blue wiki|Alysa blue wiki]] ([[User talk:Alysa blue wiki|talk]]) to last revision by [[User:Hackerp000|Hackerp000]]",
+      "timestamp": "2026-11-01T15:32:11Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Moon_(disambiguation)",
+      "summary": "This article is a disambiguation page for Moon (disambiguation).  The following is a list of links to pages that might share the same title.",
+      "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3580130",
+      "title": "Foxy the Pirate",
+      "type": "edit",
+      "user": "Santademon",
+      "comment": "Reverted edit by [[Special:Contributions/Alysa blue wiki|Alysa blue wiki]] ([[User talk:Alysa blue wiki|talk]]) to last revision by [[User:MatTamDude|MatTamDude]]",
+      "timestamp": "2026-11-01T15:32:05Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Foxy_the_Pirate",
+      "summary": "Foxy the Pirate is one of the four original animatronics of Freddy Fazbear's Pizza and a major antagonist in the Five Nights at Freddy's series.",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3580127",
+      "title": "Jack-O-Moon",
+      "type": "edit",
+      "user": "Amazing Train",
+      "comment": "/* Miscellaneous */",
+      "timestamp": "2026-11-01T14:48:58Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Jack-O-Moon",
+      "summary": "Jack-O-Moon is one of the halloween animatronics and a minor antagonist that first appeared in Five Nights at Freddy's: Help Wanted 2.  He is a Halloween-themed variant of the Moon side of the Daycare Attendant.",
+      "tag": "Game",
+      "ai": false
+    },
+    {
+      "id": "3580125",
+      "title": "Toy Bonnie (Film)",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "Undo revision [[Special:Diff/3545193|3545193]] by [[Special:Contributions/Marc9966aastudios2|Marc9966aastudios2]] ([[User talk:Marc9966aastudios2|talk]])",
+      "timestamp": "2026-11-01T14:13:50Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Toy_Bonnie_(Film)",
+      "summary": "Toy Bonnie, also known as Bonnie the Rabbit, is a Toy animatronic and a major antagonist in the 2025 film Five Nights at Freddy's 2.  He is the presumed second version of the Bonnie character and was the guitarist of Freddy…",
+      "tag": "Film",
+      "ai": false
+    },
+    {
+      "id": "3580123",
+      "title": "The Player (ONaF)",
+      "type": "edit",
+      "user": "Polar bear boy11",
+      "comment": "",
+      "timestamp": "2026-11-01T13:02:39Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/The_Player_(ONaF)",
+      "summary": "The unnamed player, also referred as the protagonist is the main protagonist of the One Night at Flumpty's trilogy.  The only parts ever seen of them in the games are their eyes which appears red in the games but this usually…",
+      "tag": "Wiki",
+      "ai": false
+    },
     {
       "id": "3580119",
       "title": "Grunkfuss the Clown",
@@ -19,18 +127,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Grunkfuss_the_Clown",
       "summary": "Grunkfuss the Clown is a recurring antagonist of the One Night at Flumpty's trilogy.",
       "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580118",
-      "title": "Toy Bonnie (Film)",
-      "type": "edit",
-      "user": "Marc9966aastudios2",
-      "comment": "/* Five Nights at Freddy's 2 */",
-      "timestamp": "2026-11-01T10:51:18Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Toy_Bonnie_(Film)",
-      "summary": "Toy Bonnie, also known as Bonnie the Rabbit, is a Toy animatronic and a major antagonist in the 2025 film Five Nights at Freddy's 2.  He is the presumed second version of the Bonnie character and was the guitarist of Freddy…",
-      "tag": "Film",
       "ai": false
     },
     {
@@ -54,102 +150,6 @@
       "timestamp": "2026-11-01T04:59:29Z",
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_in_Popular_Culture",
       "summary": "Due to its success and popularity, the Five Nights at Freddy's franchise has gained a colossal number of cameos, references, parodies, and other appearances in popular culture.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3580109",
-      "title": "Bedroom (TJOC)",
-      "type": "edit",
-      "user": "Spongebobguy 2",
-      "comment": "Since this is the direct word of Nicson it seems nessasary",
-      "timestamp": "2026-11-01T00:47:12Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Bedroom_(TJOC)",
-      "summary": "This article refers to content related to an upcoming or planned project.  NOTE: Anything that is added to the article without a reliable source may be deleted without warning.",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580108",
-      "title": "Fortnite x Five Nights at Freddy's",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "This needs some refs, but since I'd doing this a bit early, I'll be back to add them.",
-      "timestamp": "2026-10-31T23:36:33Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Fortnite_x_Five_Nights_at_Freddy's",
-      "summary": "This article focuses on content from an official video game crossover with Fortnite.  To learn more about the game, go to the Fortnite Wiki.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3580107",
-      "title": "Amalgamation",
-      "type": "edit",
-      "user": "Dangdo24",
-      "comment": "Undo revision [[Special:Diff/3545182|3545182]] by [[Special:Contributions/PureSnake682|PureSnake682]] ([[User talk:PureSnake682|talk]])",
-      "timestamp": "2026-10-31T23:25:00Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Amalgamation",
-      "summary": "Amalgamation has not been given an official name; as such, this name is purely conjectural.  However, it will be used until an official name is revealed.",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580105",
-      "title": "Basement (TJOC)",
-      "type": "edit",
-      "user": "Spongebobguy 2",
-      "comment": "",
-      "timestamp": "2026-10-31T22:24:39Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Basement_(TJOC)",
-      "summary": "This article refers to content related to an upcoming or planned project.  NOTE: Anything that is added to the article without a reliable source may be deleted without warning.",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580098",
-      "title": "Five Nights at Freddy's (Franchise)",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-10-31T18:21:11Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_(Franchise)",
-      "summary": "Five Nights at Freddy's, shortened as Five Nights, and abbreviated as FNaF, is an independent multimedia franchise created by Scott Cawthon that first started as a video game released on August 8, 2014.  The franchise has since…",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3580095",
-      "title": "Five Nights at Freddy's 6-Book Boxed Set",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-10-31T17:25:24Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_6-Book_Boxed_Set",
-      "summary": "Five Nights at Freddy's 6-Book Boxed Set, officially called Freddy`nin Pizza Dükkanı 6 Kitaplık Kutulu Set or Freddy's Pizza Shop 6-Book Boxed Set when translated, is an archived set of all Five Nights at Freddy's original…",
-      "tag": "Book",
-      "ai": false
-    },
-    {
-      "id": "3580094",
-      "title": "Scottgames, LLC",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-10-31T17:16:27Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Scottgames%2C_LLC",
-      "summary": "Scottgames, LLC, often stylized as ScottGames and Scott Games, is an American video game development, publishing, and licensing company that was founded on June 30, 2015 by Scott Cawthon.  Despite the name being used as early as…",
-      "tag": "Game",
-      "ai": false
-    },
-    {
-      "id": "3580093",
-      "title": "Chica the Chicken/Gallery",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "/* Miscellaneous */",
-      "timestamp": "2026-10-31T17:10:15Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Chica_the_Chicken%2FGallery",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
       "tag": "Character",
       "ai": false
     }
