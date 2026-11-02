@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-11-01T21:43:12.174Z",
+  "generatedAt": "2026-11-02T04:34:10.672Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3078,
-    "edits": 3538605,
+    "edits": 3538616,
     "activeUsers": 159,
     "images": 45906
   },
   "items": [
     {
-      "id": "3580138",
+      "id": "3580140",
       "title": "Eyesaur",
       "type": "edit",
-      "user": "Polar bear boy11",
-      "comment": "/* One Night at Flumpty's 2 */",
-      "timestamp": "2026-11-01T21:27:14Z",
+      "user": "LostFlower256",
+      "comment": "/* Gameplay */",
+      "timestamp": "2026-11-01T23:44:54Z",
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Eyesaur",
       "summary": "Eyesaur (referred as The Eyesaur in the third game) is a recurring antagonist of the One Night at Flumpty's trilogy.",
       "tag": "Wiki",
