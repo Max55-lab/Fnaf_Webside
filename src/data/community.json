@@ -1,14 +1,38 @@
 {
-  "generatedAt": "2026-11-02T04:34:10.672Z",
+  "generatedAt": "2026-11-02T14:50:18.032Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3078,
-    "edits": 3538616,
-    "activeUsers": 159,
-    "images": 45906
+    "edits": 3538622,
+    "activeUsers": 161,
+    "images": 45908
   },
   "items": [
+    {
+      "id": "3580150",
+      "title": "Crossovers",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-11-02T07:31:30Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Crossovers",
+      "summary": "This is a list of official crossovers and collaborations, or collabs for short, that the Five Nights at Freddy's franchise has performed with other companies and game developers.",
+      "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3580148",
+      "title": "Five Nights at Freddy's 1: The Silver Eyes",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-11-02T07:25:30Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_1%3A_The_Silver_Eyes",
+      "summary": "Five Nights at Freddy's #1: The Silver Eyes, commonly abbreviated to FNaF: TSE or just TSE, is a horror mystery novel written by Scott Cawthon and Kira Breed-Wrisley and initially self-published by Scott Cawthon on December 17…",
+      "tag": "Character",
+      "ai": false
+    },
     {
       "id": "3580140",
       "title": "Eyesaur",
@@ -127,30 +151,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Grunkfuss_the_Clown",
       "summary": "Grunkfuss the Clown is a recurring antagonist of the One Night at Flumpty's trilogy.",
       "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580116",
-      "title": "Hard Boiled Mode (ONaF2)",
-      "type": "edit",
-      "user": "Polar bear boy11",
-      "comment": "",
-      "timestamp": "2026-11-01T07:49:36Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Hard_Boiled_Mode_(ONaF2)",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580113",
-      "title": "Five Nights at Freddy's in Popular Culture",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "/* Other */",
-      "timestamp": "2026-11-01T04:59:29Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_in_Popular_Culture",
-      "summary": "Due to its success and popularity, the Five Nights at Freddy's franchise has gained a colossal number of cameos, references, parodies, and other appearances in popular culture.",
-      "tag": "Character",
       "ai": false
     }
   ]
