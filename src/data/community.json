@@ -1,14 +1,110 @@
 {
-  "generatedAt": "2026-11-02T14:50:18.032Z",
+  "generatedAt": "2026-11-03T00:32:54.105Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3078,
-    "edits": 3538622,
+    "edits": 3538642,
     "activeUsers": 161,
-    "images": 45908
+    "images": 45911
   },
   "items": [
+    {
+      "id": "3580174",
+      "title": "Scrapped Animatronics (TJoC)",
+      "type": "edit",
+      "user": "Bumbloscrumblo69",
+      "comment": "",
+      "timestamp": "2026-11-02T23:43:39Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Scrapped_Animatronics_(TJoC)",
+      "summary": "This article refers an idea or a list of content that has been scrapped for various reasons.  They can be presented in the decompiled files, concept designs, or other non-interactive media.",
+      "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3580170",
+      "title": "Steel Wool Studios, Inc.",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "Undo revision [[Special:Diff/3545248|3545248]] by [[Special:Contributions/EGGO THIEF|EGGO THIEF]] ([[User talk:EGGO THIEF|talk]])",
+      "timestamp": "2026-11-02T22:37:06Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Steel_Wool_Studios%2C_Inc.",
+      "summary": "Steel Wool Studios, Inc. , formally known as Steel Wool Games, Inc.",
+      "tag": "Game",
+      "ai": false
+    },
+    {
+      "id": "3580168",
+      "title": "Jumpscares (FNaF1)",
+      "type": "edit",
+      "user": "PuffFilms",
+      "comment": "",
+      "timestamp": "2026-11-02T21:27:18Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Jumpscares_(FNaF1)",
+      "summary": "The original Five Nights at Freddy's Steam screenshot of Bonnie jumpscaring the player.",
+      "tag": "Game",
+      "ai": false
+    },
+    {
+      "id": "3580166",
+      "title": "Dittophobia",
+      "type": "edit",
+      "user": "Takingsolace",
+      "comment": "/* Plot */",
+      "timestamp": "2026-11-02T18:23:44Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Dittophobia",
+      "summary": "Dittophobia is the third story of Tales from the Pizzaplex 8: B7-2 and chronologically the Tales from the Pizzaplex series' 24th and final story.  It was written by Andrea Waggener.",
+      "tag": "Location",
+      "ai": false
+    },
+    {
+      "id": "3580165",
+      "title": "Nightmare Freddy (Tales from the Pizzaplex)",
+      "type": "edit",
+      "user": "Takingsolace",
+      "comment": "",
+      "timestamp": "2026-11-02T18:22:46Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Nightmare_Freddy_(Tales_from_the_Pizzaplex)",
+      "summary": "Nightmare Freddy, also referred to as The Bear in the story, appears in Dittophobia, the third and final story of Tales from the Pizzaplex #8: B7-2 as one of the secondary antagonists torturing Rory during his night terrors.  It…",
+      "tag": "Book",
+      "ai": false
+    },
+    {
+      "id": "3580162",
+      "title": "Nightmare Foxy (Tales from the Pizzaplex)",
+      "type": "edit",
+      "user": "Takingsolace",
+      "comment": "",
+      "timestamp": "2026-11-02T18:21:38Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Nightmare_Foxy_(Tales_from_the_Pizzaplex)",
+      "summary": "Nightmare Foxy, also referred to as The Fox in the story, appears in Dittophobia, the third and final story of Tales from the Pizzaplex #8: B7-2 as one of the secondary antagonists torturing Rory.  It was built by William Afton.",
+      "tag": "Book",
+      "ai": false
+    },
+    {
+      "id": "3580157",
+      "title": "Rory (Dittophobia)",
+      "type": "edit",
+      "user": "Takingsolace",
+      "comment": "",
+      "timestamp": "2026-11-02T18:09:36Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Rory_(Dittophobia)",
+      "summary": "Rory is the main protagonist of Dittophobia, the third story from Tales from the Pizzaplex 8: B7-2.",
+      "tag": "Location",
+      "ai": false
+    },
+    {
+      "id": "3580155",
+      "title": "Five Nights at Freddy's in Popular Culture",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "/* Television */",
+      "timestamp": "2026-11-02T16:07:55Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_in_Popular_Culture",
+      "summary": "Due to its success and popularity, the Five Nights at Freddy's franchise has gained a colossal number of cameos, references, parodies, and other appearances in popular culture.",
+      "tag": "Character",
+      "ai": false
+    },
     {
       "id": "3580150",
       "title": "Crossovers",
@@ -55,102 +151,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Timeline_(Core_Series)",
       "summary": "This section archives a lot of theories and speculation, which usually occurs from pre-release media, or just things that are still unknown, so please keep that in mind while reading.  The page will continue to be updated with…",
       "tag": "Lore",
-      "ai": false
-    },
-    {
-      "id": "3580133",
-      "title": "Five Nights at Freddy's Graphic Novel Trilogy Box Set",
-      "type": "edit",
-      "user": "Hackerp000",
-      "comment": "",
-      "timestamp": "2026-11-01T18:22:22Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_Graphic_Novel_Trilogy_Box_Set",
-      "summary": "Five Nights at Freddy's Graphic Novel Trilogy Box Set is a collection of all three Five Nights at Freddy's graphic novels released on October 12, 2023.",
-      "tag": "Book",
-      "ai": false
-    },
-    {
-      "id": "3580132",
-      "title": "Five Nights at Freddy's 6-Book Boxed Set",
-      "type": "edit",
-      "user": "Hackerp000",
-      "comment": "",
-      "timestamp": "2026-11-01T18:20:50Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_6-Book_Boxed_Set",
-      "summary": "Five Nights at Freddy's 6-Book Boxed Set, officially called Freddy`nin Pizza Dükkanı 6 Kitaplık Kutulu Set or Freddy's Pizza Shop 6-Book Boxed Set when translated, is an archived set of all Five Nights at Freddy's original…",
-      "tag": "Book",
-      "ai": false
-    },
-    {
-      "id": "3580131",
-      "title": "Moon (disambiguation)",
-      "type": "edit",
-      "user": "Santademon",
-      "comment": "Reverted edit by [[Special:Contributions/Alysa blue wiki|Alysa blue wiki]] ([[User talk:Alysa blue wiki|talk]]) to last revision by [[User:Hackerp000|Hackerp000]]",
-      "timestamp": "2026-11-01T15:32:11Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Moon_(disambiguation)",
-      "summary": "This article is a disambiguation page for Moon (disambiguation).  The following is a list of links to pages that might share the same title.",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580130",
-      "title": "Foxy the Pirate",
-      "type": "edit",
-      "user": "Santademon",
-      "comment": "Reverted edit by [[Special:Contributions/Alysa blue wiki|Alysa blue wiki]] ([[User talk:Alysa blue wiki|talk]]) to last revision by [[User:MatTamDude|MatTamDude]]",
-      "timestamp": "2026-11-01T15:32:05Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Foxy_the_Pirate",
-      "summary": "Foxy the Pirate is one of the four original animatronics of Freddy Fazbear's Pizza and a major antagonist in the Five Nights at Freddy's series.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3580127",
-      "title": "Jack-O-Moon",
-      "type": "edit",
-      "user": "Amazing Train",
-      "comment": "/* Miscellaneous */",
-      "timestamp": "2026-11-01T14:48:58Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Jack-O-Moon",
-      "summary": "Jack-O-Moon is one of the halloween animatronics and a minor antagonist that first appeared in Five Nights at Freddy's: Help Wanted 2.  He is a Halloween-themed variant of the Moon side of the Daycare Attendant.",
-      "tag": "Game",
-      "ai": false
-    },
-    {
-      "id": "3580125",
-      "title": "Toy Bonnie (Film)",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "Undo revision [[Special:Diff/3545193|3545193]] by [[Special:Contributions/Marc9966aastudios2|Marc9966aastudios2]] ([[User talk:Marc9966aastudios2|talk]])",
-      "timestamp": "2026-11-01T14:13:50Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Toy_Bonnie_(Film)",
-      "summary": "Toy Bonnie, also known as Bonnie the Rabbit, is a Toy animatronic and a major antagonist in the 2025 film Five Nights at Freddy's 2.  He is the presumed second version of the Bonnie character and was the guitarist of Freddy…",
-      "tag": "Film",
-      "ai": false
-    },
-    {
-      "id": "3580123",
-      "title": "The Player (ONaF)",
-      "type": "edit",
-      "user": "Polar bear boy11",
-      "comment": "",
-      "timestamp": "2026-11-01T13:02:39Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/The_Player_(ONaF)",
-      "summary": "The unnamed player, also referred as the protagonist is the main protagonist of the One Night at Flumpty's trilogy.  The only parts ever seen of them in the games are their eyes which appears red in the games but this usually…",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580119",
-      "title": "Grunkfuss the Clown",
-      "type": "edit",
-      "user": "Polar bear boy11",
-      "comment": "",
-      "timestamp": "2026-11-01T12:41:55Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Grunkfuss_the_Clown",
-      "summary": "Grunkfuss the Clown is a recurring antagonist of the One Night at Flumpty's trilogy.",
-      "tag": "Wiki",
       "ai": false
     }
   ]
