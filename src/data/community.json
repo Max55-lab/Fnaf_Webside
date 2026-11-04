@@ -1,14 +1,74 @@
 {
-  "generatedAt": "2026-11-03T22:55:47.926Z",
+  "generatedAt": "2026-11-04T04:55:20.366Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3078,
-    "edits": 3538716,
+    "edits": 3538746,
     "activeUsers": 159,
-    "images": 45912
+    "images": 45933
   },
   "items": [
+    {
+      "id": "3580289",
+      "title": "Five Nights at Freddy's: Fazbear Frights Graphic Novel Collection Vol. 5",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-11-04T03:32:59Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's%3A_Fazbear_Frights_Graphic_Novel_Collection_Vol._5",
+      "summary": "Five Nights at Freddy's: Fazbear Frights Graphic Novel Collection Vol.  5 is a horror anthology graphic novel adaptation of Fazbear Frights stories, originally written by Scott Cawthon, Elley Cooper, and Andrea Waggener, adapted…",
+      "tag": "Book",
+      "ai": false
+    },
+    {
+      "id": "3580274",
+      "title": "Five Nights at Freddy's: Fazbear Frights Graphic Novel Collection Vol. 4",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-11-04T02:28:13Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's%3A_Fazbear_Frights_Graphic_Novel_Collection_Vol._4",
+      "summary": "Five Nights at Freddy's: Fazbear Frights Graphic Novel Collection Vol.  4 is a horror anthology graphic novel adaptation of Fazbear Frights stories, originally written by Scott Cawthon, Elley Cooper, and Andrea Waggener, adapted…",
+      "tag": "Book",
+      "ai": false
+    },
+    {
+      "id": "3580254",
+      "title": "Five Nights at Freddy's: Fazbear Frights Graphic Novel Collection Vol. 3",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-11-04T01:54:48Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's%3A_Fazbear_Frights_Graphic_Novel_Collection_Vol._3",
+      "summary": "Five Nights at Freddy's: Fazbear Frights Graphic Novel Collection Vol.  3 is a horror anthology graphic novel adaptation of Fazbear Frights stories, originally written by Scott Cawthon, Kelly Parra, and Andrea Waggener, adapted…",
+      "tag": "Book",
+      "ai": false
+    },
+    {
+      "id": "3580252",
+      "title": "JJ",
+      "type": "edit",
+      "user": "Aaron526",
+      "comment": "",
+      "timestamp": "2026-11-04T01:43:22Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/JJ",
+      "summary": "JJ, also known as JayJay in full, is one of the Toy animatronics of the Five Nights at Freddy's series, first appearing in Five Nights at Freddy's 2 as an Easter egg.  She is a different-colored counterpart of Balloon Boy with…",
+      "tag": "Merch",
+      "ai": false
+    },
+    {
+      "id": "3580246",
+      "title": "Freddy Fazbear's Pizza (FNaF2)",
+      "type": "edit",
+      "user": "Aaron526",
+      "comment": "",
+      "timestamp": "2026-11-03T23:11:14Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Freddy_Fazbear's_Pizza_(FNaF2)",
+      "summary": "Five Nights at Freddy's 2 is set in a separated \"improved\" version of Freddy Fazbear's Pizza, which is a larger establishment that existed before the events of the first game took place.  As mentioned in a newspaper after beating…",
+      "tag": "Location",
+      "ai": false
+    },
     {
       "id": "3580245",
       "title": "Blumhouse Productions, LLC",
@@ -91,66 +151,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_(Mobile)",
       "summary": "The mobile port for Five Nights at Freddy's was first released for Android on August 25, 2014 and iOS on September 11, 2014.  Both ports cost $2.",
       "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3580221",
-      "title": "Freddy Fazbear/Trivia",
-      "type": "edit",
-      "user": "Subaruxd1",
-      "comment": "/* General */",
-      "timestamp": "2026-11-03T15:32:10Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Freddy_Fazbear%2FTrivia",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3580220",
-      "title": "Five Nights at Freddy's/Credits",
-      "type": "edit",
-      "user": "Subaruxd1",
-      "comment": "/* Audio */",
-      "timestamp": "2026-11-03T15:27:01Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's%2FCredits",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3580219",
-      "title": "The Rat",
-      "type": "edit",
-      "user": "FredCat100",
-      "comment": "",
-      "timestamp": "2026-11-03T13:04:11Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/The_Rat",
-      "summary": "The Rat, also known as RAT, is the main antagonist of the Five Nights at Candy's series, acting as the main antagonist of Five Nights at Candy's and Five Nights at Candy's 2.",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580217",
-      "title": "Monster Rat",
-      "type": "edit",
-      "user": "FredCat100",
-      "comment": "",
-      "timestamp": "2026-11-03T13:02:21Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Monster_Rat",
-      "summary": "Monster Rat is the monstrous version of the Rat conjured in the nightmares of Mary Schmidt.  He is the main antagonist of Five Nights at Candy's 3.",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580215",
-      "title": "Monster Vinnie",
-      "type": "edit",
-      "user": "FredCat100",
-      "comment": "Yeah, no. He's final antagonist to appear. Not the guy caused the whole chaos through the series.",
-      "timestamp": "2026-11-03T13:01:32Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Monster_Vinnie",
-      "summary": "Monster Vinnie is a monster version of Vinnie and the final antagonist of Five Nights at Candy's 3.",
-      "tag": "Wiki",
       "ai": false
     }
   ]
