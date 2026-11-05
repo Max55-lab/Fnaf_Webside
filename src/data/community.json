@@ -1,14 +1,50 @@
 {
-  "generatedAt": "2026-11-05T05:14:44.922Z",
+  "generatedAt": "2026-11-05T14:01:54.634Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3078,
-    "edits": 3538861,
-    "activeUsers": 159,
+    "edits": 3538864,
+    "activeUsers": 161,
     "images": 46009
   },
   "items": [
+    {
+      "id": "3580395",
+      "title": "Ignited Freddy (TJoC: IC)",
+      "type": "edit",
+      "user": "Spongebobguy 2",
+      "comment": "",
+      "timestamp": "2026-11-05T08:35:24Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Ignited_Freddy_(TJoC%3A_IC)",
+      "summary": "This article refers an idea or a list of content that has been scrapped for various reasons.  They can be presented in the decompiled files, concept designs, or other non-interactive media.",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3580394",
+      "title": "Mr. Hippo/Audio",
+      "type": "edit",
+      "user": "HumorousMagpie451",
+      "comment": "/* Ultimate Custom Night */",
+      "timestamp": "2026-11-05T06:31:12Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Mr._Hippo%2FAudio",
+      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
+      "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3580393",
+      "title": "Pirate Captain",
+      "type": "edit",
+      "user": "Lilarod2209",
+      "comment": "/* Physical Appearance */",
+      "timestamp": "2026-11-05T05:18:53Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Pirate_Captain",
+      "summary": "Pirate Captain, also known as Captain Cobalt, is an animatronic in Murray's Costume Manor.  He first appears in Five Nights at Freddy's: Secret of the Mimic as an animatronic Arnold builds.",
+      "tag": "Game",
+      "ai": false
+    },
     {
       "id": "3580321",
       "title": "Keychains",
@@ -113,42 +149,6 @@
       "comment": "Redirected page to [[William Afton/History]]",
       "timestamp": "2026-11-04T19:01:59Z",
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Springtrap%2FHistory",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3580307",
-      "title": "William Afton/Gallery",
-      "type": "edit",
-      "user": "Amazing Train",
-      "comment": "",
-      "timestamp": "2026-11-04T18:55:47Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/William_Afton%2FGallery",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3580306",
-      "title": "Phantom Foxy/Gallery",
-      "type": "edit",
-      "user": "Amazing Train",
-      "comment": "",
-      "timestamp": "2026-11-04T18:55:25Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Phantom_Foxy%2FGallery",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3580305",
-      "title": "Phantom Chica/Gallery",
-      "type": "edit",
-      "user": "Amazing Train",
-      "comment": "/* Miscellaneous */",
-      "timestamp": "2026-11-04T18:54:54Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Phantom_Chica%2FGallery",
       "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
       "tag": "Character",
       "ai": false
