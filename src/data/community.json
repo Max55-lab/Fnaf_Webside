@@ -1,14 +1,110 @@
 {
-  "generatedAt": "2026-11-05T23:16:45.221Z",
+  "generatedAt": "2026-11-06T05:14:28.589Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3078,
-    "edits": 3538872,
+    "edits": 3538969,
     "activeUsers": 161,
-    "images": 46011
+    "images": 45955
   },
   "items": [
+    {
+      "id": "3580500",
+      "title": "Five Nights at Freddy's: Tales from the Pizzaplex 1: Lally's Game",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-11-06T02:45:00Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's%3A_Tales_from_the_Pizzaplex_1%3A_Lally's_Game",
+      "summary": "Five Nights at Freddy's: Tales from the Pizzaplex #1: Lally's Game, commonly shortened to just Tales from the Pizzaplex #1 or Lally's Game, is a horror anthology novel written by Scott Cawthon, Kelly Parra, and Andrea Waggener…",
+      "tag": "Book",
+      "ai": false
+    },
+    {
+      "id": "3580487",
+      "title": "S.T.A.F.F. Bots",
+      "type": "edit",
+      "user": "DeepestBlues",
+      "comment": "Did my best to update evidence",
+      "timestamp": "2026-11-06T01:53:13Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/S.T.A.F.F._Bots",
+      "summary": "The S. T.",
+      "tag": "Game",
+      "ai": false
+    },
+    {
+      "id": "3580484",
+      "title": "Five Nights at Freddy's: The Art and Making of the Movies",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-11-06T00:04:47Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's%3A_The_Art_and_Making_of_the_Movies",
+      "summary": "Beware that this page may contain spoilers for related material.  If you are new to anything, like if you have not played the games or read the books yet, please read at your own risk!",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3580482",
+      "title": "Five Nights at Freddy's: Tales from the Pizzaplex Graphic Novel Collection Vol. 4",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-11-06T00:00:40Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's%3A_Tales_from_the_Pizzaplex_Graphic_Novel_Collection_Vol._4",
+      "summary": "This article refers to an upcoming project in the Five Nights at Freddy's franchise.  NOTE: Anything that is added to the article without a reliable source may be removed without hesitation.",
+      "tag": "Book",
+      "ai": false
+    },
+    {
+      "id": "3580480",
+      "title": "Foxy the Pirate/Gallery",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "/* Merchandise */",
+      "timestamp": "2026-11-05T23:57:49Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Foxy_the_Pirate%2FGallery",
+      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3580479",
+      "title": "Chica the Chicken/Gallery",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "/* Merchandise */",
+      "timestamp": "2026-11-05T23:57:46Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Chica_the_Chicken%2FGallery",
+      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3580478",
+      "title": "Bonnie the Rabbit/Gallery",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "/* Merchandise */",
+      "timestamp": "2026-11-05T23:57:39Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Bonnie_the_Rabbit%2FGallery",
+      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3580477",
+      "title": "Freddy Fazbear/Gallery",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "/* Merchandise */",
+      "timestamp": "2026-11-05T23:57:31Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Freddy_Fazbear%2FGallery",
+      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
+      "tag": "Character",
+      "ai": false
+    },
     {
       "id": "3580403",
       "title": "Freddy Fazbear's Pizza (American Dream)",
@@ -55,102 +151,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Ignited_Freddy_(TJoC%3A_IC)",
       "summary": "This article refers an idea or a list of content that has been scrapped for various reasons.  They can be presented in the decompiled files, concept designs, or other non-interactive media.",
       "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3580394",
-      "title": "Mr. Hippo/Audio",
-      "type": "edit",
-      "user": "HumorousMagpie451",
-      "comment": "/* Ultimate Custom Night */",
-      "timestamp": "2026-11-05T06:31:12Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Mr._Hippo%2FAudio",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580393",
-      "title": "Pirate Captain",
-      "type": "edit",
-      "user": "Lilarod2209",
-      "comment": "/* Physical Appearance */",
-      "timestamp": "2026-11-05T05:18:53Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Pirate_Captain",
-      "summary": "Pirate Captain, also known as Captain Cobalt, is an animatronic in Murray's Costume Manor.  He first appears in Five Nights at Freddy's: Secret of the Mimic as an animatronic Arnold builds.",
-      "tag": "Game",
-      "ai": false
-    },
-    {
-      "id": "3580321",
-      "title": "Keychains",
-      "type": "edit",
-      "user": "Amazing Train",
-      "comment": "/* Figural */",
-      "timestamp": "2026-11-04T22:43:28Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Keychains",
-      "summary": "The Keychains are collectible miniature-sized toys that comes with keychains made by a variety of merchandise companies, such as Funko Inc. , Just Toys Intl.",
-      "tag": "Merch",
-      "ai": false
-    },
-    {
-      "id": "3580318",
-      "title": "Nightmare Freddy/Gallery",
-      "type": "edit",
-      "user": "Amazing Train",
-      "comment": "/* Merchandise */",
-      "timestamp": "2026-11-04T22:35:30Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Nightmare_Freddy%2FGallery",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3580316",
-      "title": "Living Room",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-04T19:23:17Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Living_Room",
-      "summary": "This article refers to content related to an upcoming or planned project.  NOTE: Anything that is added to the article without a reliable source may be deleted without warning.",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580314",
-      "title": "Scraptrap/Trivia",
-      "type": "new",
-      "user": "ViolettSmith",
-      "comment": "Redirected page to [[William Afton/Trivia]]",
-      "timestamp": "2026-11-04T19:03:55Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Scraptrap%2FTrivia",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580313",
-      "title": "Springtrap/Trivia",
-      "type": "new",
-      "user": "ViolettSmith",
-      "comment": "Redirected page to [[William Afton/Trivia]]",
-      "timestamp": "2026-11-04T19:03:41Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Springtrap%2FTrivia",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3580312",
-      "title": "Scraptrap/Gallery",
-      "type": "new",
-      "user": "ViolettSmith",
-      "comment": "Redirected page to [[William Afton/Gallery]]",
-      "timestamp": "2026-11-04T19:03:07Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Scraptrap%2FGallery",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Wiki",
       "ai": false
     }
   ]
