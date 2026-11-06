@@ -1,24 +1,48 @@
 {
-  "generatedAt": "2026-11-06T05:14:28.589Z",
+  "generatedAt": "2026-11-06T13:46:11.794Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3078,
-    "edits": 3538969,
-    "activeUsers": 161,
-    "images": 45955
+    "edits": 3538908,
+    "activeUsers": 157,
+    "images": 45959
   },
   "items": [
     {
-      "id": "3580500",
+      "id": "3580511",
       "title": "Five Nights at Freddy's: Tales from the Pizzaplex 1: Lally's Game",
       "type": "edit",
       "user": "ViolettSmith",
       "comment": "",
-      "timestamp": "2026-11-06T02:45:00Z",
+      "timestamp": "2026-11-06T06:18:58Z",
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's%3A_Tales_from_the_Pizzaplex_1%3A_Lally's_Game",
       "summary": "Five Nights at Freddy's: Tales from the Pizzaplex #1: Lally's Game, commonly shortened to just Tales from the Pizzaplex #1 or Lally's Game, is a horror anthology novel written by Scott Cawthon, Kelly Parra, and Andrea Waggener…",
       "tag": "Book",
+      "ai": false
+    },
+    {
+      "id": "3580510",
+      "title": "Five Nights at Freddy's 2",
+      "type": "edit",
+      "user": "Santademon",
+      "comment": "Undo revision [[Special:Diff/3545512|3545512]] by [[Special:Contributions/SpiritualHorse443|SpiritualHorse443]] ([[User talk:SpiritualHorse443|talk]])",
+      "timestamp": "2026-11-06T06:18:46Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_2",
+      "summary": "Five Nights at Freddy's 2, commonly abbreviated as FNaF 2, is an independent point-and-click sit-and-survive horror game developed and published by Scottgames, LLC, which released on November 10, 2014, for Windows, as the second…",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3580506",
+      "title": "Pumpkin Carving Contest (2026)",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-11-06T05:48:21Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Pumpkin_Carving_Contest_(2026)",
+      "summary": "The Pumpkin Carving Contest was the fifth pumpkin carving event held by Steel Wool Studios, announced on October 21, 2026 and celebrated the upcoming Meta Quest release of Five Nights at Freddy's: Secret of the Mimic.  The event…",
+      "tag": "Game",
       "ai": false
     },
     {
@@ -127,30 +151,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Fazbear_Entertainment",
       "summary": "This section archives a lot of theories and speculation, which usually occurs from pre-release media, or just things that are still unknown, so please keep that in mind while reading.  The page will continue to be updated with…",
       "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580400",
-      "title": "Withered Animatronics (Film)",
-      "type": "edit",
-      "user": "Santademon",
-      "comment": "",
-      "timestamp": "2026-11-05T18:46:53Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Withered_Animatronics_(Film)",
-      "summary": "Withered Bonnie, Withered Freddy, Withered Chica, and Withered Foxy in the Five Nights at Freddy's 2 theatrical poster.",
-      "tag": "Film",
-      "ai": false
-    },
-    {
-      "id": "3580395",
-      "title": "Ignited Freddy (TJoC: IC)",
-      "type": "edit",
-      "user": "Spongebobguy 2",
-      "comment": "",
-      "timestamp": "2026-11-05T08:35:24Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Ignited_Freddy_(TJoC%3A_IC)",
-      "summary": "This article refers an idea or a list of content that has been scrapped for various reasons.  They can be presented in the decompiled files, concept designs, or other non-interactive media.",
-      "tag": "Character",
       "ai": false
     }
   ]
