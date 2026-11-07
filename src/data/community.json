@@ -1,24 +1,60 @@
 {
-  "generatedAt": "2026-11-07T12:29:47.976Z",
+  "generatedAt": "2026-11-07T21:28:16.011Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3079,
-    "edits": 3538971,
+    "edits": 3538982,
     "activeUsers": 158,
     "images": 45968
   },
   "items": [
     {
-      "id": "3580587",
+      "id": "3580596",
+      "title": "Night 5 (FNaF1)",
+      "type": "edit",
+      "user": "Subaruxd1",
+      "comment": "/* Trivia */",
+      "timestamp": "2026-11-07T20:08:06Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Night_5_(FNaF1)",
+      "summary": "Night 5 is the fifth and final playable night of the main storyline of Five Nights at Freddy's.",
+      "tag": "Game",
+      "ai": false
+    },
+    {
+      "id": "3580595",
+      "title": "Five Nights at Freddy's: Sister Location",
+      "type": "edit",
+      "user": "Buzzek",
+      "comment": "Replaced May with April twice",
+      "timestamp": "2026-11-07T19:22:00Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's%3A_Sister_Location",
+      "summary": "December 22, 2016 (Android) January 3, 2017 (iOS) March 20, 2020 (Mobile) (RMST) June 18, 2020 (Nintendo Switch) July 9, 2020 (Xbox) July 22, 2020 (PlayStaion)",
+      "tag": "Location",
+      "ai": false
+    },
+    {
+      "id": "3580594",
       "title": "Gregory/Audio",
       "type": "edit",
       "user": "Lil Khalil 1021",
       "comment": "",
-      "timestamp": "2026-11-07T06:08:03Z",
+      "timestamp": "2026-11-07T16:41:02Z",
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Gregory%2FAudio",
       "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
       "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3580593",
+      "title": "Freddy Fazbear's Pizza (Novel Trilogy)",
+      "type": "edit",
+      "user": "Aaron526",
+      "comment": "",
+      "timestamp": "2026-11-07T16:01:33Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Freddy_Fazbear's_Pizza_(Novel_Trilogy)",
+      "summary": "Freddy Fazbear's Pizza is a restaurant that appears in Five Nights at Freddy's: The Silver Eyes.",
+      "tag": "Book",
       "ai": false
     },
     {
@@ -113,42 +149,6 @@
       "comment": "/* Miscellaneous */",
       "timestamp": "2026-11-07T03:20:32Z",
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's%3A_Into_the_Pit%2FGallery",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3580572",
-      "title": "Five Nights at Candy's (Series)",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "/* Future */",
-      "timestamp": "2026-11-07T01:51:57Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Candy's_(Series)",
-      "summary": "Five Nights at Candy's, commonly abbreviated to FNaC, is an officially-endorsed independent survival horror spin-off series created by Emil Macko that began on July 18, 2015 as a fan game series, and has since gained a large…",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3580568",
-      "title": "Rockstar Chica/Gallery",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-07T00:40:13Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Rockstar_Chica%2FGallery",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3580566",
-      "title": "Golden Freddy/Trivia",
-      "type": "edit",
-      "user": "Santademon",
-      "comment": "/* General */",
-      "timestamp": "2026-11-07T00:08:19Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Golden_Freddy%2FTrivia",
       "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
       "tag": "Character",
       "ai": false
