@@ -1,14 +1,26 @@
 {
-  "generatedAt": "2026-11-08T04:35:29.202Z",
+  "generatedAt": "2026-11-08T12:48:09.086Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3079,
-    "edits": 3539005,
-    "activeUsers": 158,
+    "edits": 3539010,
+    "activeUsers": 157,
     "images": 45979
   },
   "items": [
+    {
+      "id": "3580623",
+      "title": "Suicide Bot",
+      "type": "edit",
+      "user": "RexMohsFan",
+      "comment": "",
+      "timestamp": "2026-11-08T06:02:07Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Suicide_Bot",
+      "summary": "Suicide Bot has not been given an official name; as such, this name is purely conjectural.  However, it will be used until an official name is revealed.",
+      "tag": "Wiki",
+      "ai": false
+    },
     {
       "id": "3580621",
       "title": "YouTubers",
@@ -139,18 +151,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/POPGOES_Arcade%2FGallery",
       "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
       "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580583",
-      "title": "Toy Bonnie (Film)",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-07T03:28:16Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Toy_Bonnie_(Film)",
-      "summary": "Toy Bonnie, also known as Bonnie the Rabbit, is a Toy animatronic and a major antagonist in the 2025 film Five Nights at Freddy's 2.  He is the presumed second version of the Bonnie character and was the guitarist of Freddy…",
-      "tag": "Film",
       "ai": false
     }
   ]
