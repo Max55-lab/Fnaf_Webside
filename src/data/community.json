@@ -1,14 +1,74 @@
 {
-  "generatedAt": "2026-11-07T21:28:16.011Z",
+  "generatedAt": "2026-11-08T04:35:29.202Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3079,
-    "edits": 3538982,
+    "edits": 3539005,
     "activeUsers": 158,
-    "images": 45968
+    "images": 45979
   },
   "items": [
+    {
+      "id": "3580621",
+      "title": "YouTubers",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-11-08T01:32:58Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/YouTubers",
+      "summary": "The following list is of notable YouTubers that have worked in an official capacity with Scott Cawthon on the Five Nights at Freddy's franchise and/or have made special guest appearances in the games or films.",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3580620",
+      "title": "Five Nights at Freddy's: Tales from the Pizzaplex 2: HAPPS",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-11-08T01:31:17Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's%3A_Tales_from_the_Pizzaplex_2%3A_HAPPS",
+      "summary": "Five Nights at Freddy's: Tales from the Pizzaplex #2: HAPPS, commonly shortened to just Tales from the Pizzaplex #2 or HAPPS, is a horror anthology novel written by Scott Cawthon, Elley Cooper, and Andrea Waggener and published…",
+      "tag": "Book",
+      "ai": false
+    },
+    {
+      "id": "3580607",
+      "title": "Five Nights at Freddy's: Tales from the Pizzaplex 1: Lally's Game",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "Forgot to add the audiobook prices to the infobox.",
+      "timestamp": "2026-11-08T00:41:29Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's%3A_Tales_from_the_Pizzaplex_1%3A_Lally's_Game",
+      "summary": "Five Nights at Freddy's: Tales from the Pizzaplex #1: Lally's Game, commonly shortened to just Tales from the Pizzaplex #1 or Lally's Game, is a horror anthology novel written by Scott Cawthon, Kelly Parra, and Andrea Waggener…",
+      "tag": "Book",
+      "ai": false
+    },
+    {
+      "id": "3580601",
+      "title": "Sea Bonnies (Story)",
+      "type": "edit",
+      "user": "DeepestBlues",
+      "comment": "",
+      "timestamp": "2026-11-07T22:26:55Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Sea_Bonnies_(Story)",
+      "summary": "Sea Bonnies is the second story in Fazbear Frights 10: Friendly Face and chronologically the Fazbear Frights series' 29th story.  It’s also the second story in the fifth graphic novel collection and chronologically the graphic…",
+      "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3580600",
+      "title": "Pets (Fazbear Frights)",
+      "type": "edit",
+      "user": "DeepestBlues",
+      "comment": "In the story Fritz literally turns not into just one Sea Bonnie but a LOT of Sea Bonnies",
+      "timestamp": "2026-11-07T22:24:14Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Pets_(Fazbear_Frights)",
+      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
+      "tag": "Book",
+      "ai": false
+    },
     {
       "id": "3580596",
       "title": "Night 5 (FNaF1)",
@@ -91,66 +151,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Toy_Bonnie_(Film)",
       "summary": "Toy Bonnie, also known as Bonnie the Rabbit, is a Toy animatronic and a major antagonist in the 2025 film Five Nights at Freddy's 2.  He is the presumed second version of the Bonnie character and was the guitarist of Freddy…",
       "tag": "Film",
-      "ai": false
-    },
-    {
-      "id": "3580582",
-      "title": "MatPat",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-07T03:28:12Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/MatPat",
-      "summary": "Matthew Robert Patrick, known online as MatPat, (born November 15, 1986) is an American YouTuber, actor, and political advisor.  He's known for being the former host of the Game Theorists, Film Theorists, GTLive, Food Theorists…",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580579",
-      "title": "Blake the Badger",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-07T03:23:27Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Blake_the_Badger",
-      "summary": "Beware that this page may contain spoilers for related material.  If you are new to anything, like if you have not played the games or read the books yet, please read at your own risk!",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580578",
-      "title": "Saffron the Squirrel",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-07T03:23:25Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Saffron_the_Squirrel",
-      "summary": "This article refers to content related to an upcoming or planned project.  NOTE: Anything that is added to the article without a reliable source may be deleted without warning.",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580577",
-      "title": "Popgoes the Weasel/Gallery",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-07T03:23:24Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Popgoes_the_Weasel%2FGallery",
-      "summary": "Beware that this page may contain spoilers for related material.  If you are new to anything, like if you have not played the games or read the books yet, please read at your own risk!",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580575",
-      "title": "Five Nights at Freddy's: Into the Pit/Gallery",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "/* Miscellaneous */",
-      "timestamp": "2026-11-07T03:20:32Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's%3A_Into_the_Pit%2FGallery",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Character",
       "ai": false
     }
   ]
