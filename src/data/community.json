@@ -1,14 +1,110 @@
 {
-  "generatedAt": "2026-11-08T12:48:09.086Z",
+  "generatedAt": "2026-11-08T21:42:10.034Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3079,
-    "edits": 3539010,
+    "edits": 3539032,
     "activeUsers": 157,
-    "images": 45979
+    "images": 45986
   },
   "items": [
+    {
+      "id": "3580646",
+      "title": "Youtooz Collectibles",
+      "type": "edit",
+      "user": "Amazing Train",
+      "comment": "",
+      "timestamp": "2026-11-08T21:24:31Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Youtooz_Collectibles",
+      "summary": "Youtooz Collectibles are collectible figures, plushies, pins, and more based on the Five Nights at Freddy's characters by Youtooz Inc.  Each figure is around 4-5 inches tall.",
+      "tag": "Merch",
+      "ai": false
+    },
+    {
+      "id": "3580645",
+      "title": "Terminal",
+      "type": "edit",
+      "user": "Subaruxd1",
+      "comment": "",
+      "timestamp": "2026-11-08T21:18:57Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Terminal",
+      "summary": "The Terminal is a vital, monitor-like device in Freddy Fazbear's Pizzeria Simulator.",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3580643",
+      "title": "Toy Bonnie (Film)",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-11-08T17:19:26Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Toy_Bonnie_(Film)",
+      "summary": "Toy Bonnie, also known as Bonnie the Rabbit, is a Toy animatronic and a major antagonist in the 2025 film Five Nights at Freddy's 2.  He is the presumed second version of the Bonnie character and was the guitarist of Freddy…",
+      "tag": "Film",
+      "ai": false
+    },
+    {
+      "id": "3580642",
+      "title": "MatPat",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-11-08T17:19:15Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/MatPat",
+      "summary": "Matthew Robert Patrick, known online as MatPat, (born November 15, 1986) is an American YouTuber, actor, and political advisor.  He's known for being the former host of the Game Theorists, Film Theorists, GTLive, Food Theorists…",
+      "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3580634",
+      "title": "Timeline (Film Series)",
+      "type": "edit",
+      "user": "LovedCamel632",
+      "comment": "Fixed a single missing a word.",
+      "timestamp": "2026-11-08T15:57:42Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Timeline_(Film_Series)",
+      "summary": "This section archives a lot of theories and speculation, which usually occurs from pre-release media, or just things that are still unknown, so please keep that in mind while reading.  The page will continue to be updated with…",
+      "tag": "Film",
+      "ai": false
+    },
+    {
+      "id": "3580633",
+      "title": "Timeline (ONaF)",
+      "type": "edit",
+      "user": "LovedCamel632",
+      "comment": "Fixed a minor spelling mistake.",
+      "timestamp": "2026-11-08T15:56:14Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Timeline_(ONaF)",
+      "summary": "This section archives a lot of theories and speculation, which usually occurs from pre-release media, or just things that are still unknown, so please keep that in mind while reading.  The page will continue to be updated with…",
+      "tag": "Lore",
+      "ai": false
+    },
+    {
+      "id": "3580632",
+      "title": "Unused and Removed Content (FFPS)",
+      "type": "edit",
+      "user": "HYPERLINKBLOCK",
+      "comment": "/* Tape Buttons */",
+      "timestamp": "2026-11-08T15:00:38Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Unused_and_Removed_Content_(FFPS)",
+      "summary": "This article refers an idea or a list of content that has been scrapped for various reasons.  They can be presented in the decompiled files, concept designs, or other non-interactive media.",
+      "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3580631",
+      "title": "Charlotte Emily/Gallery",
+      "type": "edit",
+      "user": "Dangdo24",
+      "comment": "",
+      "timestamp": "2026-11-08T14:30:25Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Charlotte_Emily%2FGallery",
+      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
+      "tag": "Wiki",
+      "ai": false
+    },
     {
       "id": "3580623",
       "title": "Suicide Bot",
@@ -55,102 +151,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's%3A_Tales_from_the_Pizzaplex_1%3A_Lally's_Game",
       "summary": "Five Nights at Freddy's: Tales from the Pizzaplex #1: Lally's Game, commonly shortened to just Tales from the Pizzaplex #1 or Lally's Game, is a horror anthology novel written by Scott Cawthon, Kelly Parra, and Andrea Waggener…",
       "tag": "Book",
-      "ai": false
-    },
-    {
-      "id": "3580601",
-      "title": "Sea Bonnies (Story)",
-      "type": "edit",
-      "user": "DeepestBlues",
-      "comment": "",
-      "timestamp": "2026-11-07T22:26:55Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Sea_Bonnies_(Story)",
-      "summary": "Sea Bonnies is the second story in Fazbear Frights 10: Friendly Face and chronologically the Fazbear Frights series' 29th story.  It’s also the second story in the fifth graphic novel collection and chronologically the graphic…",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580600",
-      "title": "Pets (Fazbear Frights)",
-      "type": "edit",
-      "user": "DeepestBlues",
-      "comment": "In the story Fritz literally turns not into just one Sea Bonnie but a LOT of Sea Bonnies",
-      "timestamp": "2026-11-07T22:24:14Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Pets_(Fazbear_Frights)",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Book",
-      "ai": false
-    },
-    {
-      "id": "3580596",
-      "title": "Night 5 (FNaF1)",
-      "type": "edit",
-      "user": "Subaruxd1",
-      "comment": "/* Trivia */",
-      "timestamp": "2026-11-07T20:08:06Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Night_5_(FNaF1)",
-      "summary": "Night 5 is the fifth and final playable night of the main storyline of Five Nights at Freddy's.",
-      "tag": "Game",
-      "ai": false
-    },
-    {
-      "id": "3580595",
-      "title": "Five Nights at Freddy's: Sister Location",
-      "type": "edit",
-      "user": "Buzzek",
-      "comment": "Replaced May with April twice",
-      "timestamp": "2026-11-07T19:22:00Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's%3A_Sister_Location",
-      "summary": "December 22, 2016 (Android) January 3, 2017 (iOS) March 20, 2020 (Mobile) (RMST) June 18, 2020 (Nintendo Switch) July 9, 2020 (Xbox) July 22, 2020 (PlayStaion)",
-      "tag": "Location",
-      "ai": false
-    },
-    {
-      "id": "3580594",
-      "title": "Gregory/Audio",
-      "type": "edit",
-      "user": "Lil Khalil 1021",
-      "comment": "",
-      "timestamp": "2026-11-07T16:41:02Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Gregory%2FAudio",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580593",
-      "title": "Freddy Fazbear's Pizza (Novel Trilogy)",
-      "type": "edit",
-      "user": "Aaron526",
-      "comment": "",
-      "timestamp": "2026-11-07T16:01:33Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Freddy_Fazbear's_Pizza_(Novel_Trilogy)",
-      "summary": "Freddy Fazbear's Pizza is a restaurant that appears in Five Nights at Freddy's: The Silver Eyes.",
-      "tag": "Book",
-      "ai": false
-    },
-    {
-      "id": "3580586",
-      "title": "Roxanne Wolf",
-      "type": "edit",
-      "user": "StarboundHound",
-      "comment": "",
-      "timestamp": "2026-11-07T04:41:55Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Roxanne_Wolf",
-      "summary": "Roxanne Wolf, also known as Roxy, is a glamrock animatronic who appears in Five Nights at Freddy's: Security Breach as a major antagonist and the RUIN DLC as a deuteragonist.  She is the self-centered keytar player of the…",
-      "tag": "Game",
-      "ai": false
-    },
-    {
-      "id": "3580585",
-      "title": "POPGOES Arcade/Gallery",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-07T03:31:06Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/POPGOES_Arcade%2FGallery",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Wiki",
       "ai": false
     }
   ]
