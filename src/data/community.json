@@ -1,14 +1,62 @@
 {
-  "generatedAt": "2026-11-08T21:42:10.034Z",
+  "generatedAt": "2026-11-09T04:46:38.475Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3079,
-    "edits": 3539032,
+    "edits": 3539052,
     "activeUsers": 157,
-    "images": 45986
+    "images": 45995
   },
   "items": [
+    {
+      "id": "3580663",
+      "title": "Five Nights at Freddy's: Tales from the Pizzaplex 3: Somniphobia",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-11-09T03:21:29Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's%3A_Tales_from_the_Pizzaplex_3%3A_Somniphobia",
+      "summary": "Five Nights at Freddy's: Tales from the Pizzaplex #3: Somniphobia, commonly shortened to just Tales from the Pizzaplex #3 or Somniphobia, is a horror anthology novel written by Scott Cawthon, Kelly Parra, and Andrea Waggener and…",
+      "tag": "Book",
+      "ai": false
+    },
+    {
+      "id": "3580653",
+      "title": "THE JOY OF CREATION",
+      "type": "edit",
+      "user": "ThriftyHorse003",
+      "comment": "/* Development */",
+      "timestamp": "2026-11-09T02:55:03Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/THE_JOY_OF_CREATION",
+      "summary": "This article refers to an upcoming project in the Five Nights at Freddy's franchise.  NOTE: Anything that is added to the article without a reliable source may be removed without hesitation.",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3580650",
+      "title": "Five Nights at Freddy's: Tales from the Pizzaplex 2: HAPPS",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-11-09T02:10:12Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's%3A_Tales_from_the_Pizzaplex_2%3A_HAPPS",
+      "summary": "Five Nights at Freddy's: Tales from the Pizzaplex #2: HAPPS, commonly shortened to just Tales from the Pizzaplex #2 or HAPPS, is a horror anthology novel written by Scott Cawthon, Elley Cooper, and Andrea Waggener and published…",
+      "tag": "Book",
+      "ai": false
+    },
+    {
+      "id": "3580648",
+      "title": "Nightmare Bonnie",
+      "type": "edit",
+      "user": "AYoshiAppeared",
+      "comment": "",
+      "timestamp": "2026-11-08T22:05:02Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Nightmare_Bonnie",
+      "summary": "Nightmare Bonnie is a major antagonist and one of the nightmare animatronics of the Five Nights at Freddy's series, first appearing in Five Nights at Freddy's 4.  He is a nightmarish variant of Bonnie the Rabbit.",
+      "tag": "Character",
+      "ai": false
+    },
     {
       "id": "3580646",
       "title": "Youtooz Collectibles",
@@ -103,54 +151,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Charlotte_Emily%2FGallery",
       "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
       "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580623",
-      "title": "Suicide Bot",
-      "type": "edit",
-      "user": "RexMohsFan",
-      "comment": "",
-      "timestamp": "2026-11-08T06:02:07Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Suicide_Bot",
-      "summary": "Suicide Bot has not been given an official name; as such, this name is purely conjectural.  However, it will be used until an official name is revealed.",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580621",
-      "title": "YouTubers",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-08T01:32:58Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/YouTubers",
-      "summary": "The following list is of notable YouTubers that have worked in an official capacity with Scott Cawthon on the Five Nights at Freddy's franchise and/or have made special guest appearances in the games or films.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3580620",
-      "title": "Five Nights at Freddy's: Tales from the Pizzaplex 2: HAPPS",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-08T01:31:17Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's%3A_Tales_from_the_Pizzaplex_2%3A_HAPPS",
-      "summary": "Five Nights at Freddy's: Tales from the Pizzaplex #2: HAPPS, commonly shortened to just Tales from the Pizzaplex #2 or HAPPS, is a horror anthology novel written by Scott Cawthon, Elley Cooper, and Andrea Waggener and published…",
-      "tag": "Book",
-      "ai": false
-    },
-    {
-      "id": "3580607",
-      "title": "Five Nights at Freddy's: Tales from the Pizzaplex 1: Lally's Game",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "Forgot to add the audiobook prices to the infobox.",
-      "timestamp": "2026-11-08T00:41:29Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's%3A_Tales_from_the_Pizzaplex_1%3A_Lally's_Game",
-      "summary": "Five Nights at Freddy's: Tales from the Pizzaplex #1: Lally's Game, commonly shortened to just Tales from the Pizzaplex #1 or Lally's Game, is a horror anthology novel written by Scott Cawthon, Kelly Parra, and Andrea Waggener…",
-      "tag": "Book",
       "ai": false
     }
   ]
