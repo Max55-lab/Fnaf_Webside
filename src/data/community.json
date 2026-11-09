@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T04:46:38.475Z",
+  "generatedAt": "2026-11-09T15:15:33.836Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
@@ -10,6 +10,18 @@
   },
   "items": [
     {
+      "id": "3580667",
+      "title": "THE JOY OF CREATION",
+      "type": "edit",
+      "user": "Hackerp000",
+      "comment": "",
+      "timestamp": "2026-11-09T05:19:02Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/THE_JOY_OF_CREATION",
+      "summary": "This article refers to an upcoming project in the Five Nights at Freddy's franchise.  NOTE: Anything that is added to the article without a reliable source may be removed without hesitation.",
+      "tag": "Character",
+      "ai": false
+    },
+    {
       "id": "3580663",
       "title": "Five Nights at Freddy's: Tales from the Pizzaplex 3: Somniphobia",
       "type": "edit",
@@ -19,18 +31,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's%3A_Tales_from_the_Pizzaplex_3%3A_Somniphobia",
       "summary": "Five Nights at Freddy's: Tales from the Pizzaplex #3: Somniphobia, commonly shortened to just Tales from the Pizzaplex #3 or Somniphobia, is a horror anthology novel written by Scott Cawthon, Kelly Parra, and Andrea Waggener and…",
       "tag": "Book",
-      "ai": false
-    },
-    {
-      "id": "3580653",
-      "title": "THE JOY OF CREATION",
-      "type": "edit",
-      "user": "ThriftyHorse003",
-      "comment": "/* Development */",
-      "timestamp": "2026-11-09T02:55:03Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/THE_JOY_OF_CREATION",
-      "summary": "This article refers to an upcoming project in the Five Nights at Freddy's franchise.  NOTE: Anything that is added to the article without a reliable source may be removed without hesitation.",
-      "tag": "Character",
       "ai": false
     },
     {
