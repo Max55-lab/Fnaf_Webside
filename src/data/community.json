@@ -1,14 +1,26 @@
 {
-  "generatedAt": "2026-11-10T01:12:33.820Z",
+  "generatedAt": "2026-11-10T14:23:15.350Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3079,
-    "edits": 3539076,
+    "edits": 3539089,
     "activeUsers": 157,
-    "images": 45996
+    "images": 45997
   },
   "items": [
+    {
+      "id": "3580704",
+      "title": "Freddy Fazbear/Gallery",
+      "type": "edit",
+      "user": "Dangdo24",
+      "comment": "/* Merchandise */",
+      "timestamp": "2026-11-10T03:01:49Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Freddy_Fazbear%2FGallery",
+      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
+      "tag": "Character",
+      "ai": false
+    },
     {
       "id": "3580698",
       "title": "Ronaldo Barata",
@@ -139,18 +151,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Terminal",
       "summary": "The Terminal is a vital, monitor-like device in Freddy Fazbear's Pizzeria Simulator.",
       "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3580643",
-      "title": "Toy Bonnie (Film)",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-08T17:19:26Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Toy_Bonnie_(Film)",
-      "summary": "Toy Bonnie, also known as Bonnie the Rabbit, is a Toy animatronic and a major antagonist in the 2025 film Five Nights at Freddy's 2.  He is the presumed second version of the Bonnie character and was the guitarist of Freddy…",
-      "tag": "Film",
       "ai": false
     }
   ]
