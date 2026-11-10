@@ -1,14 +1,86 @@
 {
-  "generatedAt": "2026-11-10T14:23:15.350Z",
+  "generatedAt": "2026-11-10T22:51:54.549Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3079,
-    "edits": 3539089,
+    "edits": 3539107,
     "activeUsers": 157,
-    "images": 45997
+    "images": 46000
   },
   "items": [
+    {
+      "id": "3580721",
+      "title": "Coryn MacPherson",
+      "type": "edit",
+      "user": "BrainyMarten934",
+      "comment": "/* Gallery */",
+      "timestamp": "2026-11-10T20:49:35Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Coryn_MacPherson",
+      "summary": "Coryn MacPherson is an official graphic novel artist hired by Scott Cawthon to work as an illustrator for the Five Nights at Freddy's franchise.",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3580714",
+      "title": "Yenndo",
+      "type": "edit",
+      "user": "Erwann World",
+      "comment": "This bit of information is merch based btw",
+      "timestamp": "2026-11-10T19:57:45Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Yenndo",
+      "summary": "Yenndo is a Funtime endoskeleton and a minor antagonist from Five Nights at Freddy's: Sister Location.  Despite his small role in the main game, he also appears in Sister Location's Custom Night and as well as in Help Wanted 2 as…",
+      "tag": "Game",
+      "ai": false
+    },
+    {
+      "id": "3580713",
+      "title": "Anniversaries",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-11-10T18:07:11Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Anniversaries",
+      "summary": "This is a list of official anniversaries celebrated for special events, like announcements for the upcoming game, the future of the franchise, behind-the-scenes, etc.  The official anniversary date is August 8th, the same date on…",
+      "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3580712",
+      "title": "Scottgames, LLC",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-11-10T18:05:33Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Scottgames%2C_LLC",
+      "summary": "Scottgames, LLC, often stylized as ScottGames and Scott Games, is an American video game development, publishing, and licensing company that was founded on June 30, 2015 by Scott Cawthon.  Despite the name being used as early as…",
+      "tag": "Game",
+      "ai": false
+    },
+    {
+      "id": "3580711",
+      "title": "Bonnie the Rabbit/Gallery",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-11-10T18:04:53Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Bonnie_the_Rabbit%2FGallery",
+      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3580709",
+      "title": "Endings",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "Undo revision [[Special:Diff/3545698|3545698]] by [[Special:Contributions/Breadbear83|Breadbear83]] ([[User talk:Breadbear83|talk]])",
+      "timestamp": "2026-11-10T17:58:39Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Endings",
+      "summary": "Beware that this page may contain spoilers for related material.  If you are new to anything, like if you have not played the games or read the books yet, please read at your own risk!",
+      "tag": "Wiki",
+      "ai": false
+    },
     {
       "id": "3580704",
       "title": "Freddy Fazbear/Gallery",
@@ -79,78 +151,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Rat_%26_Cat_Theater",
       "summary": "The Rat & Cat Theater is a fictional theater in the Five Nights at Candy's series that opened on January 2, 1961.",
       "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580667",
-      "title": "THE JOY OF CREATION",
-      "type": "edit",
-      "user": "Hackerp000",
-      "comment": "",
-      "timestamp": "2026-11-09T05:19:02Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/THE_JOY_OF_CREATION",
-      "summary": "This article refers to an upcoming project in the Five Nights at Freddy's franchise.  NOTE: Anything that is added to the article without a reliable source may be removed without hesitation.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3580663",
-      "title": "Five Nights at Freddy's: Tales from the Pizzaplex 3: Somniphobia",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-09T03:21:29Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's%3A_Tales_from_the_Pizzaplex_3%3A_Somniphobia",
-      "summary": "Five Nights at Freddy's: Tales from the Pizzaplex #3: Somniphobia, commonly shortened to just Tales from the Pizzaplex #3 or Somniphobia, is a horror anthology novel written by Scott Cawthon, Kelly Parra, and Andrea Waggener and…",
-      "tag": "Book",
-      "ai": false
-    },
-    {
-      "id": "3580650",
-      "title": "Five Nights at Freddy's: Tales from the Pizzaplex 2: HAPPS",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-09T02:10:12Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's%3A_Tales_from_the_Pizzaplex_2%3A_HAPPS",
-      "summary": "Five Nights at Freddy's: Tales from the Pizzaplex #2: HAPPS, commonly shortened to just Tales from the Pizzaplex #2 or HAPPS, is a horror anthology novel written by Scott Cawthon, Elley Cooper, and Andrea Waggener and published…",
-      "tag": "Book",
-      "ai": false
-    },
-    {
-      "id": "3580648",
-      "title": "Nightmare Bonnie",
-      "type": "edit",
-      "user": "AYoshiAppeared",
-      "comment": "",
-      "timestamp": "2026-11-08T22:05:02Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Nightmare_Bonnie",
-      "summary": "Nightmare Bonnie is a major antagonist and one of the nightmare animatronics of the Five Nights at Freddy's series, first appearing in Five Nights at Freddy's 4.  He is a nightmarish variant of Bonnie the Rabbit.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3580646",
-      "title": "Youtooz Collectibles",
-      "type": "edit",
-      "user": "Amazing Train",
-      "comment": "",
-      "timestamp": "2026-11-08T21:24:31Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Youtooz_Collectibles",
-      "summary": "Youtooz Collectibles are collectible figures, plushies, pins, and more based on the Five Nights at Freddy's characters by Youtooz Inc.  Each figure is around 4-5 inches tall.",
-      "tag": "Merch",
-      "ai": false
-    },
-    {
-      "id": "3580645",
-      "title": "Terminal",
-      "type": "edit",
-      "user": "Subaruxd1",
-      "comment": "",
-      "timestamp": "2026-11-08T21:18:57Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Terminal",
-      "summary": "The Terminal is a vital, monitor-like device in Freddy Fazbear's Pizzeria Simulator.",
-      "tag": "Character",
       "ai": false
     }
   ]
