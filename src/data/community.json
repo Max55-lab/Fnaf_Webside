@@ -1,14 +1,74 @@
 {
-  "generatedAt": "2026-11-12T14:39:48.556Z",
+  "generatedAt": "2026-11-12T23:14:16.412Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3079,
-    "edits": 3539158,
+    "edits": 3539171,
     "activeUsers": 157,
     "images": 46006
   },
   "items": [
+    {
+      "id": "3580786",
+      "title": "Mr. Helpful",
+      "type": "edit",
+      "user": "Ricky1238",
+      "comment": "",
+      "timestamp": "2026-11-12T20:52:12Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Mr._Helpful",
+      "summary": "Mr.  Helpful is a Kiosk animatronic in Murray's Costume Manor that tells employees memos and helpful information.",
+      "tag": "Game",
+      "ai": false
+    },
+    {
+      "id": "3580785",
+      "title": "Mrs. Helpful",
+      "type": "edit",
+      "user": "Ricky1238",
+      "comment": "",
+      "timestamp": "2026-11-12T20:51:54Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Mrs._Helpful",
+      "summary": "Mrs.  Helpful is a Kiosk animatronic in Murray's Costume Manor that tells employees memos and helpful information.",
+      "tag": "Game",
+      "ai": false
+    },
+    {
+      "id": "3580779",
+      "title": "CLOAK x Five Nights at Freddy's",
+      "type": "edit",
+      "user": "Hackerp000",
+      "comment": "",
+      "timestamp": "2026-11-12T17:17:19Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/CLOAK_x_Five_Nights_at_Freddy's",
+      "summary": "CLOAK x Five Nights at Freddy's is a clothing line based on the Five Nights at Freddy's franchise made by CLOAK, a apparel brand founded by Mark \"Markiplier\" Fischbach and Seán \"Jacksepticeye\" McLoughlin along with co-founder Ben…",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3580778",
+      "title": "Security Breach Pumpkin Madness Contest",
+      "type": "edit",
+      "user": "Hackerp000",
+      "comment": "",
+      "timestamp": "2026-11-12T17:10:41Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Security_Breach_Pumpkin_Madness_Contest",
+      "summary": "The Security Breach Pumpkin Madness contest was the first pumpkin carving event held by Steel Wool Studios from October 15, 2021, to October 31, 2021, promoting Five Nights at Freddy's: Security Breach.",
+      "tag": "Game",
+      "ai": false
+    },
+    {
+      "id": "3580777",
+      "title": "Five Nights at Freddy's Interactive Novel 3: Escape the Pizzaplex",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "Undo revision [[Special:Diff/3545769|3545769]] by [[Special:Contributions/NonUseable|NonUseable]] ([[User talk:NonUseable|talk]])",
+      "timestamp": "2026-11-12T17:02:45Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_Interactive_Novel_3%3A_Escape_the_Pizzaplex",
+      "summary": "Five Nights at Freddy's Interactive Novel #3: Escape the Pizzaplex is the fourth and final entry in the Interactive Novel series.  The book was written by Scott Cawthon and Lyndsay Ely and published and distributed by Scholastic…",
+      "tag": "Book",
+      "ai": false
+    },
     {
       "id": "3580773",
       "title": "The Office/Gallery",
@@ -19,18 +79,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/The_Office%2FGallery",
       "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
       "tag": "Location",
-      "ai": false
-    },
-    {
-      "id": "3580771",
-      "title": "Security Breach Pumpkin Madness Contest",
-      "type": "edit",
-      "user": "PreciseSquirrel284",
-      "comment": "I changed the description under one of the pumpkin photos because it was wrong and the name of who made it because it was wrong. I know this because I am the one who painted the pumpkin and even have it sitting on my porch. My name is Sidney not Didney-",
-      "timestamp": "2026-11-12T08:16:47Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Security_Breach_Pumpkin_Madness_Contest",
-      "summary": "The Security Breach Pumpkin Madness contest was the first pumpkin carving event held by Steel Wool Studios from October 15, 2021, to October 31, 2021, promoting Five Nights at Freddy's: Security Breach.",
-      "tag": "Game",
       "ai": false
     },
     {
@@ -103,54 +151,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Michael_Schmidt_(Film)",
       "summary": "Michael \"Mike\" Schmidt is the main protagonist of the Five Nights at Freddy's film series.  He is a poor man who decides to take the job as night-shift security guard for the abandoned Freddy Fazbear's Pizza Place.",
       "tag": "Film",
-      "ai": false
-    },
-    {
-      "id": "3580737",
-      "title": "Helpi",
-      "type": "edit",
-      "user": "Aaron526",
-      "comment": "",
-      "timestamp": "2026-11-11T03:54:25Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Helpi",
-      "summary": "Helpi is a recurring character that appears in the RUIN DLC for Five Nights at Freddy's: Security Breach.  He acts as an assistant towards Cassie after first getting the Security Mask.",
-      "tag": "Game",
-      "ai": false
-    },
-    {
-      "id": "3580734",
-      "title": "Timeline (Novel Trilogy)",
-      "type": "edit",
-      "user": "UnderScore83",
-      "comment": "Sentence read \"Marla comes to visit once Charlotte once.\", accidentally inserting 2 instances of \"once\". Removing the first \"once\" that appears to be a mistake in the sentence.",
-      "timestamp": "2026-11-11T00:58:31Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Timeline_(Novel_Trilogy)",
-      "summary": "This section archives a lot of theories and speculation, which usually occurs from pre-release media, or just things that are still unknown, so please keep that in mind while reading.  The page will continue to be updated with…",
-      "tag": "Book",
-      "ai": false
-    },
-    {
-      "id": "3580733",
-      "title": "Michael Afton (Film)",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-11T00:55:49Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Michael_Afton_(Film)",
-      "summary": "Michael Afton is the secondary antagonist of the 2025 film Five Nights at Freddy's 2.  He acts as a chief security officer of the original Freddy Fazbear's Pizza and plans to continue his father's legacy, helping Charlotte…",
-      "tag": "Film",
-      "ai": false
-    },
-    {
-      "id": "3580732",
-      "title": "Freddy Fazbear's Pizza",
-      "type": "edit",
-      "user": "Applette 20395",
-      "comment": "",
-      "timestamp": "2026-11-11T00:49:11Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Freddy_Fazbear's_Pizza",
-      "summary": "Freddy Fazbear's Pizza is the name of the entertainment restaurant chain that appears in the Five Nights at Freddy's franchise.",
-      "tag": "Location",
       "ai": false
     }
   ]
