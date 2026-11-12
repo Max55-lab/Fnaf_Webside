@@ -1,14 +1,74 @@
 {
-  "generatedAt": "2026-11-12T00:04:40.182Z",
+  "generatedAt": "2026-11-12T14:39:48.556Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3079,
-    "edits": 3539137,
-    "activeUsers": 162,
-    "images": 46004
+    "edits": 3539158,
+    "activeUsers": 157,
+    "images": 46006
   },
   "items": [
+    {
+      "id": "3580773",
+      "title": "The Office/Gallery",
+      "type": "edit",
+      "user": "LogisticalFan247",
+      "comment": "/* Gameplay */",
+      "timestamp": "2026-11-12T14:39:29Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/The_Office%2FGallery",
+      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
+      "tag": "Location",
+      "ai": false
+    },
+    {
+      "id": "3580771",
+      "title": "Security Breach Pumpkin Madness Contest",
+      "type": "edit",
+      "user": "PreciseSquirrel284",
+      "comment": "I changed the description under one of the pumpkin photos because it was wrong and the name of who made it because it was wrong. I know this because I am the one who painted the pumpkin and even have it sitting on my porch. My name is Sidney not Didney-",
+      "timestamp": "2026-11-12T08:16:47Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Security_Breach_Pumpkin_Madness_Contest",
+      "summary": "The Security Breach Pumpkin Madness contest was the first pumpkin carving event held by Steel Wool Studios from October 15, 2021, to October 31, 2021, promoting Five Nights at Freddy's: Security Breach.",
+      "tag": "Game",
+      "ai": false
+    },
+    {
+      "id": "3580768",
+      "title": "Glitchtrap/Gallery",
+      "type": "edit",
+      "user": "Dangdo24",
+      "comment": "/* Plushies */",
+      "timestamp": "2026-11-12T02:44:48Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Glitchtrap%2FGallery",
+      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
+      "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3580765",
+      "title": "Glamrock Bonnie",
+      "type": "edit",
+      "user": "Dangdo24",
+      "comment": "",
+      "timestamp": "2026-11-12T02:34:43Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Glamrock_Bonnie",
+      "summary": "Glamrock Bonnie, also known as just Bonnie, was a glamrock counterpart of Bonnie who was mentioned in Five Nights at Freddy's: Security Breach and made an official appearance in the RUIN DLC.",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3580763",
+      "title": "Jumpscares (FNaF1)",
+      "type": "edit",
+      "user": "Santademon",
+      "comment": "Reverted edits by [[Special:Contributions/UnboundHare107|UnboundHare107]] ([[User talk:UnboundHare107|talk]]) to last revision by [[User:Amazing Train|Amazing Train]]",
+      "timestamp": "2026-11-12T00:32:17Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Jumpscares_(FNaF1)",
+      "summary": "The original Five Nights at Freddy's Steam screenshot of Bonnie jumpscaring the player.",
+      "tag": "Game",
+      "ai": false
+    },
     {
       "id": "3580755",
       "title": "Action Figures",
@@ -19,30 +79,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Action_Figures",
       "summary": "A list of Five Nights at Freddy's character Action Figures released from 2016-2025 by primarily Funko Inc.  and Jazwares, LLC.",
       "tag": "Merch",
-      "ai": false
-    },
-    {
-      "id": "3580754",
-      "title": "Glitchtrap/Gallery",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-11T20:13:05Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Glitchtrap%2FGallery",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580753",
-      "title": "Glamrock Bonnie",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-11T20:13:03Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Glamrock_Bonnie",
-      "summary": "Glamrock Bonnie, also known as just Bonnie, was a glamrock counterpart of Bonnie who was mentioned in Five Nights at Freddy's: Security Breach and made an official appearance in the RUIN DLC.",
-      "tag": "Character",
       "ai": false
     },
     {
@@ -115,42 +151,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Freddy_Fazbear's_Pizza",
       "summary": "Freddy Fazbear's Pizza is the name of the entertainment restaurant chain that appears in the Five Nights at Freddy's franchise.",
       "tag": "Location",
-      "ai": false
-    },
-    {
-      "id": "3580730",
-      "title": "Flumpty Bumpty",
-      "type": "edit",
-      "user": "Polar bear boy11",
-      "comment": "",
-      "timestamp": "2026-11-11T00:25:34Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Flumpty_Bumpty",
-      "summary": "Flumpty Bumpty is the titular main antagonist of the One Night at Flumpty's trilogy.",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580729",
-      "title": "Golden Flumpty",
-      "type": "edit",
-      "user": "Polar bear boy11",
-      "comment": "added logic code",
-      "timestamp": "2026-11-11T00:24:03Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Golden_Flumpty",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580728",
-      "title": "The Redman",
-      "type": "edit",
-      "user": "Polar bear boy11",
-      "comment": "",
-      "timestamp": "2026-11-11T00:20:04Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/The_Redman",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Wiki",
       "ai": false
     }
   ]
