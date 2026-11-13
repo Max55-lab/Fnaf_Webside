@@ -1,14 +1,38 @@
 {
-  "generatedAt": "2026-11-13T13:57:37.128Z",
+  "generatedAt": "2026-11-13T23:15:58.498Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3079,
-    "edits": 3539177,
+    "edits": 3539186,
     "activeUsers": 157,
-    "images": 46006
+    "images": 46007
   },
   "items": [
+    {
+      "id": "3580804",
+      "title": "The Puppet/Gallery",
+      "type": "edit",
+      "user": "Amazing Train",
+      "comment": "",
+      "timestamp": "2026-11-13T20:07:56Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/The_Puppet%2FGallery",
+      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3580799",
+      "title": "Fortnite x Five Nights at Freddy's",
+      "type": "edit",
+      "user": "MTOnline",
+      "comment": "Where We Droppin Pistol is Zero Build only",
+      "timestamp": "2026-11-13T15:17:14Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Fortnite_x_Five_Nights_at_Freddy's",
+      "summary": "This article focuses on content from an official video game crossover with Fortnite.  To learn more about the game, go to the Fortnite Wiki.",
+      "tag": "Character",
+      "ai": false
+    },
     {
       "id": "3580797",
       "title": "Five Nights at Freddy's: Ticket to Fun Ephemera Kit",
@@ -127,30 +151,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Glitchtrap%2FGallery",
       "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
       "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580765",
-      "title": "Glamrock Bonnie",
-      "type": "edit",
-      "user": "Dangdo24",
-      "comment": "",
-      "timestamp": "2026-11-12T02:34:43Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Glamrock_Bonnie",
-      "summary": "Glamrock Bonnie, also known as just Bonnie, was a glamrock counterpart of Bonnie who was mentioned in Five Nights at Freddy's: Security Breach and made an official appearance in the RUIN DLC.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3580763",
-      "title": "Jumpscares (FNaF1)",
-      "type": "edit",
-      "user": "Santademon",
-      "comment": "Reverted edits by [[Special:Contributions/UnboundHare107|UnboundHare107]] ([[User talk:UnboundHare107|talk]]) to last revision by [[User:Amazing Train|Amazing Train]]",
-      "timestamp": "2026-11-12T00:32:17Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Jumpscares_(FNaF1)",
-      "summary": "The original Five Nights at Freddy's Steam screenshot of Bonnie jumpscaring the player.",
-      "tag": "Game",
       "ai": false
     }
   ]
