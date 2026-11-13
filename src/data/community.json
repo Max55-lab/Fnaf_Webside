@@ -1,14 +1,50 @@
 {
-  "generatedAt": "2026-11-12T23:14:16.412Z",
+  "generatedAt": "2026-11-13T05:12:05.293Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3079,
-    "edits": 3539171,
+    "edits": 3539180,
     "activeUsers": 157,
     "images": 46006
   },
   "items": [
+    {
+      "id": "3580797",
+      "title": "Five Nights at Freddy's: Ticket to Fun Ephemera Kit",
+      "type": "edit",
+      "user": "Charles1337",
+      "comment": "Minor spelling mistake",
+      "timestamp": "2026-11-13T04:33:21Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's%3A_Ticket_to_Fun_Ephemera_Kit",
+      "summary": "Beware that this page may contain spoilers for related material.  If you are new to anything, like if you have not played the games or read the books yet, please read at your own risk!",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3580795",
+      "title": "Emese Szigetvári",
+      "type": "edit",
+      "user": "Dangdo24",
+      "comment": "",
+      "timestamp": "2026-11-13T03:54:01Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Emese_Szigetv%C3%A1ri",
+      "summary": "Emese Szigetvári, known as LadyFiszi online, was an official artist who was hired by Scott Cawthon to collaborate for the Five Nights at Freddy's franchise.  She is known for making character art for the novel trilogy, and also…",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3580791",
+      "title": "Ballora",
+      "type": "edit",
+      "user": "Ptaplayerthatlovesroblox",
+      "comment": "",
+      "timestamp": "2026-11-12T23:49:28Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Ballora",
+      "summary": "Ballora is a ballerina dancer Funtime animatronic and major antagonist who first appeared in Five Nights at Freddy's: Sister Location, where she entertains at her own gallery room from the west of Circus Baby's Entertainment and…",
+      "tag": "Character",
+      "ai": false
+    },
     {
       "id": "3580786",
       "title": "Mr. Helpful",
@@ -115,42 +151,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Jumpscares_(FNaF1)",
       "summary": "The original Five Nights at Freddy's Steam screenshot of Bonnie jumpscaring the player.",
       "tag": "Game",
-      "ai": false
-    },
-    {
-      "id": "3580755",
-      "title": "Action Figures",
-      "type": "edit",
-      "user": "Amazing Train",
-      "comment": "",
-      "timestamp": "2026-11-11T20:17:54Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Action_Figures",
-      "summary": "A list of Five Nights at Freddy's character Action Figures released from 2016-2025 by primarily Funko Inc.  and Jazwares, LLC.",
-      "tag": "Merch",
-      "ai": false
-    },
-    {
-      "id": "3580751",
-      "title": "Hardmode Animatronics",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-11T20:08:22Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Hardmode_Animatronics",
-      "summary": "The hardmode animatronics are recolored animatronic counterparts who appeared in Five Nights at Freddy's: Help Wanted, exclusive to blacklight modes.",
-      "tag": "Game",
-      "ai": false
-    },
-    {
-      "id": "3580739",
-      "title": "Michael Schmidt (Film)",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "Undo revision [[Special:Diff/3545732|3545732]] by [[Special:Contributions/SethxBerdlyshipper|SethxBerdlyshipper]] ([[User talk:SethxBerdlyshipper|talk]])",
-      "timestamp": "2026-11-11T04:47:12Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Michael_Schmidt_(Film)",
-      "summary": "Michael \"Mike\" Schmidt is the main protagonist of the Five Nights at Freddy's film series.  He is a poor man who decides to take the job as night-shift security guard for the abandoned Freddy Fazbear's Pizza Place.",
-      "tag": "Film",
       "ai": false
     }
   ]
