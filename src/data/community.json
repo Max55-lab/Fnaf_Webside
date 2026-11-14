@@ -1,14 +1,26 @@
 {
-  "generatedAt": "2026-11-13T23:15:58.498Z",
+  "generatedAt": "2026-11-14T05:01:35.512Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3079,
-    "edits": 3539186,
+    "edits": 3539188,
     "activeUsers": 157,
     "images": 46007
   },
   "items": [
+    {
+      "id": "3580808",
+      "title": "FNaF World: Update 2",
+      "type": "edit",
+      "user": "StableDog188",
+      "comment": "In the Gameplay section it said \"holds new three new enemies: Jangle, P. Goon, and Neon,\" I removed the first \"new\" because it made the sentence sound weird.",
+      "timestamp": "2026-11-14T04:27:58Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/FNaF_World%3A_Update_2",
+      "summary": "FNaF World: Update 2, commonly referred to as Update 2, fully known as Five Nights at Freddy's World: Update 2, is an independent fantasy role-playing adventure DLC add-on for FNaF World developed and published by Scottgames…",
+      "tag": "Character",
+      "ai": false
+    },
     {
       "id": "3580804",
       "title": "The Puppet/Gallery",
@@ -139,18 +151,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/The_Office%2FGallery",
       "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
       "tag": "Location",
-      "ai": false
-    },
-    {
-      "id": "3580768",
-      "title": "Glitchtrap/Gallery",
-      "type": "edit",
-      "user": "Dangdo24",
-      "comment": "/* Plushies */",
-      "timestamp": "2026-11-12T02:44:48Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Glitchtrap%2FGallery",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Wiki",
       "ai": false
     }
   ]
