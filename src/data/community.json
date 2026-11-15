@@ -1,14 +1,50 @@
 {
-  "generatedAt": "2026-11-15T04:54:54.989Z",
+  "generatedAt": "2026-11-15T13:27:59.588Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3079,
-    "edits": 3539214,
-    "activeUsers": 156,
+    "edits": 3539224,
+    "activeUsers": 155,
     "images": 46022
   },
   "items": [
+    {
+      "id": "3580847",
+      "title": "Five Nights at Freddy's Graphic Novel 3: The Fourth Closet",
+      "type": "edit",
+      "user": "AJS2003",
+      "comment": "",
+      "timestamp": "2026-11-15T10:35:37Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_Graphic_Novel_3%3A_The_Fourth_Closet",
+      "summary": "Five Nights at Freddy's Graphic Novel #3: The Fourth Closet is a horror mystery graphic novel adaptation of Five Nights at Freddy's #3: The Fourth Closet, originally written by Scott Cawthon and Kira Breed-Wrisley, adapted by…",
+      "tag": "Book",
+      "ai": false
+    },
+    {
+      "id": "3580845",
+      "title": "Crossovers",
+      "type": "edit",
+      "user": "Tamale333",
+      "comment": "Added HHN",
+      "timestamp": "2026-11-15T07:13:26Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Crossovers",
+      "summary": "This is a list of official crossovers and collaborations, or collabs for short, that the Five Nights at Freddy's franchise has performed with other companies and game developers.",
+      "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3580843",
+      "title": "Scottgames, LLC",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-11-15T05:54:10Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Scottgames%2C_LLC",
+      "summary": "Scottgames, LLC, often stylized as ScottGames and Scott Games, is an American video game development, publishing, and licensing company that was founded on June 30, 2015 by Scott Cawthon.  Despite the name being used as early as…",
+      "tag": "Game",
+      "ai": false
+    },
     {
       "id": "3580842",
       "title": "Ella",
@@ -114,42 +150,6 @@
       "timestamp": "2026-11-14T18:08:18Z",
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/YouTubers",
       "summary": "The following list is of notable YouTubers that have worked in an official capacity with Scott Cawthon on the Five Nights at Freddy's franchise and/or have made special guest appearances in the games or films.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3580809",
-      "title": "Prototype Glamrock Freddy",
-      "type": "edit",
-      "user": "MatTamDude",
-      "comment": "/* Trivia */",
-      "timestamp": "2026-11-14T17:27:27Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Prototype_Glamrock_Freddy",
-      "summary": "Prototype Glamrock Freddy has not been given an official name; as such, this name is purely conjectural.  However, it will be used until an official name is revealed.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3580808",
-      "title": "FNaF World: Update 2",
-      "type": "edit",
-      "user": "StableDog188",
-      "comment": "In the Gameplay section it said \"holds new three new enemies: Jangle, P. Goon, and Neon,\" I removed the first \"new\" because it made the sentence sound weird.",
-      "timestamp": "2026-11-14T04:27:58Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/FNaF_World%3A_Update_2",
-      "summary": "FNaF World: Update 2, commonly referred to as Update 2, fully known as Five Nights at Freddy's World: Update 2, is an independent fantasy role-playing adventure DLC add-on for FNaF World developed and published by Scottgames…",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3580804",
-      "title": "The Puppet/Gallery",
-      "type": "edit",
-      "user": "Amazing Train",
-      "comment": "",
-      "timestamp": "2026-11-13T20:07:56Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/The_Puppet%2FGallery",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
       "tag": "Character",
       "ai": false
     }
