@@ -1,14 +1,38 @@
 {
-  "generatedAt": "2026-11-16T04:52:01.529Z",
+  "generatedAt": "2026-11-16T14:51:39.403Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3079,
-    "edits": 3539246,
+    "edits": 3539272,
     "activeUsers": 155,
-    "images": 46022
+    "images": 46037
   },
   "items": [
+    {
+      "id": "3580896",
+      "title": "Mr. Burrows",
+      "type": "edit",
+      "user": "Miss Fazzy",
+      "comment": "",
+      "timestamp": "2026-11-16T12:04:22Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Mr._Burrows",
+      "summary": "Mr.  Burrows is the deuteragonist of The Storyteller, the second story from Tales from the Pizzaplex 5: The Bobbiedots Conclusion.",
+      "tag": "Location",
+      "ai": false
+    },
+    {
+      "id": "3580889",
+      "title": "Five Nights at Freddy's: Tales from the Pizzaplex 4: Submechanophobia",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-11-16T06:25:29Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's%3A_Tales_from_the_Pizzaplex_4%3A_Submechanophobia",
+      "summary": "Five Nights at Freddy's: Tales from the Pizzaplex #4: Submechanophobia, commonly shortened to just Tales from the Pizzaplex #4 or Submechanophobia, is a horror anthology novel written by Scott Cawthon, Kelly Parra, and Andrea…",
+      "tag": "Book",
+      "ai": false
+    },
     {
       "id": "3580871",
       "title": "Golden Freddy/Gallery",
@@ -127,30 +151,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Rockstar_Foxy",
       "summary": "Rockstar Foxy is one of the rockstar animatronics and another redesigned version of the original Foxy for the newer pizzeria.  He first appeared in Freddy Fazbear's Pizzeria Simulator.",
       "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3580847",
-      "title": "Five Nights at Freddy's Graphic Novel 3: The Fourth Closet",
-      "type": "edit",
-      "user": "AJS2003",
-      "comment": "",
-      "timestamp": "2026-11-15T10:35:37Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_Graphic_Novel_3%3A_The_Fourth_Closet",
-      "summary": "Five Nights at Freddy's Graphic Novel #3: The Fourth Closet is a horror mystery graphic novel adaptation of Five Nights at Freddy's #3: The Fourth Closet, originally written by Scott Cawthon and Kira Breed-Wrisley, adapted by…",
-      "tag": "Book",
-      "ai": false
-    },
-    {
-      "id": "3580843",
-      "title": "Scottgames, LLC",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-15T05:54:10Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Scottgames%2C_LLC",
-      "summary": "Scottgames, LLC, often stylized as ScottGames and Scott Games, is an American video game development, publishing, and licensing company that was founded on June 30, 2015 by Scott Cawthon.  Despite the name being used as early as…",
-      "tag": "Game",
       "ai": false
     }
   ]
