@@ -1,14 +1,50 @@
 {
-  "generatedAt": "2026-11-16T14:51:39.403Z",
+  "generatedAt": "2026-11-17T01:36:31.357Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3079,
-    "edits": 3539272,
+    "edits": 3539303,
     "activeUsers": 155,
-    "images": 46037
+    "images": 46046
   },
   "items": [
+    {
+      "id": "3580925",
+      "title": "Gregory",
+      "type": "edit",
+      "user": "Amazing Train",
+      "comment": "",
+      "timestamp": "2026-11-17T00:49:23Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Gregory",
+      "summary": "Gregory is the main protagonist of Five Nights at Freddy's: Security Breach and a major character of its DLC expansion RUIN.",
+      "tag": "Game",
+      "ai": false
+    },
+    {
+      "id": "3580902",
+      "title": "Five Nights at Freddy's in Popular Culture",
+      "type": "edit",
+      "user": "Hackerp000",
+      "comment": "/* Other */",
+      "timestamp": "2026-11-16T21:31:20Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_in_Popular_Culture",
+      "summary": "Due to its success and popularity, the Five Nights at Freddy's franchise has gained a colossal number of cameos, references, parodies, and other appearances in popular culture.",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3580901",
+      "title": "Springlock Suits",
+      "type": "edit",
+      "user": "Aaron526",
+      "comment": "",
+      "timestamp": "2026-11-16T19:57:23Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Springlock_Suits",
+      "summary": "This section archives a lot of theories and speculation, which usually occurs from pre-release media, or just things that are still unknown, so please keep that in mind while reading.  The page will continue to be updated with…",
+      "tag": "Wiki",
+      "ai": false
+    },
     {
       "id": "3580896",
       "title": "Mr. Burrows",
@@ -115,42 +151,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Happiest_Day",
       "summary": "Happiest Day minigame is the sixth and last hidden minigame in Five Nights at Freddy's 3 to complete.  Along with the end-of-night minigames, this is the only minigame not to be replayed from the Extras menu.",
       "tag": "Game",
-      "ai": false
-    },
-    {
-      "id": "3580852",
-      "title": "Crossovers",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "Undo revision [[Special:Diff/3545833|3545833]] by [[Special:Contributions/Tamale333|Tamale333]] ([[User talk:Tamale333|talk]])",
-      "timestamp": "2026-11-15T16:00:55Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Crossovers",
-      "summary": "This is a list of official crossovers and collaborations, or collabs for short, that the Five Nights at Freddy's franchise has performed with other companies and game developers.",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580850",
-      "title": "Origami Cat",
-      "type": "edit",
-      "user": "Hackerp000",
-      "comment": "",
-      "timestamp": "2026-11-15T14:13:03Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Origami_Cat",
-      "summary": "This article is disorganized, lacking content, containing low-quality images, etc.  It requires cleanup to bring higher quality to the article's standards.",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3580849",
-      "title": "Rockstar Foxy",
-      "type": "edit",
-      "user": "Chara Violet",
-      "comment": "",
-      "timestamp": "2026-11-15T13:40:30Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Rockstar_Foxy",
-      "summary": "Rockstar Foxy is one of the rockstar animatronics and another redesigned version of the original Foxy for the newer pizzeria.  He first appeared in Freddy Fazbear's Pizzeria Simulator.",
-      "tag": "Character",
       "ai": false
     }
   ]
