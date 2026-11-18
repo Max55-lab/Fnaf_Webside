@@ -1,14 +1,38 @@
 {
-  "generatedAt": "2026-11-18T15:08:47.505Z",
+  "generatedAt": "2026-11-18T23:54:20.965Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3079,
-    "edits": 3539503,
+    "edits": 3539510,
     "activeUsers": 156,
     "images": 46131
   },
   "items": [
+    {
+      "id": "3581142",
+      "title": "Chop 'N Roll",
+      "type": "edit",
+      "user": "Dan1heman",
+      "comment": "Vintage Woodbot",
+      "timestamp": "2026-11-18T21:10:55Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Chop_'N_Roll",
+      "summary": "Chop 'N Roll is one of several enemies encountered in FNaF World.  It is encountered in Choppy's Woods.",
+      "tag": "Game",
+      "ai": false
+    },
+    {
+      "id": "3581141",
+      "title": "Creation",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-11-18T18:13:18Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Creation",
+      "summary": "Beware that this page may contain spoilers for related material.  If you are new to anything, like if you have not played the games or read the books yet, please read at your own risk!",
+      "tag": "Wiki",
+      "ai": false
+    },
     {
       "id": "3581135",
       "title": "Rockstar Foxy/Audio",
@@ -127,30 +151,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Endo-01%2FGallery",
       "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
       "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3581125",
-      "title": "Five Nights at Freddy's (Franchise)",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-18T03:37:37Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_(Franchise)",
-      "summary": "Five Nights at Freddy's, shortened as Five Nights, and abbreviated as FNaF, is an independent multimedia franchise created by Scott Cawthon that first started as a video game released on August 8, 2014.  The franchise has since…",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3581124",
-      "title": "Freddy Fazbear's Pizza (FNaF2)",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-18T03:37:32Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Freddy_Fazbear's_Pizza_(FNaF2)",
-      "summary": "Five Nights at Freddy's 2 is set in a separated \"improved\" version of Freddy Fazbear's Pizza, which is a larger establishment that existed before the events of the first game took place.  As mentioned in a newspaper after beating…",
-      "tag": "Location",
       "ai": false
     }
   ]
