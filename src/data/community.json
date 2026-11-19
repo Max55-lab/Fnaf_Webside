@@ -1,14 +1,62 @@
 {
-  "generatedAt": "2026-11-19T05:59:01.900Z",
+  "generatedAt": "2026-11-19T15:38:22.601Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3079,
-    "edits": 3539519,
-    "activeUsers": 156,
+    "edits": 3539526,
+    "activeUsers": 157,
     "images": 46135
   },
   "items": [
+    {
+      "id": "3581159",
+      "title": "Foxy the Pirate",
+      "type": "edit",
+      "user": "DesperateTinySeasonSpoiler",
+      "comment": "a letter (a singular letter out of the whole page)",
+      "timestamp": "2026-11-19T13:31:50Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Foxy_the_Pirate",
+      "summary": "Foxy the Pirate is one of the four original animatronics of Freddy Fazbear's Pizza and a major antagonist in the Five Nights at Freddy's series.",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3581158",
+      "title": "Bonnie the Rabbit/Gallery",
+      "type": "edit",
+      "user": "Santademon",
+      "comment": "",
+      "timestamp": "2026-11-19T12:21:12Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Bonnie_the_Rabbit%2FGallery",
+      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3581157",
+      "title": "Hall (CAM 07)",
+      "type": "edit",
+      "user": "Petrsakal",
+      "comment": "",
+      "timestamp": "2026-11-19T12:20:55Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Hall_(CAM_07)",
+      "summary": "Hall (CAM 07) is a location in Five Nights at Freddy's 3 within Fazbear's Fright.",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3581155",
+      "title": "The Missing Children Incident",
+      "type": "edit",
+      "user": "FredCat100",
+      "comment": "Animatronic articles have them listed. Thank you anyways.",
+      "timestamp": "2026-11-19T10:55:08Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/The_Missing_Children_Incident",
+      "summary": "The Missing Children Incident, or MCI for short, was an event that occurred at a Freddy Fazbear's Pizza location in June 1985 where a series of murders committed by William Afton took place.  In the first game, the incident was…",
+      "tag": "Character",
+      "ai": false
+    },
     {
       "id": "3581152",
       "title": "Freddy Fazbear/Gallery",
@@ -17,18 +65,6 @@
       "comment": "",
       "timestamp": "2026-11-19T05:30:23Z",
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Freddy_Fazbear%2FGallery",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3581151",
-      "title": "Bonnie the Rabbit/Gallery",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-19T05:29:57Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Bonnie_the_Rabbit%2FGallery",
       "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
       "tag": "Character",
       "ai": false
@@ -115,42 +151,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Youtooz_Collectibles",
       "summary": "Youtooz Collectibles are collectible figures, plushies, pins, and more based on the Five Nights at Freddy's characters by Youtooz Inc.  Each figure is around 4-5 inches tall.",
       "tag": "Merch",
-      "ai": false
-    },
-    {
-      "id": "3581132",
-      "title": "Hex: Parts & Service",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-18T03:38:30Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Hex%3A_Parts_%26_Service",
-      "summary": "Hex: Parts & Service are collectible magnetic and tradition plushies, pins, and other apparel based on the Five Nights at Freddy's characters, created by Hex.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3581131",
-      "title": "Plushies (Merchandise)",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "/* Hex */",
-      "timestamp": "2026-11-18T03:38:22Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Plushies_(Merchandise)",
-      "summary": "The Plushies are plush toys based on the Five Nights at Freddy's characters that represent characters from the games, novels, and films.  They are mainly made by Sanshee, Funko, GoodStuff, Hex, Youtooz, and Jazwares.",
-      "tag": "Merch",
-      "ai": false
-    },
-    {
-      "id": "3581130",
-      "title": "CLOAK x Five Nights at Freddy's Songs",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-18T03:38:15Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/CLOAK_x_Five_Nights_at_Freddy's_Songs",
-      "summary": "The list of CLOAK x Five Nights at Freddy's songs for CLOAK's \"The Bite\" party event.",
-      "tag": "Character",
       "ai": false
     }
   ]
