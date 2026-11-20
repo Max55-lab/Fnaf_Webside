@@ -1,14 +1,50 @@
 {
-  "generatedAt": "2026-11-19T15:38:22.601Z",
+  "generatedAt": "2026-11-20T00:19:17.022Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
-    "articles": 3079,
-    "edits": 3539526,
+    "articles": 3080,
+    "edits": 3539557,
     "activeUsers": 157,
-    "images": 46135
+    "images": 46160
   },
   "items": [
+    {
+      "id": "3581190",
+      "title": "Five Nights at Freddy's Pop-Up Store",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-11-19T23:03:12Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_Pop-Up_Store",
+      "summary": "The Five Nights at Freddy's Pop-Up Store was the first official Five Nights at Freddy's pop-up store in Japan, produced by InfoLens Inc.  The pop-up store closed on March 10, 2024.",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3581162",
+      "title": "The Official Five Nights at Freddy's Dessert Book",
+      "type": "new",
+      "user": "ViolettSmith",
+      "comment": "Created page with \"{{Era|article1}} {{SpoilerNotice}} {{UpcomingProject}} :''Not what you were looking for? See [[Five Nights at Freddy's (disambiguation)]].'' {{Infobox Book |name         = ''The Official Five Nights at Freddy's Dessert Book'' |image        = FNaFDessert Cover.jpg |author       = |publisher    = [[Scholastic Corp.]] |price        = |genre        = Cookbook |release      = 2027<ref name=\"Announced\"/> |age          = |grade        = |pages        = |ISBN         = |store...\"",
+      "timestamp": "2026-11-19T19:19:58Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/The_Official_Five_Nights_at_Freddy's_Dessert_Book",
+      "summary": "Beware that this page may contain spoilers for related material.  If you are new to anything, like if you have not played the games or read the books yet, please read at your own risk!",
+      "tag": "Book",
+      "ai": false
+    },
+    {
+      "id": "3581161",
+      "title": "Five Nights at Freddy's (Franchise)",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "/* Miscellaneous Books */",
+      "timestamp": "2026-11-19T19:07:27Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_(Franchise)",
+      "summary": "Five Nights at Freddy's, shortened as Five Nights, and abbreviated as FNaF, is an independent multimedia franchise created by Scott Cawthon that first started as a video game released on August 8, 2014.  The franchise has since…",
+      "tag": "Character",
+      "ai": false
+    },
     {
       "id": "3581159",
       "title": "Foxy the Pirate",
@@ -115,42 +151,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Creation",
       "summary": "Beware that this page may contain spoilers for related material.  If you are new to anything, like if you have not played the games or read the books yet, please read at your own risk!",
       "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3581135",
-      "title": "Rockstar Foxy/Audio",
-      "type": "edit",
-      "user": "Santademon",
-      "comment": "Undo revision [[Special:Diff/3546024|3546024]] by [[Special:Contributions/SmartestSquid377|SmartestSquid377]] ([[User talk:SmartestSquid377|talk]])",
-      "timestamp": "2026-11-18T05:09:01Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Rockstar_Foxy%2FAudio",
-      "summary": "This article is disorganized, lacking content, containing low-quality images, etc.  It requires cleanup to bring higher quality to the article's standards.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3581134",
-      "title": "Withered Animatronics (Film)",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-18T03:42:44Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Withered_Animatronics_(Film)",
-      "summary": "Withered Bonnie, Withered Freddy, Withered Chica, and Withered Foxy in the Five Nights at Freddy's 2 theatrical poster.",
-      "tag": "Film",
-      "ai": false
-    },
-    {
-      "id": "3581133",
-      "title": "Youtooz Collectibles",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "Undo revision [[Special:Diff/3546015|3546015]] by [[Special:Contributions/Amazing Train|Amazing Train]] ([[User talk:Amazing Train|talk]]) Brick Sets go on \"Construction Sets\" page. They've been added.",
-      "timestamp": "2026-11-18T03:40:35Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Youtooz_Collectibles",
-      "summary": "Youtooz Collectibles are collectible figures, plushies, pins, and more based on the Five Nights at Freddy's characters by Youtooz Inc.  Each figure is around 4-5 inches tall.",
-      "tag": "Merch",
       "ai": false
     }
   ]
