@@ -1,14 +1,74 @@
 {
-  "generatedAt": "2026-11-20T23:41:55.730Z",
+  "generatedAt": "2026-11-21T05:43:23.019Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3080,
-    "edits": 3539665,
+    "edits": 3539677,
     "activeUsers": 160,
     "images": 46215
   },
   "items": [
+    {
+      "id": "3581309",
+      "title": "Shadow Animatronics",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "This is a quote from The Ultimate Guide, do not change it.",
+      "timestamp": "2026-11-21T03:20:05Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Shadow_Animatronics",
+      "summary": "Beware that this page may contain spoilers for related material.  If you are new to anything, like if you have not played the games or read the books yet, please read at your own risk!",
+      "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3581308",
+      "title": "Toy Animatronics",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "These are quotes from The Ultimate Guide, do not change them.",
+      "timestamp": "2026-11-21T03:18:59Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Toy_Animatronics",
+      "summary": "Beware that this page may contain spoilers for related material.  If you are new to anything, like if you have not played the games or read the books yet, please read at your own risk!",
+      "tag": "Merch",
+      "ai": false
+    },
+    {
+      "id": "3581307",
+      "title": "Toy Bonnie/Trivia",
+      "type": "edit",
+      "user": "DumbfoundedSalamander010",
+      "comment": "",
+      "timestamp": "2026-11-21T03:02:07Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Toy_Bonnie%2FTrivia",
+      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
+      "tag": "Merch",
+      "ai": false
+    },
+    {
+      "id": "3581306",
+      "title": "Toy Freddy/Trivia",
+      "type": "edit",
+      "user": "DumbfoundedSalamander010",
+      "comment": "",
+      "timestamp": "2026-11-21T02:49:49Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Toy_Freddy%2FTrivia",
+      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
+      "tag": "Merch",
+      "ai": false
+    },
+    {
+      "id": "3581299",
+      "title": "Unlockable Extras (FNaF3)",
+      "type": "edit",
+      "user": "Observomotive",
+      "comment": "fixing a slight grammar mistake.",
+      "timestamp": "2026-11-21T00:36:41Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Unlockable_Extras_(FNaF3)",
+      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
+      "tag": "Game",
+      "ai": false
+    },
     {
       "id": "3581298",
       "title": "The Official Five Nights at Freddy's Dessert Book",
@@ -31,18 +91,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Night_7_(FNaF1)",
       "summary": "The Custom Night is the seventh and final playable night of Five Nights at Freddy's.  It allows the player to change the difficulty of the animatronics' A.",
       "tag": "Game",
-      "ai": false
-    },
-    {
-      "id": "3581296",
-      "title": "Shadow Animatronics",
-      "type": "edit",
-      "user": "Hackerp000",
-      "comment": "FNaC 3 takes place before FNaC 1 so It would be known as Shadow Cat and later Shadow Candy",
-      "timestamp": "2026-11-20T22:22:40Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Shadow_Animatronics",
-      "summary": "Beware that this page may contain spoilers for related material.  If you are new to anything, like if you have not played the games or read the books yet, please read at your own risk!",
-      "tag": "Wiki",
       "ai": false
     },
     {
@@ -103,54 +151,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Ignited_Chica_(TJoC%3A_IC)",
       "summary": "This article refers an idea or a list of content that has been scrapped for various reasons.  They can be presented in the decompiled files, concept designs, or other non-interactive media.",
       "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3581280",
-      "title": "Five Nights at Freddy's Dessert Book",
-      "type": "new",
-      "user": "ViolettSmith",
-      "comment": "Redirected page to [[The Official Five Nights at Freddy's Dessert Book]]",
-      "timestamp": "2026-11-20T17:27:40Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_Dessert_Book",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Book",
-      "ai": false
-    },
-    {
-      "id": "3581279",
-      "title": "Five Nights at Freddy's: Tales from the Pizzaplex 8: B7-2",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-20T17:17:48Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's%3A_Tales_from_the_Pizzaplex_8%3A_B7-2",
-      "summary": "Five Nights at Freddy's: Tales from the Pizzaplex #8: B7-2, commonly shortened to just Tales from the Pizzaplex #8 or B7-2, is a horror anthology novel written by Scott Cawthon, Andrea Waggener, and Kelly Parra and published by…",
-      "tag": "Book",
-      "ai": false
-    },
-    {
-      "id": "3581278",
-      "title": "Claudia Schröder",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-20T17:17:43Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Claudia_Schr%C3%B6der",
-      "summary": "Claudia Schröder, also known as PinkyPills online, is a freelance artist who formerly illustrated and designed characters for the Five Nights at Freddy's franchise.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3581277",
-      "title": "Billy (B-7)",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-20T17:17:39Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Billy_(B-7)",
-      "summary": "Billy, temporarily going by the name B-7 for a short period of time, is the son of Dan and Vera, as well as the main protagonist of the B-7 story from Tales from the Pizzaplex #2: HAPPS and B7-2 in Tales from the Pizzaplex #8…",
-      "tag": "Location",
       "ai": false
     }
   ]
