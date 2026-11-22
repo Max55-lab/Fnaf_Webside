@@ -1,21 +1,57 @@
 {
-  "generatedAt": "2026-11-21T22:47:16.337Z",
+  "generatedAt": "2026-11-22T05:13:23.122Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3081,
-    "edits": 3539773,
+    "edits": 3539783,
     "activeUsers": 167,
     "images": 46227
   },
   "items": [
     {
-      "id": "3581412",
+      "id": "3581423",
+      "title": "Paperpals",
+      "type": "edit",
+      "user": "Amazing Train",
+      "comment": "",
+      "timestamp": "2026-11-22T02:55:49Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Paperpals",
+      "summary": "Paperpals, individually Paper Buddy, Paper Bonnie, and Paper Freddy, are a trio of paper plates that serve as recurring props and recurring \"characters\" in the Five Nights at Freddy's franchise.",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3581421",
+      "title": "YouTubers",
+      "type": "edit",
+      "user": "Dangdo24",
+      "comment": "/* REACT */",
+      "timestamp": "2026-11-22T02:51:20Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/YouTubers",
+      "summary": "The following list is of notable YouTubers that have worked in an official capacity with Scott Cawthon on the Five Nights at Freddy's franchise and/or have made special guest appearances in the games or films.",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3581416",
+      "title": "Bedroom (TJOC)",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-11-22T01:42:50Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Bedroom_(TJOC)",
+      "summary": "This article refers to content related to an upcoming or planned project.  NOTE: Anything that is added to the article without a reliable source may be deleted without warning.",
+      "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3581415",
       "title": "Nightmare Freddy/History",
       "type": "edit",
-      "user": "DumbfoundedSalamander010",
-      "comment": "",
-      "timestamp": "2026-11-21T22:14:09Z",
+      "user": "Amazing Train",
+      "comment": "please stop modifying these official descs",
+      "timestamp": "2026-11-22T01:40:04Z",
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Nightmare_Freddy%2FHistory",
       "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
       "tag": "Character",
@@ -41,18 +77,6 @@
       "comment": "",
       "timestamp": "2026-11-21T20:08:10Z",
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Living_Room",
-      "summary": "This article refers to content related to an upcoming or planned project.  NOTE: Anything that is added to the article without a reliable source may be deleted without warning.",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3581408",
-      "title": "Bedroom (TJOC)",
-      "type": "edit",
-      "user": "Santademon",
-      "comment": "",
-      "timestamp": "2026-11-21T20:06:59Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Bedroom_(TJOC)",
       "summary": "This article refers to content related to an upcoming or planned project.  NOTE: Anything that is added to the article without a reliable source may be deleted without warning.",
       "tag": "Wiki",
       "ai": false
@@ -106,18 +130,6 @@
       "ai": false
     },
     {
-      "id": "3581393",
-      "title": "Paperpals",
-      "type": "edit",
-      "user": "Hackerp000",
-      "comment": "",
-      "timestamp": "2026-11-21T17:50:41Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Paperpals",
-      "summary": "Paperpals, individually Paper Buddy, Paper Bonnie, and Paper Freddy, are a trio of paper plates that serve as recurring props and recurring \"characters\" in the Five Nights at Freddy's franchise.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
       "id": "3581390",
       "title": "Minor Characters (FNaF: SotM)",
       "type": "edit",
@@ -139,18 +151,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Freddy_(disambiguation)",
       "summary": "This article is a disambiguation page for Freddy.  The following is a list of links to pages that might share the same title.",
       "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3581385",
-      "title": "Five Nights at Freddy's 2 (Film)",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "Undo revision [[Special:Diff/3546357|3546357]] by [[Special:Contributions/Hackerp000|Hackerp000]] ([[User talk:Hackerp000|talk]]) We'll need spots of where else they're found.",
-      "timestamp": "2026-11-21T15:21:55Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_2_(Film)",
-      "summary": "Five Nights at Freddy's 2 is a supernatural horror feature film directed by Emma Tammi and is the second installment in the Five Nights at Freddy's film series, which is based on Scott Cawthon's video game series of the same…",
-      "tag": "Film",
       "ai": false
     }
   ]
