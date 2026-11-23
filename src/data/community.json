@@ -1,14 +1,38 @@
 {
-  "generatedAt": "2026-11-23T05:52:50.849Z",
+  "generatedAt": "2026-11-23T17:27:03.474Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3082,
-    "edits": 3539826,
+    "edits": 3539828,
     "activeUsers": 168,
     "images": 46228
   },
   "items": [
+    {
+      "id": "3581471",
+      "title": "Endoskeletons",
+      "type": "edit",
+      "user": "Dangdo24",
+      "comment": "Undo revision [[Special:Diff/3546441|3546441]] by [[Special:Contributions/DumbfoundedSalamander010|DumbfoundedSalamander010]] ([[User talk:DumbfoundedSalamander010|talk]])",
+      "timestamp": "2026-11-23T12:40:25Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Endoskeletons",
+      "summary": "A clean render of Endo-01 from the first game, seen in the first game's box art.",
+      "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3581469",
+      "title": "Ignited Bonnie",
+      "type": "edit",
+      "user": "Hackerp000",
+      "comment": "",
+      "timestamp": "2026-11-23T06:56:35Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Ignited_Bonnie",
+      "summary": "Beware that this page may contain spoilers for related material.  If you are new to anything, like if you have not played the games or read the books yet, please read at your own risk!",
+      "tag": "Character",
+      "ai": false
+    },
     {
       "id": "3581466",
       "title": "Minor Characters (FNaF4)",
@@ -127,30 +151,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Bonnie_the_Rabbit_(Tales_from_the_Pizzaplex)",
       "summary": "Bonnie the Rabbit is a minor recurring character in the Tales from the Pizzaplex series and is one of the main mascots of the Freddy Fazbear's Pizza family entertainment restaurant chain.",
       "tag": "Book",
-      "ai": false
-    },
-    {
-      "id": "3581448",
-      "title": "Freddy Fazbear (Tales from the Pizzaplex)",
-      "type": "edit",
-      "user": "Aaron526",
-      "comment": "",
-      "timestamp": "2026-11-22T17:02:02Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Freddy_Fazbear_(Tales_from_the_Pizzaplex)",
-      "summary": "Freddy Fazbear is a minor recurring character in the Tales from the Pizzaplex series and the titular main mascot of the Freddy Fazbear's Pizza chain.  He appears as a cartoon character in Freddy and Friends, which debuted in…",
-      "tag": "Book",
-      "ai": false
-    },
-    {
-      "id": "3581440",
-      "title": "Cupcake Animatronics",
-      "type": "edit",
-      "user": "Hackerp000",
-      "comment": "/* Jack-O-Lantern */",
-      "timestamp": "2026-11-22T12:35:25Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Cupcake_Animatronics",
-      "summary": "The Cupcake animatronics are small cupcake-like animatronic characters mostly accompanied by Chica and her various counterparts (except Withered Chica, Phantom Chica, Jack-O-Chica (who has a pumpkin), Rockstar Chica, and Glamrock…",
-      "tag": "Character",
       "ai": false
     }
   ]
