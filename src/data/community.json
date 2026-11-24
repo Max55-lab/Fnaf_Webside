@@ -1,14 +1,62 @@
 {
-  "generatedAt": "2026-11-24T03:49:53.051Z",
+  "generatedAt": "2026-11-24T16:59:20.484Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
-    "articles": 3082,
-    "edits": 3539851,
-    "activeUsers": 168,
+    "articles": 3083,
+    "edits": 3539872,
+    "activeUsers": 165,
     "images": 46229
   },
   "items": [
+    {
+      "id": "3581515",
+      "title": "The Puppet",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "Undo revision [[Special:Diff/3546483|3546483]] by [[Special:Contributions/The9thAgent|The9thAgent]] ([[User talk:The9thAgent|talk]]) The use of \"she/her\" is for Charlotte.",
+      "timestamp": "2026-11-24T16:30:11Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/The_Puppet",
+      "summary": "This section archives a lot of theories and speculation, which usually occurs from pre-release media, or just things that are still unknown, so please keep that in mind while reading.  The page will continue to be updated with…",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3581514",
+      "title": "Timeline (TJOC)",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-11-24T16:09:25Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Timeline_(TJOC)",
+      "summary": "Beware that this page may contain spoilers for related material.  If you are new to anything, like if you have not played the games or read the books yet, please read at your own risk!",
+      "tag": "Lore",
+      "ai": false
+    },
+    {
+      "id": "3581503",
+      "title": "Phone (disambiguation)",
+      "type": "edit",
+      "user": "Hackerp000",
+      "comment": "",
+      "timestamp": "2026-11-24T14:26:40Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Phone_(disambiguation)",
+      "summary": "This article is a disambiguation page for Phone (disambiguation).  The following is a list of links to pages that might share the same title.",
+      "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3581502",
+      "title": "Timeline (TJoC)",
+      "type": "new",
+      "user": "Hackerp000",
+      "comment": "Created page with \"{{Era|article1|coreseries|tjoc}} {{RejectedMaterial}} {{SpoilerNotice}} :''Not looking for this timeline? See [[:Category:Timelines|Timelines]].'' This is a '''timeline''' for the cancelled '''''[[The Joy of Creation]]'''''.  == Included Media == * ''[[Five Nights at Freddy's (Franchise)#Core Series|Five Nights at Freddy's]]'' ** ''[[Five Nights at Freddy's]]'' ** ''[[Five Nights at Freddy's 2]]'' ** ''[[Five Nights at Freddy's 3]]'' ** ''[[Five Nights at Freddy's 4]]''...\"",
+      "timestamp": "2026-11-24T14:05:14Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Timeline_(TJoC)",
+      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
+      "tag": "Lore",
+      "ai": false
+    },
     {
       "id": "3581494",
       "title": "Freddy Fazbear's Pizza (Fazbear Frights)",
@@ -103,54 +151,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Holiday_Animatronics_(Merch)",
       "summary": "The contents of this article or section are from a non-canon source, and thus, have no bearing on the official lore of the series.",
       "tag": "Merch",
-      "ai": false
-    },
-    {
-      "id": "3581482",
-      "title": "Blackrabbit",
-      "type": "edit",
-      "user": "Aaron526",
-      "comment": "",
-      "timestamp": "2026-11-23T22:21:09Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Blackrabbit",
-      "summary": "Beware that this page may contain spoilers for related material.  If you are new to anything, like if you have not played the games or read the books yet, please read at your own risk!",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3581481",
-      "title": "Shadow (disambiguation)",
-      "type": "edit",
-      "user": "Aaron526",
-      "comment": "",
-      "timestamp": "2026-11-23T22:14:24Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Shadow_(disambiguation)",
-      "summary": "This article is a disambiguation page for Shadow.  The following is a list of links to pages that might share the same title.",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3581478",
-      "title": "Monster Vinnie",
-      "type": "edit",
-      "user": "Hackerp000",
-      "comment": "/* Trivia */",
-      "timestamp": "2026-11-23T20:09:01Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Monster_Vinnie",
-      "summary": "Monster Vinnie is a monster version of Vinnie and the final antagonist of Five Nights at Candy's 3.",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3581477",
-      "title": "Foxy (disambiguation)",
-      "type": "edit",
-      "user": "Hackerp000",
-      "comment": "",
-      "timestamp": "2026-11-23T20:03:34Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Foxy_(disambiguation)",
-      "summary": "This article is a disambiguation page for Foxy.  The following is a list of links to pages that might share the same title.",
-      "tag": "Character",
       "ai": false
     }
   ]
