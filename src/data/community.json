@@ -1,14 +1,74 @@
 {
-  "generatedAt": "2026-11-25T01:55:25.469Z",
+  "generatedAt": "2026-11-25T16:50:00.375Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3083,
-    "edits": 3539900,
-    "activeUsers": 165,
-    "images": 46235
+    "edits": 3539929,
+    "activeUsers": 158,
+    "images": 46245
   },
   "items": [
+    {
+      "id": "3581565",
+      "title": "Afton (disambiguation)",
+      "type": "edit",
+      "user": "Hackerp000",
+      "comment": "",
+      "timestamp": "2026-11-25T16:18:38Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Afton_(disambiguation)",
+      "summary": "This article is a disambiguation page for Afton (disambiguation).  The following is a list of links to pages that might share the same title.",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3581563",
+      "title": "Freddy Fazbear's Pizza (Tales from the Pizzaplex)",
+      "type": "edit",
+      "user": "Breadbear83",
+      "comment": "Decades seems more fitting to show the time gap of the 80s/90s freddy fazbear pizzas to SB being 2020+",
+      "timestamp": "2026-11-25T16:09:17Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Freddy_Fazbear's_Pizza_(Tales_from_the_Pizzaplex)",
+      "summary": "Freddy Fazbear's Pizza is a fictional pizzeria from the Tales from the Pizzaplex series.",
+      "tag": "Book",
+      "ai": false
+    },
+    {
+      "id": "3581562",
+      "title": "Timeline (Pre-Reboot TJoC)",
+      "type": "edit",
+      "user": "Hackerp000",
+      "comment": "",
+      "timestamp": "2026-11-25T12:34:51Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Timeline_(Pre-Reboot_TJoC)",
+      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
+      "tag": "Lore",
+      "ai": false
+    },
+    {
+      "id": "3581556",
+      "title": "Phantom Balloon Boy/History",
+      "type": "edit",
+      "user": "Neyaooo2",
+      "comment": "",
+      "timestamp": "2026-11-25T04:39:28Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Phantom_Balloon_Boy%2FHistory",
+      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
+      "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3581554",
+      "title": "Five Nights at Freddy's: Tales from the Pizzaplex Graphic Novel Collection Vol. 1",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-11-25T04:23:26Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's%3A_Tales_from_the_Pizzaplex_Graphic_Novel_Collection_Vol._1",
+      "summary": "Five Nights at Freddy's: Tales from the Pizzaplex Graphic Novel Collection Vol.  1 is a horror anthology graphic novel adaptation of Tales from the Pizzaplex stories, originally written by Scott Cawthon and Andrea Waggener…",
+      "tag": "Book",
+      "ai": false
+    },
     {
       "id": "3581543",
       "title": "Phantom Mangle/Trivia",
@@ -89,66 +149,6 @@
       "comment": "",
       "timestamp": "2026-11-24T21:24:21Z",
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Cindy_the_Cat%2FGallery",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3581533",
-      "title": "Youtooz Inc.",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-24T21:24:14Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Youtooz_Inc.",
-      "summary": "Youtooz Inc.  is a Canadian fandom collectible manufacturer founded in 2019 by Austin Litman, Austin Long, and Mark Prokoudine, known for making vinyl figures, plushies, and pins.",
-      "tag": "Merch",
-      "ai": false
-    },
-    {
-      "id": "3581532",
-      "title": "Construction Sets",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-24T21:23:42Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Construction_Sets",
-      "summary": "The Construction Sets, alternatively known as Buildable Sets or Brick Sets, are Five Nights at Freddy's construction sets made by McFarlane Toys, PhatMojo, LLC, Jazwares, LLC, and Youtooz Inc.  The sets feature locations and…",
-      "tag": "Merch",
-      "ai": false
-    },
-    {
-      "id": "3581531",
-      "title": "The Office/Gallery",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-24T21:23:29Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/The_Office%2FGallery",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Location",
-      "ai": false
-    },
-    {
-      "id": "3581530",
-      "title": "Show Stage/Gallery",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-24T21:23:22Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Show_Stage%2FGallery",
-      "summary": "This is a gallery sub-page related to the Show Stage from Five Nights at Freddy's.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3581529",
-      "title": "Pirate Cove/Gallery",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-24T21:23:17Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Pirate_Cove%2FGallery",
       "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
       "tag": "Wiki",
       "ai": false
