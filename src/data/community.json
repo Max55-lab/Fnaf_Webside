@@ -1,14 +1,110 @@
 {
-  "generatedAt": "2026-11-26T01:35:49.171Z",
+  "generatedAt": "2026-11-26T16:26:33.835Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
-    "articles": 3083,
-    "edits": 3539959,
-    "activeUsers": 158,
-    "images": 46252
+    "articles": 3084,
+    "edits": 3539992,
+    "activeUsers": 163,
+    "images": 46255
   },
   "items": [
+    {
+      "id": "3581639",
+      "title": "BB (disambiguation)",
+      "type": "edit",
+      "user": "Hackerp000",
+      "comment": "/* Fazbear Fanverse */",
+      "timestamp": "2026-11-26T16:10:34Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/BB_(disambiguation)",
+      "summary": "This article is a disambiguation page for BB (disambiguation).  The following is a list of links to pages that might share the same title.",
+      "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3581635",
+      "title": "Balloon Boy (FNaF+)",
+      "type": "edit",
+      "user": "Hackerp000",
+      "comment": "",
+      "timestamp": "2026-11-26T14:29:44Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Balloon_Boy_(FNaF%2B)",
+      "summary": "This article refers an idea or a list of content that has been scrapped for various reasons.  They can be presented in the decompiled files, concept designs, or other non-interactive media.",
+      "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3581630",
+      "title": "Living Room",
+      "type": "edit",
+      "user": "Mark play mediatek 2.0",
+      "comment": "/* Gameplay */",
+      "timestamp": "2026-11-26T14:08:48Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Living_Room",
+      "summary": "This article refers to content related to an upcoming or planned project.  NOTE: Anything that is added to the article without a reliable source may be deleted without warning.",
+      "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3581624",
+      "title": "Timeline (TJoC: SM)",
+      "type": "edit",
+      "user": "Hackerp000",
+      "comment": "",
+      "timestamp": "2026-11-26T11:06:44Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Timeline_(TJoC%3A_SM)",
+      "summary": "This article refers an idea or a list of content that has been scrapped for various reasons.  They can be presented in the decompiled files, concept designs, or other non-interactive media.",
+      "tag": "Lore",
+      "ai": false
+    },
+    {
+      "id": "3581618",
+      "title": "Mechanical X-form Experimental Storage",
+      "type": "edit",
+      "user": "IPizza22",
+      "comment": "",
+      "timestamp": "2026-11-26T07:12:55Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Mechanical_X-form_Experimental_Storage",
+      "summary": "Arnold interacting with M. X.",
+      "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3581617",
+      "title": "Dead by Daylight Chapter 36: Five Nights at Freddy's/Gallery",
+      "type": "edit",
+      "user": "Cassidy Item",
+      "comment": "the character portraits for yellow rabbit and glitchtrap are NOT official, and are made by Springey_ on twitter. The closest things to official portraits for them are their status hud icons, which actually appear in-game.",
+      "timestamp": "2026-11-26T06:46:44Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Dead_by_Daylight_Chapter_36%3A_Five_Nights_at_Freddy's%2FGallery",
+      "summary": "This article focuses on content from an official video game crossover with Dead by Daylight.  To learn more about the game, go to the Dead by Daylight Wiki.",
+      "tag": "Character",
+      "ai": false
+    },
+    {
+      "id": "3581606",
+      "title": "Five Nights at Freddy's: Tales from the Pizzaplex Graphic Novel Collection Vol. 2",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-11-26T04:38:08Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's%3A_Tales_from_the_Pizzaplex_Graphic_Novel_Collection_Vol._2",
+      "summary": "Five Nights at Freddy's: Tales from the Pizzaplex Graphic Novel Collection Vol.  2 is a horror anthology graphic novel adaptation of Tales from the Pizzaplex stories, originally written by Scott Cawthon, Kelly Parra, and Andrea…",
+      "tag": "Book",
+      "ai": false
+    },
+    {
+      "id": "3581600",
+      "title": "Five Nights at Freddy's: Tales from the Pizzaplex Graphic Novel Collection Vol. 1",
+      "type": "edit",
+      "user": "ViolettSmith",
+      "comment": "",
+      "timestamp": "2026-11-26T04:10:04Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's%3A_Tales_from_the_Pizzaplex_Graphic_Novel_Collection_Vol._1",
+      "summary": "Five Nights at Freddy's: Tales from the Pizzaplex Graphic Novel Collection Vol.  1 is a horror anthology graphic novel adaptation of Tales from the Pizzaplex stories, originally written by Scott Cawthon and Andrea Waggener…",
+      "tag": "Book",
+      "ai": false
+    },
     {
       "id": "3581599",
       "title": "Popgoes the Weasel/Gallery",
@@ -55,102 +151,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Security_Puppet",
       "summary": "The Security Puppet is a \"security\"-type variant of the Puppet who made its debut in Freddy Fazbear's Pizzeria Simulator.",
       "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3581576",
-      "title": "Endings",
-      "type": "edit",
-      "user": "James Dakota Warner",
-      "comment": "/* Lorekeeper \"Ending\" */",
-      "timestamp": "2026-11-25T20:58:44Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Endings",
-      "summary": "Beware that this page may contain spoilers for related material.  If you are new to anything, like if you have not played the games or read the books yet, please read at your own risk!",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3581575",
-      "title": "Five Nights at Freddy's (Song)",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-25T20:37:32Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_(Song)",
-      "summary": "Five Nights at Freddy's is a nerdcore, electronic rock song written, composed, produced, and sung by Yoav Landau as a fan-created song inspired by the original Five Nights at Freddy's video game.  After its release, fans labelled…",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3581574",
-      "title": "Afton (disambiguation)",
-      "type": "edit",
-      "user": "Hackerp000",
-      "comment": "/* The Fazbear Fanverse Initiative */",
-      "timestamp": "2026-11-25T19:12:14Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Afton_(disambiguation)",
-      "summary": "This article is a disambiguation page for Afton (disambiguation).  The following is a list of links to pages that might share the same title.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3581573",
-      "title": "Felix the Shark",
-      "type": "edit",
-      "user": "CrisperWombat059",
-      "comment": "words",
-      "timestamp": "2026-11-25T18:40:04Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Felix_the_Shark",
-      "summary": "The contents of this article or section are from a non-canon source, and thus, have no bearing on the official lore of the series.",
-      "tag": "Lore",
-      "ai": false
-    },
-    {
-      "id": "3581571",
-      "title": "Construction Sets",
-      "type": "edit",
-      "user": "Amazing Train",
-      "comment": "",
-      "timestamp": "2026-11-25T17:53:17Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Construction_Sets",
-      "summary": "The Construction Sets, alternatively known as Buildable Sets or Brick Sets, are Five Nights at Freddy's construction sets made by McFarlane Toys, PhatMojo, LLC, Jazwares, LLC, and Youtooz Inc.  The sets feature locations and…",
-      "tag": "Merch",
-      "ai": false
-    },
-    {
-      "id": "3581563",
-      "title": "Freddy Fazbear's Pizza (Tales from the Pizzaplex)",
-      "type": "edit",
-      "user": "Breadbear83",
-      "comment": "Decades seems more fitting to show the time gap of the 80s/90s freddy fazbear pizzas to SB being 2020+",
-      "timestamp": "2026-11-25T16:09:17Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Freddy_Fazbear's_Pizza_(Tales_from_the_Pizzaplex)",
-      "summary": "Freddy Fazbear's Pizza is a fictional pizzeria from the Tales from the Pizzaplex series.",
-      "tag": "Book",
-      "ai": false
-    },
-    {
-      "id": "3581562",
-      "title": "Timeline (Pre-Reboot TJoC)",
-      "type": "edit",
-      "user": "Hackerp000",
-      "comment": "",
-      "timestamp": "2026-11-25T12:34:51Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Timeline_(Pre-Reboot_TJoC)",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Lore",
-      "ai": false
-    },
-    {
-      "id": "3581556",
-      "title": "Phantom Balloon Boy/History",
-      "type": "edit",
-      "user": "Neyaooo2",
-      "comment": "",
-      "timestamp": "2026-11-25T04:39:28Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Phantom_Balloon_Boy%2FHistory",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Wiki",
       "ai": false
     }
   ]
