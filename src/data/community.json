@@ -1,14 +1,74 @@
 {
-  "generatedAt": "2026-11-27T16:11:39.324Z",
+  "generatedAt": "2026-11-28T01:07:15.863Z",
   "source": "fandom-recentchanges",
   "ai": false,
   "stats": {
     "articles": 3084,
-    "edits": 3540052,
+    "edits": 3540068,
     "activeUsers": 166,
     "images": 46268
   },
   "items": [
+    {
+      "id": "3581714",
+      "title": "Murray Co.",
+      "type": "edit",
+      "user": "QWUIEOGNVJXKSI&282&43&aJd",
+      "comment": "",
+      "timestamp": "2026-11-28T00:26:08Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Murray_Co.",
+      "summary": "This section archives a lot of theories and speculation, which usually occurs from pre-release media, or just things that are still unknown, so please keep that in mind while reading.  The page will continue to be updated with…",
+      "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3581711",
+      "title": "The Cat",
+      "type": "edit",
+      "user": "FredCat100",
+      "comment": "",
+      "timestamp": "2026-11-27T22:30:43Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/The_Cat",
+      "summary": "Candy the Cat, also known as The Cat, is the titular secondary antagonist of the Five Nights at Candy's series, acting as the secondary antagonist in Five Nights at Candy's 2 and a major character in Five Nights at Candy's 3.",
+      "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3581710",
+      "title": "The Rat",
+      "type": "edit",
+      "user": "FredCat100",
+      "comment": "",
+      "timestamp": "2026-11-27T22:29:41Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/The_Rat",
+      "summary": "The Rat, also known as RAT, is the main antagonist of the Five Nights at Candy's series, acting as the main antagonist of Five Nights at Candy's and Five Nights at Candy's 2.",
+      "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3581703",
+      "title": "Chester the Chimpanzee",
+      "type": "edit",
+      "user": "Christianmills9",
+      "comment": "",
+      "timestamp": "2026-11-27T19:05:22Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Chester_the_Chimpanzee",
+      "summary": "Chester the Chimpanzee is a major antagonist in Five Nights at Candy's and Five Nights at Candy's 2.  He is one of the four Classic animatronics of Candy's Burgers & Fries, and acts as a banjoist on his own stage.",
+      "tag": "Wiki",
+      "ai": false
+    },
+    {
+      "id": "3581698",
+      "title": "Old Candy",
+      "type": "edit",
+      "user": "Christianmills9",
+      "comment": "",
+      "timestamp": "2026-11-27T18:24:11Z",
+      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Old_Candy",
+      "summary": "Old Candy is the name given to the original model of Candy the Cat, who is an antagonist in Five Nights at Candy's.  Being the previous mascot for Candy's Burgers & Fries along with Blank, Old Candy was discarded in the Parts &…",
+      "tag": "Wiki",
+      "ai": false
+    },
     {
       "id": "3581697",
       "title": "Timeline (Film Series)",
@@ -91,66 +151,6 @@
       "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Ball_Boy",
       "summary": "Ball Boy is an enemy in FNaF World: Halloween Edition.  He can be encountered in Area 1.",
       "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3581673",
-      "title": "Mr. Hippo/Audio",
-      "type": "edit",
-      "user": "Amazing Train",
-      "comment": "whoops forgot to center it",
-      "timestamp": "2026-11-27T01:29:49Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Mr._Hippo%2FAudio",
-      "summary": "This page has no intro text yet — open it on the Fandom wiki to read the latest.",
-      "tag": "Wiki",
-      "ai": false
-    },
-    {
-      "id": "3581669",
-      "title": "POPGOES (Series)",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-27T00:13:56Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/POPGOES_(Series)",
-      "summary": "The contents of this article or section are from projects not a part of the Fazbear Fanverse initiative.  This includes pre-rebooted versions of the games, cancelled projects, etc.",
-      "tag": "Location",
-      "ai": false
-    },
-    {
-      "id": "3581668",
-      "title": "Five Nights at Candy's (Series)",
-      "type": "edit",
-      "user": "ViolettSmith",
-      "comment": "",
-      "timestamp": "2026-11-27T00:13:50Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Candy's_(Series)",
-      "summary": "Five Nights at Candy's, commonly abbreviated to FNaC, is an officially-endorsed independent survival horror spin-off series created by Emil Macko that began on July 18, 2015 as a fan game series, and has since gained a large…",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3581665",
-      "title": "Five Nights at Freddy's Character Encyclopedia: Updated and Expanded Edition",
-      "type": "edit",
-      "user": "Aaron526",
-      "comment": "",
-      "timestamp": "2026-11-26T23:34:30Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Five_Nights_at_Freddy's_Character_Encyclopedia%3A_Updated_and_Expanded_Edition",
-      "summary": "This article refers to an upcoming project in the Five Nights at Freddy's franchise.  NOTE: Anything that is added to the article without a reliable source may be removed without hesitation.",
-      "tag": "Character",
-      "ai": false
-    },
-    {
-      "id": "3581664",
-      "title": "Scottgames, LLC",
-      "type": "edit",
-      "user": "Dangdo24",
-      "comment": "",
-      "timestamp": "2026-11-26T23:04:43Z",
-      "url": "https://freddy-fazbears-pizza.fandom.com/wiki/Scottgames%2C_LLC",
-      "summary": "Scottgames, LLC, often stylized as ScottGames and Scott Games, is an American video game development, publishing, and licensing company that was founded on June 30, 2015 by Scott Cawthon.  Despite the name being used as early as…",
-      "tag": "Game",
       "ai": false
     }
   ]
